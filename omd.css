@@ -1,0 +1,124 @@
+html {
+	margin:0px;
+	padding:0px;
+	background: white;
+}
+
+body {
+	margin: 10px 30px;
+	background: url("pic/bg.jpg");
+	border: 3px solid black;
+}
+
+.clear {
+    clear:both;
+    height:0px;
+}
+
+#mainDiv {
+	width: 100%;
+	min-height: 100%;
+	background: url("pic/stars.png") repeat-x;
+}
+
+#supDiv {
+	width: 100%;
+	min-height: 100%;
+	background: url("pic/Branch.png") no-repeat;		
+}
+
+#supPers {
+	width: 100%;
+	min-height: 100%;
+	background: url("pic/persLeft.png") repeat-y;
+}
+
+
+#header {
+	width: 100%;
+}
+
+#logo {
+	padding-left: 220px;
+}
+
+#menu {
+	padding-left: 180px;
+}
+
+#content {
+	padding-left: 140px;
+}
+
+#footer {
+	border: 1px solid transparent;
+	text-align: right;
+	width: 100%;
+	height: 87px;
+	margin:-69px auto 0;
+	background: url("pic/footerGrass.png") left bottom repeat-x;
+}
+
+#footer h3 {
+	padding-top: 40px;
+	margin-right: 40px;
+}
+
+
+.ih, .ih2 {
+	background: white;
+	padding: 3px 25px;
+	margin: 0px 80px;
+	font-weight: bold;
+	border: 2px solid black;
+}
+
+.ih {
+	border-radius: 40px 40px 10px 10px;
+}
+
+.ih2 {
+	border-radius: 20px 40px 20px 30px;	
+}
+
+.info, .info2 {
+	background: white;
+	padding: 0px 20px;
+	margin: -5px 40px 30px 40px;
+	border: 2px solid black;
+}
+
+.info {
+	border-radius: 40px 10px;
+}
+
+.info2 {
+	border-radius: 20px 40px;
+}
+
+.aTape {
+	margin-top: -25px;
+	margin-left: -40px;
+	margin-right: 7px;
+	position: relative;
+	float: right;
+	background: url("pic/Tape.png") no-repeat;
+	width: 90px;
+	height: 69px;
+}
+
+.aPin {
+	margin-top: -15px;
+	margin-left: -40px;
+	margin-right: 50px;
+	position: relative;
+	float: right;
+	background: url("pic/Pin.png") no-repeat;
+	width: 29px;
+	height: 57px;
+}
+
+.flag {
+	border: 1px solid #ccc;
+	vertical-align: middle;
+}
