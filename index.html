@@ -1,8 +1,15 @@
+<!DOCTYPE html>
 <html>
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<link rel="stylesheet" href="omd.css" type="text/css" />
 		<title>One Manga Day</title>
+		<script type="text/javascript">
+			function galleryClick(path){
+				document.getElementById("IMGdisplayer").src = path;
+				return false;
+			}
+		</script>
 	</head>
 	<body>
 		<div id="mainDiv">
@@ -27,11 +34,17 @@
 					</div>
 
 
-					<span id="downloadGame" class="ih2">Download game</span><div class="aPin">&nbsp;</div>
+					<span id="downloadGame" class="ih">Useful links &amp; Download</span><div class="aPin">&nbsp;</div>
 					<div class="info2">
-						<p>"One Manga Day" was made in terms of 2014 Indie Game Maker Contest.</p>
-						<p>You can download game from game's contest page:</p>
-						<p align="center"><a href="http://contest.rpgmakerweb.com/game/view/id/101">http://contest.rpgmakerweb.com/game/view/id/101</a></p>
+						<p align="center">
+							<a href="https://play.google.com/store/apps/details?id=in.dexp.onemangaday" target="_blank"><img alt="Get it on Google Play" src="pic/badges/google.png" /></a>
+							<a href="http://www.amazon.com/DeXP-One-Manga-Day/dp/B00MFTHEU8" target="_blank"><img src="pic/badges/amazon.png" alt="Amazon"/></a>
+							<a href="http://www.desura.com/games/one-manga-day" title="View One Manga Day on Desura" target="_blank"><img src="pic/badges/desura.png" alt="One Manga Day" /></a>
+							<a href="http://contest.rpgmakerweb.com/game/view/id/101" target="_blank"><img src="pic/badges/igmc.png" alt="2014 Indie Game Maker Contest" title="2014 Indie Game Maker Contest" /></a>
+							<a href="https://github.com/DeXP/onemangaday" target="_blank"><img src="pic/badges/github.png" alt="Github"/></a>
+						</p>
+
+						<p align="center"><a href="https://github.com/DeXP/onemangaday/releases/latest" class="download">Download</a></p>
 					</div>
 
 
@@ -42,9 +55,23 @@
 					</div>
 
 
-					<span id="screenshots" class="ih">Screenshot</span>
+					<span id="screenshots" class="ih">Screenshots</span>
 					<div class="info">
-						<p align="center"><img src="pic/OMD-s0001.png" /></p>
+						<p align="center"><img id="IMGdisplayer" src="pic/scr/OMD-s0001.png" alt="Image viewer" /></p>
+						<p align="center">
+							<a href="pic/scr/OMD-s0001.png" target="_blank" onclick="return galleryClick('pic/scr/OMD-s0001.png')"><img src="pic/scr/OMD-s0001.png" width="200"/></a>
+							<a href="pic/scr/OMD-s0002.png" target="_blank" onclick="return galleryClick('pic/scr/OMD-s0002.png')"><img src="pic/scr/OMD-s0002.png" width="200"/></a>
+							<a href="pic/scr/OMD-s0003.png" target="_blank" onclick="return galleryClick('pic/scr/OMD-s0003.png')"><img src="pic/scr/OMD-s0003.png" width="200"/></a>
+							<a href="pic/scr/OMD-s0004.png" target="_blank" onclick="return galleryClick('pic/scr/OMD-s0004.png')"><img src="pic/scr/OMD-s0004.png" width="200"/></a>
+							<a href="pic/scr/OMD-s0005.png" target="_blank" onclick="return galleryClick('pic/scr/OMD-s0005.png')"><img src="pic/scr/OMD-s0005.png" width="200"/></a>
+							<a href="pic/scr/OMD-s0006.png" target="_blank" onclick="return galleryClick('pic/scr/OMD-s0006.png')"><img src="pic/scr/OMD-s0006.png" width="200"/></a>
+							<a href="pic/scr/OMD-s0007.png" target="_blank" onclick="return galleryClick('pic/scr/OMD-s0007.png')"><img src="pic/scr/OMD-s0007.png" width="200"/></a>
+							<a href="pic/scr/OMD-s0008.png" target="_blank" onclick="return galleryClick('pic/scr/OMD-s0008.png')"><img src="pic/scr/OMD-s0008.png" width="200"/></a>
+							<a href="pic/scr/OMD-s0009.png" target="_blank" onclick="return galleryClick('pic/scr/OMD-s0009.png')"><img src="pic/scr/OMD-s0009.png" width="200"/></a>
+							<a href="pic/scr/OMD-s0010.png" target="_blank" onclick="return galleryClick('pic/scr/OMD-s0010.png')"><img src="pic/scr/OMD-s0010.png" width="200"/></a>
+							<a href="pic/scr/OMD-s0011.png" target="_blank" onclick="return galleryClick('pic/scr/OMD-s0011.png')"><img src="pic/scr/OMD-s0011.png" width="200"/></a>
+							<a href="pic/scr/OMD-s0012.png" target="_blank" onclick="return galleryClick('pic/scr/OMD-s0012.png')"><img src="pic/scr/OMD-s0012.png" width="200"/></a>
+						</p>
 					</div>
 
 
