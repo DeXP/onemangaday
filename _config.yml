@@ -1,0 +1,4 @@
+name: One Manga Dya
+markdown: redcarpet
+highlighter: pygments
+permalink: /:categories/:title/

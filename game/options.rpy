@@ -26,7 +26,7 @@ init -1 python hide:
     ## поставить False перед выпуском игры, чтобы
     ## пользователь не смог мошенничать, используя эти инструменты.
 
-    config.developer = True
+    config.developer = False
     #config.help = "android"
     
     

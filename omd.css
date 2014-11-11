@@ -42,8 +42,50 @@ body {
 	padding-left: 220px;
 }
 
+
 #menu {
-	padding-left: 180px;
+	padding-top: 10px;
+	padding-left: 210px;
+	padding-bottom: 40px;
+}
+
+#menu ul {
+	margin: 0px;
+	padding: 0px;
+	//padding-right: 10px;
+	list-style-type: none;
+	display: inline;
+}
+
+#menu li {
+	display: inline;
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: bold;
+	padding: 0px 5px;
+	margin-right: 3px;
+
+	border: 12px solid #faf;
+	border-image: url("pic/bt.png") 25 30 stretch repeat;
+	background: url("pic/btbg.png");
+	background-clip: border-box;
+}
+
+
+#menu a {
+	text-decoration: none;
+	color: #fffafe;
+	text-shadow: 1px 1px 4px #404;
+	/*padding: 0px 22px;
+	background-image: url("pic/imp.png"), url("pic/imp2.png");
+	background-position: left top, right top;
+	background-repeat: no-repeat;*/
+}
+
+#menu a:hover {
+	color: #faf;
+	text-shadow: 1px 1px 4px black;
+	//box-shadow: 2px 2px 40px #fe00b9;
+	//background-color: #faf;
 }
 
 #content {
@@ -56,7 +98,10 @@ body {
 	width: 100%;
 	height: 87px;
 	margin:-69px auto 0;
-	background: url("pic/footerGrass.png") right bottom repeat-x;
+	//background: url("pic/footerGrass.png") right bottom repeat-x;
+	background-image: url("pic/footerGrass.png"), url("pic/footerGrass.png");
+	background-position: right bottom, -380px bottom;
+	background-repeat: repeat-x, no-repeat;
 }
 
 #footer h3 {
@@ -72,8 +117,8 @@ body {
 	color: #111;
 	font-weight: bold;
 	text-shadow: 0px 0px 1px #ff87ff;
-	border: 15px dotted white;
-	border-radius: 60px 20px 100px 20px;
+	border: 12px dotted white;
+	border-radius: 120px 40px 120px 40px;
 	border-image: url("pic/motc.png") 25 30 stretch stretch;
 }
 
