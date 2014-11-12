@@ -13,22 +13,22 @@ galleryid: screenshots
 
 					<span id="screenshots" class="ih">Screenshots</span><div class="aTape">&nbsp;</div>
 					<div class="info">
-						<p align="center"><img id="IMGdisplayer" src="pic/scr/OMD-s0001.png" alt="Image viewer" /></p>
-						<p align="center">
+						<p class="centered"><img id="IMGdisplayer" src="pic/scr/OMD-s0001.png" alt="Image viewer" /></p>
+						<p class="centered">
 						{% for gallery in site.data.galleries %}
 							{% if gallery.id == page.galleryid %}
 								{% for image in gallery.images %}
-   							<a href="{{ gallery.imagefolder }}/{{ image.name }}" target="_blank" onclick="return galleryClick('{{ gallery.imagefolder }}/{{ image.name }}')"><img src="{{ gallery.imagefolder }}/{{ image.name }}" width="200"/></a>{% endfor %}
+   							<a href="{{ gallery.imagefolder }}/{{ image.name }}" target="_blank" onclick="return galleryClick('{{ gallery.imagefolder }}/{{ image.name }}')"><img src="{{ gallery.imagefolder }}/{{ image.name }}" width="200" alt="{{ image.text }}" title="{{ image.text }}" /></a>{% endfor %}
 							{% endif %}
 						{% endfor %}
 						</p>
 					</div>
 
 
-					<span id="screenshots" class="ih">Video</span>
+					<span id="video" class="ih">Video</span>
 					<div class="info">
-						<p align="center">
-							<iframe width="960" height="540" src="//www.youtube.com/embed/IMeWtNx7Br0" frameborder="0" allowfullscreen></iframe>
+						<p class="centered">
+							<iframe width="960" height="540" src="//www.youtube.com/embed/IMeWtNx7Br0" allowfullscreen></iframe>
 						</p>
 					</div>
 

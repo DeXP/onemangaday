@@ -164,7 +164,15 @@ body {
 
 .vmiddle {
 	vertical-align: middle;
-} 
+}
+
+.centered {
+	text-align: center;
+}
+
+.floatright {
+	float: right;
+}
 
 .flag {
 	border: 1px solid #ccc;
