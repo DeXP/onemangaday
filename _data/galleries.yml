@@ -1,0 +1,73 @@
+- id: screenshots
+  description: This is the first gallery
+  imagefolder: pic/scr
+  images:
+  - name: OMD-s0001.png
+    thumb: thumb-1.jpg
+    text: Main menu
+  - name: OMD-s0002.png
+    thumb: thumb-2.jpg
+    text: Instructor
+  - name: OMD-s0003.png
+    thumb: thumb-3.jpg
+    text: Boom!
+  - name: OMD-s0004.png
+    thumb: thumb-1.jpg
+    text: Welcome!
+  - name: OMD-s0005.png
+    thumb: thumb-1.jpg
+    text: Working
+  - name: OMD-s0006.png
+    thumb: thumb-1.jpg
+    text: Dragon!
+  - name: OMD-s0007.png
+    thumb: thumb-1.jpg
+    text: Choise
+  - name: OMD-s0008.png
+    thumb: thumb-1.jpg
+    text: Seaside
+  - name: OMD-s0009.png
+    thumb: thumb-1.jpg
+    text: Dex home
+  - name: OMD-s0010.png
+    thumb: thumb-1.jpg
+    text: Cosmos
+  - name: OMD-s0011.png
+    thumb: thumb-1.jpg
+    text: Peeping simulator
+  - name: OMD-s0012.png
+    thumb: thumb-1.jpg
+    text: English is wrong
+
+
+- id: manga
+  description: Original manga in russian
+  imagefolder: pic/manga
+  link: https://www.dropbox.com/sh/e3obcrqbc9fl58l/k_DEz_2aYF
+  images:
+  - name: OneMangaDay_000_001.png
+  - name: OneMangaDay_000_002.png
+  - name: OneMangaDay_001.png
+  - name: OneMangaDay_002.png
+  - name: OneMangaDay_003.png
+  - name: OneMangaDay_004.png
+  - name: OneMangaDay_005.png
+  - name: OneMangaDay_006.png
+  - name: OneMangaDay_007.png
+  - name: OneMangaDay_008.png
+  - name: OneMangaDay_009.png
+  - name: OneMangaDay_010.png
+  - name: OneMangaDay_011.png
+  - name: OneMangaDay_012.png
+  - name: OneMangaDay_013.png
+  - name: OneMangaDay_014.png
+  - name: OneMangaDay_015.png
+  - name: OneMangaDay_016.png
+  - name: OneMangaDay_017.png
+  - name: OneMangaDay_018.png
+  - name: OneMangaDay_019.png
+  - name: OneMangaDay_999.png
+  - name: OneMangaDay_CheeZa_001.png
+  - name: OneMangaDay_CheeZa_002.png
+  - name: OneMangaDay_CheeZa_003.png
+     
