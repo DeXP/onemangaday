@@ -1,13 +1,58 @@
 ---
 layout: default
-title: Soundtrack
+title: Manga
+galleryid: manga
 ---
 
-					<span id="origManga" class="ih">Original manga</span>
+					<script type="text/javascript">
+						{% assign curGallery = 0 %}
+						var imageGallery = [
+						{% for gallery in site.data.galleries %}
+							{% if gallery.id == page.galleryid %}
+								{% assign curGallery = gallery %}
+								{% for image in gallery.images %}
+   							"{{ gallery.imagefolder }}/{{ image.name }}" ,{% endfor %}
+							{% endif %}
+						{% endfor %}
+						];
+
+						var imgCount = 0;
+						var totalImgs = imageGallery.length - 1;
+
+						function nextClick(){
+							var prelImg;
+							imgCount++;
+							if(imgCount > totalImgs) imgCount = 0;
+							prelImg = imgCount + 1;
+							if(prelImg > totalImgs) prelImg = 0;
+							document.getElementById("IMGdisplayer").src = imageGallery[imgCount];
+							document.getElementById("IMGpreloader").src = imageGallery[prelImg];
+							return false;
+						}
+
+						function prevClick() {
+							imgCount--;
+							if(imgCount < 0) imgCount = totalImgs;
+							document.getElementById("IMGdisplayer").src = imageGallery[imgCount];
+							return false;
+						}
+					</script>
+
+
+					<span id="origManga" class="ih">Original manga in Russian</span>
 					<div class="info">
-						<p>You can read original manga in Russian here:</p>
-						<p align="center"><a href="https://www.dropbox.com/sh/e3obcrqbc9fl58l/k_DEz_2aYF" target="_blank"><img src="pic/scr/OneMangaDay_000_001.png" /></a></p>
-						<p align="center"><a href="https://www.dropbox.com/sh/e3obcrqbc9fl58l/k_DEz_2aYF" target="_blank"><img src="pic/ru.jpg" class="flag"/></a> <a href="https://www.dropbox.com/sh/e3obcrqbc9fl58l/k_DEz_2aYF">https://www.dropbox.com/sh/e3obcrqbc9fl58l/k_DEz_2aYF</a></p>
+						<p align="center" class="galholder">
+						<a href="#" id="prevBut" class="galbut" onclick="return prevClick()" style="display: none"><img src="pic/arrow-left.png" alt="Right pointing arrow"></a><a href="{{ curGallery.link }}" onclick="return nextClick()"><img id="IMGdisplayer" src="{{ curGallery.imagefolder }}/{{ curGallery.images[0].name }}" alt="Image viewer" class="vmiddle" /></a><a href="#" id="nextBut" class="galbut" onclick="return nextClick()"><img src="pic/arrow-right.png" alt="Right pointing arrow"></a>
+						</p>
+						<script type="text/javascript">
+							document.getElementById("prevBut").style.display = "";
+							document.getElementById("nextBut").style.display = "";
+						</script>
+						<div style="display: none">
+							<img id="IMGpreloader" src="{{ curGallery.imagefolder }}/{{ curGallery.images[1].name }}" width="1" height="1" alt="." /> 
+						</div>
+						<p align="center">You can read and download from here:</p>
+						<p align="center"><a href="https://www.dropbox.com/sh/e3obcrqbc9fl58l/k_DEz_2aYF" target="_blank"><img src="pic/ru.jpg" class="flag"/></a> <a href="https://www.dropbox.com/sh/e3obcrqbc9fl58l/k_DEz_2aYF" target="_blank">https://www.dropbox.com/sh/e3obcrqbc9fl58l/k_DEz_2aYF</a></p>
 					</div>
 
 					&nbsp;

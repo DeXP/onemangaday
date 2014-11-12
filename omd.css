@@ -188,3 +188,19 @@ a.download:hover {
 	background-position: 18px 6px;
 	box-shadow: 1px 1px 2px red;
 }
+
+
+.galholder {
+	white-space: nowrap;
+}
+
+a.galbut {
+	background-color: rgba(0,0,0,0.03);
+	text-align: center;
+	padding-top: 585px;
+	padding-bottom: 585px;
+}
+
+a.galbut:hover {
+	background-color: rgba(0,0,0,0.3);
+}
