@@ -44,7 +44,8 @@ body {
 
 #langSwith {
 	padding: 10px;
-	float:right;
+	float: right;
+	width: 42px;
 }
 
 #langSwith img {
@@ -117,8 +118,8 @@ body {
 	margin:-69px auto 0;
 	//background: url("pic/footerGrass.png") right bottom repeat-x;
 	background-image: url("pic/footerGrass.png"), url("pic/footerGrass.png");
-	background-position: right bottom, -380px bottom;
-	background-repeat: repeat-x, no-repeat;
+	background-position:  -380px bottom, right bottom;
+	background-repeat: no-repeat, repeat-x;
 }
 
 #footer h3 {
@@ -228,4 +229,37 @@ a.galbut {
 
 a.galbut:hover {
 	background-color: rgba(0,0,0,0.3);
+}
+
+
+/* Smartphones and small screens/windows */
+@media only screen and (max-width: 1000px) {
+
+	#supPers {
+		background: none;
+	}
+
+	#content {
+		padding: 0px;
+	}
+
+	.aTape, .aPin, .funz {
+		display: none;
+	}
+
+	#langSwith {
+		position: absolute;
+		top: 15px;
+		right: 30px;
+		width: 92px;
+	}
+
+	#logo {
+		padding-left: 140px;
+	}
+
+	#menu {
+		padding-left: 130px;
+	}
+
 }
