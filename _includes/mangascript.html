@@ -5,7 +5,7 @@
 							{% if gallery.id == page.galleryid %}
 								{% assign curGallery = gallery %}
 								{% for image in gallery.images %}
-   							"{{ gallery.imagefolder }}/{{ image.name }}" ,{% endfor %}
+   							"{{ page.linkadd }}{{ gallery.imagefolder }}/{{ image.name }}" ,{% endfor %}
 							{% endif %}
 						{% endfor %}
 						];

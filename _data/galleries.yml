@@ -58,7 +58,7 @@
 
 - id: manga
   description: Original manga in russian
-  imagefolder: /pic/manga
+  imagefolder: pic/manga
   link: https://www.dropbox.com/sh/e3obcrqbc9fl58l/k_DEz_2aYF
   images:
   - name: OneMangaDay_000_001.png
