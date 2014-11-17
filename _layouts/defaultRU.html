@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<link rel="stylesheet" href="../omd.css" type="text/css" />
+		<title>One Manga Day | {{ page.title }}</title>
+	</head>
+	<body>
+		<div id="mainDiv">
+			<div id="supDiv">
+			<div id="supPers">
+				<div id="header">
+					<div id="langSwith">
+						<a href="../{{ page.url | split:"/" | last }}"><img src="../pic/langEN.jpg" class="flag" alt="en" title="English" /></a><br/>
+						<a href="{{ page.url }}"><img src="../pic/langRU.jpg" class="flag" alt="ru" title="Russian" /></a>
+					</div>
+					<div id="logo">
+						<img src="../pic/TitleRu.png" alt="One Manga Day" /> 
+					</div>
+					<div id="menu">
+						<a href="index.html"><img src="../pic/speaker.png" class="vmiddle" alt="*" /></a>&nbsp;
+						<ul>
+							<li><a href="index.html">Главная</a></li>
+							<li><a href="media.html">Скриншоты</a></li>
+							<li><a href="music.html">Музыка</a></li>
+							<li><a href="manga.html">Манга</a></li>
+							<li><a href="faq.html">Вопросы</a></li>
+						</ul>
+						&nbsp;<img src="../pic/stul.png" class="vmiddle" alt="*" />	
+					</div>
+				</div>
+				<div id="content">
+{{ content }}
+				</div>
+			</div>
+			</div>
+		</div>
+		<div class="clear"></div>
+		<div id="footer">
+			<h3>(c) DeXPeriX 2014</h3>
+		</div>
+	</body>
+</html>

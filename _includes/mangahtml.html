@@ -1,0 +1,10 @@
+						<p class="centered galholder">
+						<a href="#" id="prevBut" class="galbut" onclick="return prevClick()" style="display: none"><img src="/pic/arrow-left.png" alt="Prev"></a><a href="{{ curGallery.link }}" onclick="return nextClick()"><img id="IMGdisplayer" src="{{ curGallery.imagefolder }}/{{ curGallery.images[0].name }}" alt="Image viewer" class="vmiddle" /></a><a href="#" id="nextBut" class="galbut" onclick="return nextClick()"><img src="/pic/arrow-right.png" alt="Next"></a>
+						</p>
+						<script type="text/javascript">
+							document.getElementById("prevBut").style.display = "";
+							document.getElementById("nextBut").style.display = "";
+						</script>
+						<div style="display: none">
+							<img id="IMGpreloader" src="{{ curGallery.imagefolder }}/{{ curGallery.images[1].name }}" width="1" height="1" alt="." /> 
+						</div>

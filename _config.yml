@@ -1,4 +1,4 @@
-name: One Manga Dya
+name: One Manga Day
 markdown: redcarpet
 highlighter: pygments
 permalink: /:categories/:title/

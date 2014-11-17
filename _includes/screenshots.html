@@ -1,0 +1,13 @@
+						{% for gallery in site.data.galleries %}
+							{% if gallery.id == page.galleryid %}
+							<p class="centered"><img id="IMGdisplayer" src="{{ gallery.imagefolder }}/{{ gallery.images[0].name }}" alt="{{ gallery.description }}" /></p>
+							{% endif %}
+						{% endfor %}
+						<p class="centered">
+						{% for gallery in site.data.galleries %}
+							{% if gallery.id == page.galleryid %}
+								{% for image in gallery.images %}
+   							<a href="{{ gallery.imagefolder }}/{{ image.name }}" target="_blank" onclick="return galleryClick('{{ gallery.imagefolder }}/{{ image.name }}')"><img src="{{ gallery.imagefolder }}/{{ image.name }}" width="200" alt="{{ image.text }}" title="{{ image.text }}" /></a>{% endfor %}
+							{% endif %}
+						{% endfor %}
+						</p>

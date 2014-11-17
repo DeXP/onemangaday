@@ -1,5 +1,5 @@
 - id: screenshots
-  description: This is the first gallery
+  description: One Manga Day screenshots 
   imagefolder: pic/scr
   images:
   - name: OMD-s0001.png
@@ -39,10 +39,26 @@
     thumb: thumb-1.jpg
     text: English is wrong
 
+- id: screenshotsRU
+  description: Скриншоты из One Manga Day 
+  imagefolder: ../pic/scrRU
+  images:
+  - name: OneMangaDay-rus-mm.png
+    text: Главное меню
+  - name: screenshot0018.png
+    text: Отвлеклась
+  - name: screenshot0019.png
+    text: Пикник
+  - name: screenshot0023.png
+    text: Кнопочка
+  - name: screenshot0025.png
+    text: О!
+  - name: screenshot0014.png
+    text: Вопросы в космос
 
 - id: manga
   description: Original manga in russian
-  imagefolder: pic/manga
+  imagefolder: /pic/manga
   link: https://www.dropbox.com/sh/e3obcrqbc9fl58l/k_DEz_2aYF
   images:
   - name: OneMangaDay_000_001.png
