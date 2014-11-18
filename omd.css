@@ -217,6 +217,10 @@ td {
 	overflow: hidden;
 }
 
+.noborder {
+	border: 0;
+}
+
 .flag {
 	border: 1px solid #ccc;
 	vertical-align: middle;
