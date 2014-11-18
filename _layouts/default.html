@@ -2,6 +2,7 @@
 <html>
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="{{ page.linkadd }}omd.css" type="text/css" />
 		<title>One Manga Day | {{ page.title }}</title>
 	</head>
@@ -15,7 +16,10 @@
 						<a href="ru{{ page.url }}"><img src="{{ page.linkadd }}pic/langRU.jpg" class="flag" alt="ru" title="Russian" /></a>
 					</div>
 					<div id="logo">
-						<img src="{{ page.linkadd }}pic/TitleEn.png" alt="One Manga Day" />
+						<a href="{{ page.url }}">
+							<img src="{{ page.linkadd }}pic/TitleEn.png" alt="One Manga Day" class="big" />
+							<img src="{{ page.linkadd }}pic/TitleSmall.png" alt="One Manga Day" class="small" />
+						</a>
 					</div>
 					<div id="menu">
 						<a href="index.html"><img src="{{ page.linkadd }}pic/speaker.png" class="vmiddle funz" alt="*" /></a>&nbsp;
@@ -25,8 +29,9 @@
 							<li><a href="music.html">Music</a></li>
 							<li><a href="manga.html">Manga</a></li>
 							<li><a href="faq.html">FAQ</a></li>
+							<li><a href="banners.html">Banners</a></li>
 						</ul>
-						&nbsp;<img src="{{ page.linkadd }}pic/stul.png" class="vmiddle funz" alt="*" />	
+						<!-- &nbsp;<img src="{{ page.linkadd }}pic/stul.png" class="vmiddle funz" alt="*" /> -->
 					</div>
 				</div>
 				<div id="content">
@@ -37,7 +42,7 @@
 		</div>
 		<div class="clear"></div>
 		<div id="footer">
-			<h3>(c) DeXPeriX 2014</h3>
+			<h3>(c)&nbsp;DeXPeriX&nbsp;2014</h3>
 		</div>
 	</body>
 </html>

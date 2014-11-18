@@ -10,6 +10,23 @@ body {
 	border: 3px solid black;
 }
 
+p {
+	font-weight: 200;
+	font-size: 18px;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+td {
+	padding: 10px;
+}
+
+.underline {
+	border-bottom: 1px solid silver;
+}
+
 .clear {
     clear:both;
     height:0px;
@@ -40,6 +57,17 @@ body {
 
 #logo {
 	padding-left: 220px;
+	text-shadow: 1px 1px 0px blue, 1px 1px 2px red;
+	overflow: hidden;
+}
+
+#logo .small {
+	display: none;
+	color: #f8f;
+	font-weight: bold;
+	font-size: 24px;
+	font-family: Arial;
+	padding-top: 2px;
 }
 
 #langSwith {
@@ -54,11 +82,13 @@ body {
 
 #langSwith a {
 	opacity: 0.7;
+	transition-duration: 250ms;
 }
 
 #langSwith a:hover {
 	box-shadow: 0px 0px 10px #f4f;
 	opacity: 1.0;
+	transition-duration: 250ms;
 }
 
 #menu {
@@ -70,17 +100,17 @@ body {
 #menu ul {
 	margin: 0px;
 	padding: 0px;
-	//padding-right: 10px;
 	list-style-type: none;
 	display: inline;
+	line-height: 45px;
 }
 
 #menu li {
 	display: inline;
 	font-family: Verdana, Geneva, sans-serif;
 	font-weight: bold;
-	padding: 0px 5px;
-	margin-right: 3px;
+	padding: 0px;
+	margin-left: 3px;
 
 	border: 12px solid #faf;
 	border-image: url("pic/bt.png") 25 30 stretch repeat;
@@ -90,20 +120,18 @@ body {
 
 
 #menu a {
+	//border: 1px solid red;
+	padding: 10px;
 	text-decoration: none;
 	color: #fffafe;
 	text-shadow: 1px 1px 4px #404;
-	/*padding: 0px 22px;
-	background-image: url("pic/imp.png"), url("pic/imp2.png");
-	background-position: left top, right top;
-	background-repeat: no-repeat;*/
+	transition-duration: 250ms;
 }
 
 #menu a:hover {
-	color: #faf;
+	color: #fbf;
 	text-shadow: 1px 1px 4px black;
-	//box-shadow: 2px 2px 40px #fe00b9;
-	//background-color: #faf;
+	transition-duration: 250ms;
 }
 
 #content {
@@ -113,13 +141,12 @@ body {
 #footer {
 	border: 1px solid transparent;
 	text-align: right;
-	width: 100%;
 	height: 87px;
 	margin:-69px auto 0;
-	//background: url("pic/footerGrass.png") right bottom repeat-x;
 	background-image: url("pic/footerGrass.png"), url("pic/footerGrass.png");
 	background-position:  -380px bottom, right bottom;
 	background-repeat: no-repeat, repeat-x;
+	overflow: hidden;
 }
 
 #footer h3 {
@@ -142,21 +169,11 @@ body {
 
 
 .info, .info2 {
-	//background: white;
-	//background: url("work/Snow_02.png");
 	padding: 0px 20px;
 	margin: -5px 40px 45px 40px;
 	border: 15px dotted white;
 	border-image: url("pic/motc.png") 25 30 stretch stretch;
 }
-
-/*.info {
-	border-radius: 40px 10px;
-}
-
-.info2 {
-	border-radius: 20px 40px;
-}*/
 
 .aTape {
 	margin-top: -20px;
@@ -190,6 +207,14 @@ body {
 
 .floatright {
 	float: right;
+}
+
+.fullwidth {
+	width: 100%;
+}
+
+.hidover {
+	overflow: hidden;
 }
 
 .flag {
@@ -260,6 +285,46 @@ a.galbut:hover {
 
 	#menu {
 		padding-left: 130px;
+	}
+
+}
+
+@media only screen and (max-width: 550px) {
+	body {
+		margin: 0px 0px;
+		border: none;
+	}
+
+	.ih, .info, .info2 {
+		border: none;
+		padding: 0px;
+		margin: 10px;
+	}
+
+	#logo {
+		padding-left: 15px;
+	}
+
+	#langSwith {
+		top: -5px;
+		right: 5px;
+	}
+
+	#menu {
+		padding-left: 0px;
+	}
+
+	#logo .small {
+		display: inline;
+	}
+
+	#logo .big {
+		display: none;
+	}
+
+	p {
+		text-align: justify;
+		word-spacing: -0.3ex;
 	}
 
 }

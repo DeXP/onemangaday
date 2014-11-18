@@ -86,4 +86,41 @@
   - name: OneMangaDay_CheeZa_001.png
   - name: OneMangaDay_CheeZa_002.png
   - name: OneMangaDay_CheeZa_003.png
-     
+
+- id: vertbanners
+  description: Vertical Banners
+  imagefolder: banner
+  images:
+  - name: omd-pink-88x31.jpg
+    width: 88
+    height: 31
+  - name: omd-pink-120x90.jpg
+    width: 120
+    height: 90
+  - name: omd-blue-88x31.jpg
+    width: 88
+    height: 31
+  - name: omd-blue-120x90.jpg
+    width: 120
+    height: 90
+  - name: omd-black-88x31.jpg
+    width: 88
+    height: 31
+  - name: omd-black-120x90.jpg
+    width: 120
+    height: 90
+
+- id: horizbanners
+  description: Horizontal Banners
+  imagefolder: banner
+  images:
+  - name: omd-400x40.jpg
+    width: 400
+    height: 40
+  - name: omd-468x60.jpg
+    width: 468
+    height: 60
+  - name: omd-500x100.jpg
+    width: 500
+    height: 100
+
