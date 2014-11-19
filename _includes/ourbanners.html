@@ -7,9 +7,9 @@
 							</tr>
 						{% for gallery in site.data.galleries %}{% if gallery.id == page.vertgallery %}{% for image in gallery.images %}
 							<tr class="underline">
-								<td><a href="{{ site.url }}" target="_blank"><img src="{{ page.linkadd }}{{ gallery.imagefolder }}/{{ image.name }}" alt="{{ site.name }}" title="{{ site.name }}" width="{{ image.width }}" height="{{ image.height }}" /></a></td>
+								<td><a href="{{ site.url }}" target="_blank"><img src="{{ page.linkadd }}{{ gallery.imagefolder }}/{{ image.name }}" alt="{{ site.name }}" title="{{ site.name }}" style="border:0;width:{{ image.width }}px;height:{{ image.height }}px" /></a></td>
 								<td>
-									<textarea rows="5" class="fullwidth"><a href="{{ site.url }}" target="_blank"><img src="{{ site.url }}/{{ gallery.imagefolder }}/{{ image.name }}" alt="{{ site.name }}" title="{{ site.name }}" width="{{ image.width }}" height="{{ image.height }}" /></a></textarea>
+									<textarea rows="5" class="fullwidth"><a href="{{ site.url }}" target="_blank"><img src="{{ site.url }}/{{ gallery.imagefolder }}/{{ image.name }}" alt="{{ site.name }}" title="{{ site.name }}" style="border:0;width:{{ image.width }}px;height:{{ image.height }}px" /></a></textarea>
 								</td>
 								<td>
 									<textarea rows="5" class="fullwidth">[URL={{ site.url }}][IMG={{ site.url }}/{{ gallery.imagefolder }}/{{ image.name }}][/URL]</textarea>
@@ -22,10 +22,10 @@
 						<table class="fullwidth">
 						{% for gallery in site.data.galleries %}{% if gallery.id == page.horizgallery %}{% for image in gallery.images %}
 								<tr><td>
-									<a href="{{ site.url }}" target="_blank"><img src="{{ page.linkadd }}{{ gallery.imagefolder }}/{{ image.name }}" alt="{{ site.name }}" title="{{ site.name }}" width="{{ image.width }}" height="{{ image.height }}" /></a>
+									<a href="{{ site.url }}" target="_blank"><img src="{{ page.linkadd }}{{ gallery.imagefolder }}/{{ image.name }}" alt="{{ site.name }}" title="{{ site.name }}" style="border:0;width:{{ image.width }}px;height:{{ image.height }}px" /></a>
 								</td></tr>
 								<tr class="underline"><td>
-									<textarea rows="2" class="fullwidth"><a href="{{ site.url }}" target="_blank"><img src="{{ site.url }}/{{ gallery.imagefolder }}/{{ image.name }}" alt="{{ site.name }}" title="{{ site.name }}" width="{{ image.width }}" height="{{ image.height }}" /></a></textarea>
+									<textarea rows="2" class="fullwidth"><a href="{{ site.url }}" target="_blank"><img src="{{ site.url }}/{{ gallery.imagefolder }}/{{ image.name }}" alt="{{ site.name }}" title="{{ site.name }}" style="border:0;width:{{ image.width }}px;height:{{ image.height }}px" /></a></textarea>
 									<textarea rows="2" class="fullwidth">[URL={{ site.url }}][IMG={{ site.url }}/{{ gallery.imagefolder }}/{{ image.name }}][/URL]</textarea>
 								</td></tr>
 						{% endfor %}{% endif %}{% endfor %}
