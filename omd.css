@@ -120,7 +120,6 @@ td {
 
 
 #menu a {
-	//border: 1px solid red;
 	padding: 10px;
 	text-decoration: none;
 	color: #fffafe;
@@ -227,7 +226,6 @@ td {
 }
 
 a.download {
-	display: float;
 	border-radius: 20px;
 	background: #333 url("pic/download.png") 18px 4px no-repeat;
 	color: white;
