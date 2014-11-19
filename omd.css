@@ -301,15 +301,17 @@ a.galbut:hover {
 		border: none;
 		padding: 0px;
 		margin: 10px;
+		background: transparent;
 	}
 
 	#logo {
-		padding-left: 15px;
+		padding-left: 5px;
 	}
 
 	#langSwith {
 		top: -5px;
-		right: 5px;
+		right: 0px;
+		padding-right: 3px; 
 	}
 
 	#menu {
