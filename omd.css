@@ -270,10 +270,6 @@ a.galbut:hover {
 		padding: 0px;
 	}
 
-	.aTape, .aPin, .funz {
-		display: none;
-	}
-
 	#langSwith {
 		position: absolute;
 		top: 15px;
@@ -295,6 +291,10 @@ a.galbut:hover {
 	body {
 		margin: 0px 0px;
 		border: none;
+	}
+
+	.aTape, .aPin, .funz {
+		display: none;
 	}
 
 	.ih, .info, .info2 {
