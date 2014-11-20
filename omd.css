@@ -97,8 +97,15 @@ td {
 
 #menu {
 	padding-top: 10px;
-	padding-left: 210px;
+	padding-left: 230px;
 	padding-bottom: 40px;
+}
+
+.btl {
+	position: absolute;
+	top: 117px;
+	left: 262px;
+	z-index: 9999;
 }
 
 #menu ul {
@@ -190,14 +197,18 @@ td {
 }
 
 .aPin {
-	margin-top: -15px;
+	margin-top: 0px;
 	margin-left: -40px;
 	margin-right: 50px;
 	position: relative;
 	float: right;
-	background: url("pic/Pin.png") no-repeat;
+	background: url("pic/tack.png") no-repeat;
+	width: 35px;
+	height: 37px;
+	/*background: url("pic/Pin.png") no-repeat;
+	margin-top: -15px;
 	width: 29px;
-	height: 57px;
+	height: 57px;*/
 }
 
 .vmiddle {
@@ -291,6 +302,10 @@ a.galbut:hover {
 
 	#menu {
 		padding-left: 50px;
+	}
+
+	.btl {
+		left: 82px;
 	}
 
 	.funzbig {
