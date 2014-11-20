@@ -1,0 +1,41 @@
+- id: en
+  code: en-us
+  fullname: English
+  link: 
+  addlink: 
+  mainmenu:
+  - text: Main
+    link: index.html
+  - text: Media
+    link: media.html
+  - text: Music
+    link: music.html
+  - text: Manga
+    link: manga.html
+  - text: FAQ
+    link: faq.html
+  - text: Banners
+    link: banners.html
+  - text: Feedback
+    link: feedback.html
+
+- id: ru
+  code: ru-ru
+  fullname: Russian
+  link: ru/
+  addlink: ../
+  mainmenu:
+  - text: Главная
+    link: index.html
+  - text: Скриншоты
+    link: media.html
+  - text: Музыка
+    link: music.html
+  - text: Манга
+    link: manga.html
+  - text: Вопросы
+    link: faq.html
+  - text: Баннеры
+    link: banners.html
+  - text: Связь
+    link: feedback.html

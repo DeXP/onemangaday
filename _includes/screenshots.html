@@ -1,6 +1,6 @@
 						{% for gallery in site.data.galleries %}
 							{% if gallery.id == page.galleryid %}
-							<p class="centered"><img id="IMGdisplayer" src="{{ gallery.imagefolder }}/{{ gallery.images[0].name }}" alt="{{ gallery.description }}" /></p>
+							<p class="centered"><img id="IMGdisplayer" src="{{ gallery.imagefolder }}/{{ gallery.images[0].name }}" alt="{{ gallery.description }}" itemprop="image" /></p>
 							{% endif %}
 						{% endfor %}
 						<p class="centered">
