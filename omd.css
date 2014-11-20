@@ -15,6 +15,10 @@ p {
 	font-size: 18px;
 }
 
+img {
+	border: 0;
+}
+
 table {
 	border-collapse: collapse;
 }
@@ -112,7 +116,7 @@ td {
 	padding: 0px;
 	margin-left: 3px;
 
-	border: 12px solid #faf;
+	border: 12px solid #fef;
 	border-image: url("pic/bt.png") 25 30 stretch repeat;
 	background: url("pic/btbg.png");
 	background-clip: border-box;
@@ -161,7 +165,7 @@ td {
 	color: #111;
 	font-weight: bold;
 	text-shadow: 0px 0px 1px #ff87ff;
-	border: 12px dotted white;
+	border: 12px solid #fef;
 	border-radius: 120px 40px 120px 40px;
 	border-image: url("pic/motc.png") 25 30 stretch stretch;
 }
@@ -170,7 +174,7 @@ td {
 .info, .info2 {
 	padding: 0px 20px;
 	margin: -5px 40px 45px 40px;
-	border: 15px dotted white;
+	border: 15px solid #fef;
 	border-image: url("pic/motc.png") 25 30 stretch stretch;
 }
 
@@ -282,7 +286,11 @@ a.galbut:hover {
 	}
 
 	#menu {
-		padding-left: 130px;
+		padding-left: 50px;
+	}
+
+	.funzbig {
+		display: none;
 	}
 
 }
