@@ -24,7 +24,7 @@
 					<div id="menu">
 						<a href="index.html" class="funzbig"><img src="{{ curaddlink }}pic/speaker.png" class="vmiddle" alt="*" />&nbsp;</a>
 						<ul>{% for menu in landat.mainmenu %}
-							<li><a href="{{ menu.link }}">{{ menu.text }}</a></li>{% endfor %}
+							<li><a href="{{ curaddlink }}{{ landat.link }}{{ menu.link }}">{{ menu.text }}</a></li>{% endfor %}
 						</ul>
 					</div>
 				</div>
