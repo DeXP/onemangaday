@@ -1,10 +1,10 @@
-<!DOCTYPE html>{% assign checkLang = "en" %}{% if page.curlang %}{% assign checkLang = page.curlang %}{% endif %} {% for lng in site.data.lang %}{% if lng.id == checkLang %}{% assign landat = lng %}{% endif %}{% endfor %}
+<!DOCTYPE html>{% assign checkLang = "en" %}{% if page.curlang %}{% assign checkLang = page.curlang %}{% endif %} {% for lng in site.data.lang %}{% if lng.id == checkLang %}{% assign landat = lng %}{% endif %}{% endfor %}{% assign curaddlink = landat.addlink %}{% if page.linkadd %}{% assign curaddlink = page.linkadd %}{% endif %}
 <html>
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="stylesheet" href="{{ landat.addlink }}omd.css" type="text/css" />{% for lng in site.data.lang %}
-		<link rel="alternate" hreflang="{{ lng.id }}" href="{{ landat.addlink }}{{ lng.link }}{{ page.url | split:"/" | last }}" />{% endfor %}
+		<link rel="stylesheet" href="{{ curaddlink }}omd.css" type="text/css" />{% for lng in site.data.lang %}
+		<link rel="alternate" hreflang="{{ lng.id }}" href="{{ curaddlink }}{{ lng.link }}{{ page.url | split:"/" | last }}" />{% endfor %}
 		<title>{{ site.name }} | {{ page.title }}</title>
 	</head>
 	<body>
@@ -13,16 +13,16 @@
 			<div id="supPers">
 				<div id="header">
 					<div id="langSwith">{% for lng in site.data.lang %}
-						<a href="{{ landat.addlink }}{{ lng.link }}{{ page.url | split:"/" | last }}"><img src="{{ landat.addlink }}pic/lang{{ lng.id | upcase }}.jpg" class="flag" alt="{{ lng.id | upcase }}" title="{{ lng.fullname }}" /></a>{% endfor %}
+						<a href="{{ curaddlink }}{{ lng.link }}{{ page.url | split:"/" | last }}"><img src="{{ curaddlink }}pic/lang{{ lng.id | upcase }}.jpg" class="flag" alt="{{ lng.id | upcase }}" title="{{ lng.fullname }}" /></a>{% endfor %}
 					</div>
 					<div id="logo">
-						<a href="{{ landat.addlink }}{{ landat.link }}{{ page.url | split:"/" | last }}">
-							<img src="{{ landat.addlink }}pic/Title{{ landat.id | capitalize }}.png" alt="One Manga Day" class="big" />
-							<img src="{{ landat.addlink }}pic/TitleSmall.png" alt="One Manga Day" class="small" />
+						<a href="{{ curaddlink }}{{ landat.link }}{{ page.url | split:"/" | last }}">
+							<img src="{{ curaddlink }}pic/Title{{ landat.id | capitalize }}.png" alt="One Manga Day" class="big" />
+							<img src="{{ curaddlink }}pic/TitleSmall.png" alt="One Manga Day" class="small" />
 						</a>
 					</div>
 					<div id="menu">
-						<a href="index.html" class="funzbig"><img src="{{ landat.addlink }}pic/speaker.png" class="vmiddle" alt="*" />&nbsp;</a>
+						<a href="index.html" class="funzbig"><img src="{{ curaddlink }}pic/speaker.png" class="vmiddle" alt="*" />&nbsp;</a>
 						<ul>{% for menu in landat.mainmenu %}
 							<li><a href="{{ menu.link }}">{{ menu.text }}</a></li>{% endfor %}
 						</ul>
