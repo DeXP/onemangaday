@@ -3,3 +3,5 @@ url: http://onemangaday.dexp.in
 markdown: redcarpet
 highlighter: pygments
 permalink: /:categories/:title/
+gems:
+  - jekyll-sitemap
