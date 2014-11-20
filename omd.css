@@ -224,6 +224,10 @@ td {
 	border: 0;
 }
 
+.doinline {
+	display: inline;
+}
+
 .flag {
 	border: 1px solid #ccc;
 	vertical-align: middle;
