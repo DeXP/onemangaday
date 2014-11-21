@@ -211,6 +211,17 @@ td {
 	height: 57px;*/
 }
 
+.aPinLong {
+	margin-left: -40px;
+	margin-right: 50px;
+	position: relative;
+	float: right;
+	background: url("pic/Pin.png") no-repeat;
+	margin-top: -15px;
+	width: 29px;
+	height: 57px;
+}
+
 .vmiddle {
 	vertical-align: middle;
 }
