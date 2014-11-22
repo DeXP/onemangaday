@@ -196,18 +196,18 @@ td {
 	height: 69px;
 }
 
-.aPin {
+.aFlower {
 	margin-top: 0px;
-	margin-left: -40px;
-	margin-right: 50px;
+	margin-left: -10px;
+	margin-right: 47px;
 	position: relative;
 	float: right;
-	background: url("pic/tack.png") no-repeat;
-	width: 35px;
-	height: 37px;
+	background: url("pic/flower.png") no-repeat;
+	width: 30px;
+	height: 45px;
 }
 
-.aPinLong {
+.aPin {
 	margin-left: -40px;
 	margin-right: 50px;
 	position: relative;
