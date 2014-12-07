@@ -226,6 +226,10 @@ td {
 	text-align: center;
 }
 
+.floatleft {
+	float: right;
+}
+
 .floatright {
 	float: right;
 }
@@ -251,21 +255,89 @@ td {
 	vertical-align: middle;
 }
 
-a.download {
-	border-radius: 20px;
-	background: #333 url("pic/download.png") 18px 4px no-repeat;
-	color: white;
-	text-decoration: none;
-	text-shadow: 1px 1px 1px silver;
-	padding: 10px 30px 10px 50px;
-	box-shadow: 1px 1px 1px #ff00ff;
+.badgeContainer {
+	padding-top: 30px;
+	padding-bottom: 65px;
 }
 
-a.download:hover {
-	color: white;
-	background-color: black;
-	background-position: 18px 6px;
-	box-shadow: 1px 1px 2px red;
+.whitebadge, .whitepicbadge, .pinkbadge {
+	padding: 4px;
+	border-radius: 5px;
+	height: 45px;
+	width: 160px;
+	text-decoration: none;
+	display: table-cell;
+	float: left;
+	margin-right: 12px;
+	margin-bottom: 10px;
+
+	font-weight: 200;
+	font-size: 20px;
+	vertical-align: middle;
+	line-height: 100%;
+	white-space: nowrap;
+}
+
+.whitebadge span, .whitepicbadge span, .pinkbadge span {
+	font-size: 18px;
+}
+
+.whitebadge img, .pinkbadge img {
+	vertical-align: middle;
+	padding-right: 5px;
+	float: left;
+}
+
+.badgelong {
+	width: 172px;
+}
+
+.whitebadge, .whitepicbadge {
+	color: #222;
+	border: 1px solid silver;
+	background: rgb(255,255,255);
+	background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(243,243,243,1) 50%, rgba(237,237,237,1) 51%, rgba(255,255,255,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,1)), color-stop(50%,rgba(243,243,243,1)), color-stop(51%,rgba(237,237,237,1)), color-stop(100%,rgba(255,255,255,1)));
+	background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(243,243,243,1) 50%,rgba(237,237,237,1) 51%,rgba(255,255,255,1) 100%);
+	background: -o-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(243,243,243,1) 50%,rgba(237,237,237,1) 51%,rgba(255,255,255,1) 100%);
+	background: -ms-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(243,243,243,1) 50%,rgba(237,237,237,1) 51%,rgba(255,255,255,1) 100%);
+	background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(243,243,243,1) 50%,rgba(237,237,237,1) 51%,rgba(255,255,255,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 );
+}
+
+.whitebadge:hover, .whitepicbadge:hover {
+	background: rgb(250,250,250);
+	background: -moz-linear-gradient(top,  rgba(250,250,250,1) 0%, rgba(236,236,236,1) 50%, rgba(221,221,221,1) 51%, rgba(241,241,241,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(250,250,250,1)), color-stop(50%,rgba(236,236,236,1)), color-stop(51%,rgba(221,221,221,1)), color-stop(100%,rgba(241,241,241,1))); 
+	background: -webkit-linear-gradient(top,  rgba(250,250,250,1) 0%,rgba(236,236,236,1) 50%,rgba(221,221,221,1) 51%,rgba(241,241,241,1) 100%);
+	background: -o-linear-gradient(top,  rgba(250,250,250,1) 0%,rgba(236,236,236,1) 50%,rgba(221,221,221,1) 51%,rgba(241,241,241,1) 100%);
+	background: -ms-linear-gradient(top,  rgba(250,250,250,1) 0%,rgba(236,236,236,1) 50%,rgba(221,221,221,1) 51%,rgba(241,241,241,1) 100%);
+	background: linear-gradient(to bottom,  rgba(250,250,250,1) 0%,rgba(236,236,236,1) 50%,rgba(221,221,221,1) 51%,rgba(241,241,241,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fafafa', endColorstr='#f1f1f1',GradientType=0 ); 
+}
+
+.pinkbadge {
+	color: #122;
+	border: 1px solid #f9e;
+	background: rgb(253,245,253);
+	background: -moz-linear-gradient(top,  rgba(253,245,253,1) 0%, rgba(253,209,240,1) 50%, rgba(254,192,233,1) 51%, rgba(255,187,235,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(253,245,253,1)), color-stop(50%,rgba(253,209,240,1)), color-stop(51%,rgba(254,192,233,1)), color-stop(100%,rgba(255,187,235,1))); 
+	background: -webkit-linear-gradient(top,  rgba(253,245,253,1) 0%,rgba(253,209,240,1) 50%,rgba(254,192,233,1) 51%,rgba(255,187,235,1) 100%);
+	background: -o-linear-gradient(top,  rgba(253,245,253,1) 0%,rgba(253,209,240,1) 50%,rgba(254,192,233,1) 51%,rgba(255,187,235,1) 100%);
+	background: -ms-linear-gradient(top,  rgba(253,245,253,1) 0%,rgba(253,209,240,1) 50%,rgba(254,192,233,1) 51%,rgba(255,187,235,1) 100%);
+	background: linear-gradient(to bottom,  rgba(253,245,253,1) 0%,rgba(253,209,240,1) 50%,rgba(254,192,233,1) 51%,rgba(255,187,235,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fdf5fd', endColorstr='#ffbbeb',GradientType=0 ); 
+}
+
+.pinkbadge:hover {
+	background: rgb(252,236,252);
+	background: -moz-linear-gradient(top,  rgba(252,236,252,1) 0%, rgba(251,166,225,1) 50%, rgba(253,137,215,1) 51%, rgba(255,124,216,1) 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(252,236,252,1)), color-stop(50%,rgba(251,166,225,1)), color-stop(51%,rgba(253,137,215,1)), color-stop(100%,rgba(255,124,216,1))); 
+	background: -webkit-linear-gradient(top,  rgba(252,236,252,1) 0%,rgba(251,166,225,1) 50%,rgba(253,137,215,1) 51%,rgba(255,124,216,1) 100%);
+	background: -o-linear-gradient(top,  rgba(252,236,252,1) 0%,rgba(251,166,225,1) 50%,rgba(253,137,215,1) 51%,rgba(255,124,216,1) 100%);
+	background: -ms-linear-gradient(top,  rgba(252,236,252,1) 0%,rgba(251,166,225,1) 50%,rgba(253,137,215,1) 51%,rgba(255,124,216,1) 100%);
+	background: linear-gradient(to bottom,  rgba(252,236,252,1) 0%,rgba(251,166,225,1) 50%,rgba(253,137,215,1) 51%,rgba(255,124,216,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcecfc', endColorstr='#ff7cd8',GradientType=0 ); 
 }
 
 
