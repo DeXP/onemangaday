@@ -308,7 +308,7 @@ td {
 .pinkbadge {
 	color: #122;
 	border: 1px solid #f9e;
-	background: url("pic/badge-bg-pink.jpg") top left;
+	background: #f7ebef url("pic/badge-bg-pink.jpg") top left;
 	transition-duration: 250ms;
 }
 
