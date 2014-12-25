@@ -23,8 +23,27 @@ table {
 	border-collapse: collapse;
 }
 
+a {
+	color: #c5c;
+	transition-duration: 250ms;
+}
+
+a:hover {
+	text-shadow: 1px 1px 1px #faf;
+	transition-duration: 250ms;
+}
+
+a:visited {
+	color: #c5c;
+	transition-duration: 250ms;
+}
+
 td {
 	padding: 10px;
+}
+
+ul {
+    list-style-image: url("pic/li.png");
 }
 
 .underline {
@@ -216,6 +235,35 @@ td {
 	margin-top: -15px;
 	width: 29px;
 	height: 57px;
+}
+
+.paypal-pay, .paypal-pal {
+	font-family: Arial;
+	font-style: oblique; 
+	font-weight: bold;
+	text-shadow: 1px 1px 1px silver;
+}
+
+.paypal-pay {
+	color: #003d79;
+}
+
+.paypal-pal {
+	color: #0070bc;
+}
+
+.Lant {
+	padding-left: 130px;
+}
+
+.invis {
+	display: none;
+}
+
+ul.nodots {
+	list-style-type: none;
+	list-style-image: none;
+	line-height: 34px;
 }
 
 .vmiddle {

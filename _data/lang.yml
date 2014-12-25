@@ -14,6 +14,8 @@
     link: manga.html
   - text: FAQ
     link: faq.html
+  - text: Donate
+    link: donate.html
   - text: Banners
     link: banners.html
   - text: Feedback
@@ -27,7 +29,7 @@
   mainmenu:
   - text: Главная
     link: index.html
-  - text: Скриншоты
+  - text: Медиа
     link: media.html
   - text: Музыка
     link: music.html
@@ -35,6 +37,8 @@
     link: manga.html
   - text: Вопросы
     link: faq.html
+  - text: Пожертвовать
+    link: donate.html
   - text: Баннеры
     link: banners.html
   - text: Связь
