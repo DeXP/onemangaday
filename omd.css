@@ -340,7 +340,7 @@ ul.nodots {
 	width: 172px;
 }
 
-.whitebadge, .whitepicbadge {
+.whitebadge, .whitepicbadge, a.whitebadge:visited, a.whitepicbadge:visited {
 	color: #222;
 	border: 1px solid silver;
 	background: url("pic/badge-bg-gray.jpg") top left;
@@ -353,7 +353,7 @@ ul.nodots {
 	transition-duration: 250ms;
 }
 
-.pinkbadge {
+.pinkbadge, a.pinkbadge:visited {
 	color: #122;
 	border: 1px solid #f9e;
 	background: #f7ebef url("pic/badge-bg-pink.jpg") top left;
