@@ -2,10 +2,12 @@
 <html>
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />{% if page.needHighLight %}
+		<link rel="stylesheet" href="{{ curaddlink }}pic/syntax.css" type="text/css" />{% endif %}
 		<link rel="stylesheet" href="{{ curaddlink }}omd.css" type="text/css" />{% for lng in site.data.lang %}
 		<link rel="alternate" hreflang="{{ lng.id }}" href="{{ curaddlink }}{{ lng.link }}{{ page.url | split:"/" | last }}" />{% endfor %}
 		<title>{{ site.name }} | {{ page.title }}</title>
+		<meta name="author" content="DeXPeriX" />
 	</head>
 	<body>
 		<div id="mainDiv">
@@ -13,10 +15,10 @@
 			<div id="supPers">
 				<div id="header">
 					<div id="langSwith">{% for lng in site.data.lang %}
-						<a href="{{ curaddlink }}{{ lng.link }}{{ page.url | split:"/" | last }}"><img src="{{ curaddlink }}pic/lang{{ lng.id | upcase }}.jpg" class="flag" alt="{{ lng.id | upcase }}" title="{{ lng.fullname }}" /></a>{% endfor %}
+						<a href="{{ curaddlink }}{{ lng.link }}{% if page.categories %}{{ page.categories | last }}/{% endif %}{{ page.url | split:"/" | last }}"><img src="{{ curaddlink }}pic/lang{{ lng.id | upcase }}.jpg" class="flag" alt="{{ lng.id | upcase }}" title="{{ lng.fullname }}" /></a>{% endfor %}
 					</div>
 					<div id="logo">
-						<a href="{{ curaddlink }}{{ landat.link }}{{ page.url | split:"/" | last }}">
+						<a href="{{ page.url | split:"/" | last }}">
 							<img src="{{ curaddlink }}pic/Title{{ landat.id | capitalize }}.png" alt="One Manga Day" class="big" />
 							<img src="{{ curaddlink }}pic/TitleSmall.png" alt="One Manga Day" class="small" />
 						</a>

@@ -1,0 +1,9 @@
+---
+layout: default
+---
+					<span id="article" class="ih">{{ page.title }}</span>
+					<span class="post-date">{% if page.curlang == "ru" %}{{ page.date | date: "%d.%m.%Y" }}{% else %}{{ page.date | date: "%Y-%m-%d" }}{% endif %}</span>
+					<div class="info{% if page.markdown %} markdown{% endif %}">
+{{ content }}
+					</div>
+					&nbsp;

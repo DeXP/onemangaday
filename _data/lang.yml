@@ -12,12 +12,12 @@
     link: music.html
   - text: Manga
     link: manga.html
+  - text: Comipo Tutorials
+    link: tutorials/index.html
   - text: FAQ
     link: faq.html
   - text: Donate
     link: donate.html
-  - text: Banners
-    link: banners.html
   - text: Feedback
     link: feedback.html
 
@@ -35,11 +35,11 @@
     link: music.html
   - text: Манга
     link: manga.html
+  - text: Статьи по Comipo
+    link: tutorials/index.html
   - text: Вопросы
     link: faq.html
-  - text: Пожертвовать
+  - text: Помочь проекту
     link: donate.html
-  - text: Баннеры
-    link: banners.html
   - text: Связь
     link: feedback.html

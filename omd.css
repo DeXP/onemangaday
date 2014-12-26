@@ -204,6 +204,12 @@ ul {
 	border-image: url("pic/motc.png") 25 30 stretch stretch;
 }
 
+.markdown img {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .aTape {
 	margin-top: -20px;
 	margin-left: -40px;
@@ -266,6 +272,14 @@ ul.nodots {
 	line-height: 34px;
 }
 
+.preview {
+	padding: 5px 15px;
+}
+
+.post-date {
+	display: none;
+}
+
 .vmiddle {
 	vertical-align: middle;
 }
@@ -275,7 +289,7 @@ ul.nodots {
 }
 
 .floatleft {
-	float: right;
+	float: left;
 }
 
 .floatright {

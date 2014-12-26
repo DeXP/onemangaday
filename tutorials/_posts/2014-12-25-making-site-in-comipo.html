@@ -1,0 +1,59 @@
+---
+layout: post
+title:  "Creating a website in Comipo"
+preview: 
+  file: site.png
+  width: 220
+  height: 130
+date:   2014-12-25 13:02:07
+curlang: en
+linkadd: ../
+needHighLight: True
+---
+						<p>Creating a website in Manga Maker Comipo is almost like creating it in Photoshop. That means the program is only responsible for creating the image of the future design. Everything else must be done in other programs and requires skills and knowledge of HTML and CSS.</p>
+						<p>Let's see an example shown below:</p>
+
+
+						<p class="centered"><img src="{{ page.linkadd }}pic/tutorials/site/OneMangaDay-site-comipo.png" alt="Website in Comipo"></p>
+
+						<p>You can see "Layer List" panel. It already has a stack of layers. You just need to implement this stack in HTML! The most convenient way is exporting each layer as a separate image. Export can be accessed from the menu "File - Export Image File". Also you can press F2. Export options:</p>
+						<p class="centered"><img src="{{ page.linkadd }}pic/tutorials/site/OneMangaDay-branch-export.png" alt="Export parameters for website miking in Comipo"></p>
+
+						<p>It is important to choose "Selected Layers" in "Exporting Area". If you need transparency, the format should be set to "PNG", and do not forget to check "Make page background transparent". It is also important to remember the value of "Output Size" - all the pictures should be exported in the same resolution. </p>
+						<p>Result:</p>
+						<p class="centered"><img src="{{ page.linkadd }}pic/tutorials/site/pic/SakuraBranch.png" alt="Comipo: Exported layer" class="flag"></p>
+
+						<p>You can start writing code, when images are collected in one directory. For example, the cherry branch on top of the stars can be displayed by the following code:</p>
+
+{% highlight html %}
+<html>
+<head>
+	<style type="text/css">
+		#starsDiv {
+			width: 100%;
+			min-height: 100%;
+			background: url("pic/Stars.png") repeat-x;
+		}
+
+		#sakuraDiv {
+			padding-left: 250px;
+			width: 100%;
+			min-height: 100%;
+			background: url("pic/SakuraBranch.png") no-repeat;	
+		}
+	</style>
+</head>
+<body>
+	<div id="starsDiv">
+		<div id="sakuraDiv">
+			Hey! This is an HTML page example!
+		</div>
+	</div>
+</body>
+</html>
+{% endhighlight %}
+
+						<p>You can see this example in your browser <a href="{{ page.linkadd }}pic/tutorials/site/sample.html" target="_blank">here</a>. The result is shown below:</p>
+						<p class="centered"><img src="{{ page.linkadd }}pic/tutorials/site/OneMangaDay-sample-result.png" alt="Simple website, made in Comipo"></p>
+
+						<p>Further - a trick and HTML layout. Good luck in creating websites!</p>

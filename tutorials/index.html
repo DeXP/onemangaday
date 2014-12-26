@@ -1,0 +1,17 @@
+---
+layout: list
+title: Comipo Tutorials
+curlang: en
+linkadd: ../
+categories: 
+- tutorials
+---
+{% for post in site.categories.tutorials %}{% if post.categories.size == 1 %}
+					<a href="{{ post.url }}"><span id="article" class="ih">{{ post.title }}</span></a>
+					<span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
+					<div class="info">
+						{% if post.preview %}<a href="{{ post.url }}"><img src="{{ page.linkadd }}pic/tutorials/{{ post.preview.file }}" alt="{{ post.title }}" title="{{ post.title }}" class="floatleft preview"{% if post.preview.width %} width="{{ post.preview.width }}"{% endif %}{% if post.preview.height %} height="{{ post.preview.height }}"{% endif %} /></a>{% endif %}
+						{{ post.excerpt }}
+						<div class="clear"></div>
+					</div>
+{% endif %}{% endfor %}
