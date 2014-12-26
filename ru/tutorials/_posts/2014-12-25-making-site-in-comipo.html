@@ -1,0 +1,58 @@
+---
+layout: post
+title:  "Создание сайта в Comipo"
+preview: 
+  file: site.png
+  width: 220
+  height: 130
+date:   2014-12-25 13:02:07
+curlang: ru
+linkadd: ../../
+needHighLight: True
+---
+						<p>Создание вебсайтов в Manga Maker Comipo похоже на создание их же в Photoshop. А именно, программа отвечает только за создание  картинки будущего дизайна сайта. Всё остальное делается в других программах и требует умения вёрстки и знания HTML и CSS.</p>
+						<p>Рассмотрим конкретный пример, показанный на картинке:</p>
+
+						<p class="centered"><img src="{{ page.linkadd }}pic/tutorials/site/OneMangaDay-site-comipo.png" alt="Сайт в Comipo"></p>
+
+						<p>Видно, что в панели "Layer List" уже есть стопка слоёв. Нужно просто реализовать эту стопку средствами HTML! Удобнее всего экспортировать каждый слой в отдельную картинку. Экспорт можно вызвать из меню "File - Export Image File", или нажать F2. Параметры экспорта:</p>
+						<p class="centered"><img src="{{ page.linkadd }}pic/tutorials/site/OneMangaDay-branch-export.png" alt="Параметры экспорта слоя для сайта в Comipo"></p>
+
+						<p>Важно в качестве "Exporting Area" выбрать "Selected Layers". Если нужна прозрачность, то в качестве формата нужно выставить "PNG" и выставить галочку "Make page background transparent". Также важно запомнить значение "Output Size" - все картинки должны экспортироваться в одном и том же разрешении.</p>
+						<p>Результат:</p>
+						<p class="centered"><img src="{{ page.linkadd }}pic/tutorials/site/pic/SakuraBranch.png" alt="Экспортированный из Comipo слой" class="flag"></p>
+
+						<p>После того, как картинки собраны в одну директорию, можно начинать писать код. Например, отобразить ветвь сакуры поверх звёзд может следующий код:</p>
+
+{% highlight html %}
+<html>
+<head>
+	<style type="text/css">
+		#starsDiv {
+			width: 100%;
+			min-height: 100%;
+			background: url("pic/Stars.png") repeat-x;
+		}
+
+		#sakuraDiv {
+			padding-left: 250px;
+			width: 100%;
+			min-height: 100%;
+			background: url("pic/SakuraBranch.png") no-repeat;	
+		}
+	</style>
+</head>
+<body>
+	<div id="starsDiv">
+		<div id="sakuraDiv">
+			Hey! This is an HTML page example!
+		</div>
+	</div>
+</body>
+</html>
+{% endhighlight %}
+
+						<p>Посмотреть выполнение этого примера в своём браузере можно <a href="{{ page.linkadd }}pic/tutorials/site/sample.html" target="_blank">здесь</a>. Результат выполнения показан на рисунке. </p>
+						<p class="centered"><img src="{{ page.linkadd }}pic/tutorials/site/OneMangaDay-sample-result.png" alt="Простейший сайт, сделанный в Comipo"></p>
+
+						<p>Дальнейшее - дело техники и вёрстки. Удачи при создании сайтов!</p>
