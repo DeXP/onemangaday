@@ -30,8 +30,9 @@ In fact, the character does not actually have the wings: we just have a 2 layers
 
 I used "Feathers_113" effect from "Comic Mark" tab.
 
-Also, the wings can be imported as a 3D-object. For example, Fake Dragon Wings by MMDFakewings18 can be downloaded [here](http://mmdfakewings18.deviantart.com/art/Fake-Dragon-Wings-362489559). This is how it looks in Comipo:
+Also, the wings can be imported as a 3D-object. For example, Fake Dragon Wings by MMDFakewings18 can be downloaded <a href=" http://mmdfakewings18.deviantart.com/art/Fake-Dragon-Wings-362489559" target="_blank">here</a>. This is how it looks in Comipo:
 
 ![Imported 3D wings in Comipo]({{ page.linkadd }}pic/tutorials/wings/OneMangaDay-Imported-wings.png)
 
 Good luck, cruise!
+

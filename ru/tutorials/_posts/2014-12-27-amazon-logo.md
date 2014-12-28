@@ -13,7 +13,7 @@ markdown: markdown
 
 В случае логотипа Amazon необходимо большое внимание уделить именно шрифту. Тогда логотип будет узнаваем.
 
-![Выбор шрифта в Comipo]({{ page.linkadd }}pic/tutorials/amazon/OneMangaDay-amazon-font.png)
+<img src="{{ page.linkadd }}pic/tutorials/amazon/OneMangaDay-amazon-font.png" alt="Выбор шрифта в Comipo" class="imgshad">
 
 Кроме того, под текстом нужно сделать стрелку. Можно воспользоваться "Motion & Shiver_004". Оно не очень похоже на оригинал, но сойдёт для тех случаев, когда оригинала перед глазами нет.
 

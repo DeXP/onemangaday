@@ -13,7 +13,7 @@ markdown: markdown
 
 In the case of Amazon logo must pay more attention to the font name. Then the logo will be recognizable.
 
-![Comipo Font Select]({{ page.linkadd }}pic/tutorials/amazon/OneMangaDay-amazon-font.png)
+<img src="{{ page.linkadd }}pic/tutorials/amazon/OneMangaDay-amazon-font.png" alt="Comipo Font Select" class="imgshad">
 
 To finish this logo you must put an arrow under the text. You can use the "Motion & Shiver_004". It is not very similar to the original, but suitable for those cases when customer does not see the original.
 

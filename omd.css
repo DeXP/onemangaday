@@ -141,6 +141,7 @@ ul {
 	font-weight: bold;
 	padding: 0px;
 	margin-left: 3px;
+	white-space: nowrap;
 
 	border: 12px solid #fef;
 	border-image: url("pic/bt.png") 25 30 stretch repeat;
@@ -380,6 +381,49 @@ ul.nodots {
 	transition-duration: 250ms;
 }
 
+.readmore, .readmore:visited {
+	padding: 4px;
+	border-radius: 5px;
+	float: right;
+	height: 20px;
+	width: 160px;
+	text-decoration: none;
+	display: table-cell;
+	font-weight: 180;
+	font-size: 18px;
+	vertical-align: middle;
+	line-height: 100%;
+	white-space: nowrap;
+	color: #122;
+	border: 1px solid #fce;
+	margin-top: -13px;
+	margin-right: 0px;
+	margin-bottom: 10px;
+	background: #f7ebef url("pic/badge-bg-pink.jpg") 0px -8px;
+	transition-duration: 250ms;
+}
+
+.readmore:hover {
+	background: #f7ebef url("pic/badge-bg-pink.jpg") 0px 52px;
+	transition-duration: 250ms;
+}
+
+.readmore span {
+	display: table-cell;
+	padding-left: 37px;
+	padding-right: 17px;
+	padding-bottom: 3px;
+	width: 160px;
+	text-align: center;
+	border: 1px solid transparent;
+	background: url("pic/readmore.png") 3px 0px no-repeat;
+}
+
+
+.imgshad {
+	margin: 25px 0px;
+	box-shadow: 0px 0px 25px black;
+}
 
 .galholder {
 	white-space: nowrap;
