@@ -8,16 +8,29 @@ markdown: True
 categories: 
 - tutorials
 ---
+
+					<span class="ih">Manga Maker Comipo! Tutorials</span>
+					<div class="info">
+						<img src="{{ page.linkadd }}pic/tutorials/comipoBanner.png" alt="Comipo" class="floatleft" />
+						<p>You can see some Manga Maker Comipo tutorials here. The program was developed by the Japanese, so it is not always clear for the european people. But sometimes it allows you to create almost real miracles!</p>
+						<p>You can buy program in:</p>
+						<ul>
+							<li><a href="http://www.comipo.com/en/index.html" target="_blank"><img src="{{ page.linkadd }}pic/tutorials/comipoPo.png" alt="Comipo" width="30" height="27" class="vmiddle" /></a> <a href="http://www.comipo.com/en/index.html" target="_blank">Official site</a></li>
+							<li><a href="http://store.steampowered.com/app/262490/" target="_blank"><img src="{{ page.linkadd }}pic/badge-icon/steam-small.png" alt="Steam" width="28" height="28" class="vmiddle" /></a> <a href="http://store.steampowered.com/app/262490/" target="_blank">Steam</a></li>
+						</ul>
+						<p class="centered"><a href="http://www.comipo.com/en/index.html" target="_blank"><img src="{{ page.linkadd }}pic/tutorials/comipoLogo.png" alt="Comipo" /></a></p>
+						<div class="clear"></div>
+
 {% for post in site.categories.tutorials %}{% if post.categories.size == 1 %}
-					<a href="{{ page.shortlinkadd }}{{ post.url }}"><span id="article" class="ih">{{ post.title }}</span></a>
-					<span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
-					<div class="info{% if post.markdown %} markdown{% endif %}">
+					<hr/>
+					<a href="{{ page.shortlinkadd }}{{ post.url }}"><span>{{ post.title }}</span></a>
+					<span class="post-date"> / {{ post.date | date: "%Y-%m-%d" }}</span>
 						{% if post.preview %}<a href="{{ page.shortlinkadd }}{{ post.url }}"><img src="{{ page.linkadd }}pic/tutorials/{{ post.preview.file }}" alt="{{ post.title }}" title="{{ post.title }}" class="floatleft preview"{% if post.preview.width %} width="{{ post.preview.width }}"{% endif %}{% if post.preview.height %} height="{{ post.preview.height }}"{% endif %} /></a>{% endif %}
 						{{ post.excerpt }}
 
 						<a href="{{ page.shortlinkadd }}{{ post.url }}" class="readmore"><span>Read more</span></a>
 
 						<div class="clear"></div>
-					</div>
 {% endif %}{% endfor %}
+					</div>
 					&nbsp;

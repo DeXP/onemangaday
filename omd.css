@@ -278,7 +278,8 @@ ul.nodots {
 }
 
 .post-date {
-	display: none;
+	/*display: none;*/
+	font-size: 15px;
 }
 
 .vmiddle {

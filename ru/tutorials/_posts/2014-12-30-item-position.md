@@ -5,7 +5,7 @@ preview:
   file: hand.png
   width: 220
   height: 186
-date:   2014-12-29 17:39:35
+date:   2014-12-30 17:39:35
 curlang: ru
 linkadd: ../../
 picdir: ../../pic/tutorials/hand/OneMangaDay-
