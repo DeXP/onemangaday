@@ -12,7 +12,7 @@ picdir: ../pic/tutorials/hand/OneMangaDay-
 markdown: True
 ---
 
-Today we will give a cottage into the character hands. Cottage made in the previous [tutorial](new-3d-objects-blender.html). It is understood that the object is already correctly imported and displayable in the Assest list. First you need to add a character to the panel. Than choose it's position (in this example a posture №100):
+Today we will give a cottage into the character hands. Cottage made in the previous [tutorial](new-3d-objects-blender.html). It is understood that the object is already correctly imported and displayable in the Assest list. First you need to add a character to the panel. Than choose it's position (in this example a posture 100):
 
 <img src="{{ page.picdir }}hand-start.png" alt="Character in Comipo" class="imgshad">
 
@@ -40,10 +40,13 @@ Now the house looks as it should be!
 
 ![Object, attached to the character in Comipo]({{ page.picdir }}hand-dom.png)
 
-Всё, объект привязан к персонажу. Персонажу можно менять позу, размер, положение, но домик всё-равно останется с ним:
 The object is attached to the character now. You can change the character's position, size, position, but the house will stay with it:
 
 ![Object in Comipo]({{ page.picdir }}hand-pose.png)
+
+You can save you character with connected objects as User Asset. You can use "Create Snap Asset..."(S) from right-click menu:
+
+<img src="{{ page.picdir }}create-snap-big.png" alt="Create Snap Asset in Comipo" class="imgshad">
 
 If you add a little effects from the "Image Item" tab, you can get the following picture:
 
