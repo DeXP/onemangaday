@@ -5,9 +5,11 @@ layout: default
 					<span class="post-date">{% if page.curlang == "ru" %}{{ page.date | date: "%d.%m.%Y" }}{% else %}{{ page.date | date: "%Y-%m-%d" }}{% endif %}</span>
 					<div class="info{% if page.markdown %} markdown{% endif %}">
 {{ content }}
+						<a href="index.html" class="floatright">{% if page.curlang == "ru" %}Вернуться к урокам по Comipo{% else %}Return to Comipo tutorials{% endif %}</a>
+						<div class="clear"></div>
 					</div>
 
-					<span id="article" class="ih">{% if page.curlang == "ru" %}Комментари{% else %}Comments{% endif %}</span>
+					<span id="comments" class="ih">{% if page.curlang == "ru" %}Комментари{% else %}Comments{% endif %}</span>
 					<div class="info">
 {% include disqus.html %}
 					</div>
