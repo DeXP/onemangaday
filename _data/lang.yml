@@ -8,8 +8,6 @@
     link: index.html
   - text: Media
     link: media.html
-  - text: Music
-    link: music.html
   - text: Manga
     link: manga.html
   - text: Comipo Tutorials
@@ -31,8 +29,6 @@
     link: index.html
   - text: Медиа
     link: media.html
-  - text: Музыка
-    link: music.html
   - text: Манга
     link: manga.html
   - text: Уроки по Comipo

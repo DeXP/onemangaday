@@ -426,6 +426,10 @@ ul.nodots {
 	box-shadow: 0px 0px 25px black;
 }
 
+.musicpadded {
+	padding-top: 15px;
+}
+
 .galholder {
 	white-space: nowrap;
 }
