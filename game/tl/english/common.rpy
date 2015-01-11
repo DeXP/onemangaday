@@ -540,3 +540,11 @@ translate english strings:
     new "q"
 
 
+# TODO: Translation updated at 2015-01-11 14:34
+
+translate english strings:
+
+    # renpy/common/00preferences.rpy:373
+    old "Self-voicing enabled. Press 'v' to disable."
+    new ""
+

@@ -27,7 +27,7 @@ init -1 python hide:
     ## пользователь не смог мошенничать, используя эти инструменты.
 
     config.developer = False
-    #config.help = "android"
+    config.help = "android"
     
     
     build.google_play_key = "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAim+nfSYGZfSiY+73iyXcx4ZTuFAiEt7tZjRIQQCNqyrFBvMQpiTV+oCweEKCfh8UHPpu9OXkMyLely0AnVUCUa0GzNUSZ3lVSYNw2IR1xl8AVtNgFu7XoAv5hA8JVAgsOElZAqvHyOzTm8Edu34ElB1ZtnaDolVfHvFmbKFtQf1ZRhzcoFsAV5KFyKHmdgfRFyZ/mHZXGPAyNe4Uuo7pfLjs7mXNTt34V5KURlLeRMF+ECQRblQ49yZxh/EayQwXhSAMh9vY7Tam49KEkV+8rQoQnu32Yj/PPtCMxTquH/+iUUM9KMYRFptAK0F2xoDIb+CW95gtVKWHbfFMP0+9+QIDAQAB"
@@ -51,7 +51,7 @@ init -1 python hide:
     # Эти управляют именем и версией игры, которые указываются
     # в журналах отладки.
     config.name = "OneMangaDay"
-    config.version = "1.02"
+    config.version = "1.4"
 
     #########################################
     # Темы
@@ -352,7 +352,7 @@ init python:
     ## The name that's used for directories and archive files. For example, if
     ## this is 'mygame-1.0', the windows distribution will be in the
     ## directory 'mygame-1.0-win', in the 'mygame-1.0-win.zip' file.
-    build.directory_name = "OneMangaDay-1.02"
+    build.directory_name = "OneMangaDay-1.4"
 
     ## The name that's uses for executables - the program that users will run
     ## to start the game. For example, if this is 'mygame', then on Windows,
@@ -394,9 +394,23 @@ init python:
     build.classify('**~', None)
     build.classify('**.bak', None)
     build.classify('**.rpy', None)
+    build.classify('**.html', None)
+    build.classify('**.yml', None)
+    build.classify('**.css', None)
+    build.classify('**LICENSE', None)
     build.classify('**/.**', None)
     build.classify('**/#**', None)
     build.classify('**/thumbs.db', None)
+    build.classify('_data/**', None)
+    build.classify('_includes/**', None)
+    build.classify('_layouts/**', None)
+    build.classify('pic/**', None)
+    build.classify('ru/**', None)
+    build.classify('tutorials/**', None)
+    build.classify('CNAME', None)
+    build.classify('favicon.ico', None)
+    build.classify('robots.txt', None)
+
 
     ## To archive files, classify them as 'archive'.
 

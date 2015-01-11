@@ -52,7 +52,9 @@ label titles:
         xalign 1.45 yalign -2.5
     centered "Перевод на английский:\n
 {b}Mari Prianaja{/b},\n
-{b}DeXPeriX{/b} a.k.a. Храбров Дмитрий"
+{b}DeXPeriX{/b} a.k.a. Храбров Дмитрий\n\n
+Вычитка английского текста:\n
+bluecasuality@gmail.com"
     hide CrEn
     
 

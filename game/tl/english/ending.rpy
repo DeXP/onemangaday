@@ -66,11 +66,12 @@ translate english titles_de93b2c7:
     # centered "Сюжет, графика, музыка,\n идея и реализация:\n {b}DeXPeriX{/b} a.k.a. Храбров Дмитрий\n {a=http://dexperix.net}http://dexperix.net{/a}"
     centered "Story, graphics, music,\n idea and realization:\n {b}DeXPeriX{/b} a.k.a. Hrabrov Dmitry\n {a=http://dexperix.net}http://dexperix.net{/a}"
 
-# game/ending.rpy:48
-translate english titles_e716a54c:
+# game/ending.rpy:53
+translate english titles_6ea6c21f:
 
-    # centered "Перевод на английский:\n {b}Mari Prianaja{/b},\n {b}DeXPeriX{/b} a.k.a. Храбров Дмитрий"
-    centered "Translation into English:\n {b}Mari Prianaja{/b},\n {b}DeXPeriX{/b} a.k.a. Hrabrov Dmitry"
+    # centered "Перевод на английский:\n {b}Mari Prianaja{/b},\n {b}DeXPeriX{/b} a.k.a. Храбров Дмитрий\n\n Вычитка английского текста:\n bluecasuality@gmail.com"
+    centered "Translation into English:\n {b}Mari Prianaja{/b},\n {b}DeXPeriX{/b} a.k.a. Hrabrov Dmitry\n\nEnglish \"Day 1\" text proofreading:\nbluecasuality@gmail.com"
+
 
 # game/ending.rpy:63
 translate english titles_130856ff:

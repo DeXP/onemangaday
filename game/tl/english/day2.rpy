@@ -1,6 +1,4 @@
-﻿# TODO: Translation updated at 2014-06-16 19:48
-
-# game/day2.rpy:4
+﻿# game/day2.rpy:4
 translate english day2_ec02895a:
 
     # centered "День 2"
@@ -639,4 +637,66 @@ translate english strings:
     # game/day2.rpy:175
     old "Все по-своему правы."
     new "All are in own way right."
+
+# TODO: Translation updated at 2015-01-11 14:34
+
+# game/day2.rpy:230
+translate english day2_4b2b28ff:
+
+    # mala "Дэкс! Что ты там вчера насканировал? А нормально сделать не мог?"
+    mala "Dex! You yesterday's scans are very bad! Can you do it better?"
+
+# game/day2.rpy:231
+translate english day2_c3164dc8:
+
+    # dexp "Да всё я нормально сделал."
+    dexp "They are normal. As usual!"
+
+# game/day2.rpy:235
+translate english day2_fad009fd:
+
+    # lexa "Проверь-ка настройки сканирования ещё раз!"
+    lexa "Please, check your scanning options!"
+
+# game/day2.rpy:237
+translate english day2_903292a5:
+
+    # dexp "Да все настройки правильные!"
+    dexp "All options are correct!"
+
+# game/day2.rpy:238
+translate english day2_4c297079:
+
+    # dexp "Всегда так делал, и никаких проблем не было!"
+    dexp "I always did with that options, and there were no problems!"
+
+# game/day2.rpy:239
+translate english day2_bfdd5bd8:
+
+    # azyki "Дэкс, не прав ты!"
+    azyki "Dex, you're wrong!"
+
+# game/day2.rpy:241
+translate english day2_ebf141df_1:
+
+    # lexa "О! А вот и наш новенький член команды!"
+    lexa "Oh! Here is our brand new team member!"
+
+# game/day2.rpy:242
+translate english day2_0b3fc222_1:
+
+    # lexa "Нам нужна помощь в разрешении данного конфликта. Поможешь?"
+    lexa "We need help in the resolution of this conflict. Can you help?"
+
+# game/day2.rpy:253
+translate english day2_e1db22ce_1:
+
+    # dexp "Ага, нашёл кого спрашивать, новичка!"
+    dexp "Yeah, you found whom to ask, a newbie!"
+
+# game/day2.rpy:255
+translate english day2_d5bd300e:
+
+    # dexp "Ты б лучше сам головой подумал, что нам с этими сканами делать..."
+    dexp "You'd better think by yourself what we do with this pictures..."
 
