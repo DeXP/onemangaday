@@ -93,6 +93,38 @@ ul {
 	padding-top: 2px;
 }
 
+#greenLight-ru, #greenLight-en {
+	margin: 5px;
+	width: 329px;
+	height: 86px;
+	float: right;
+	box-shadow: 0px 0px 5px #f25;
+	border-radius: 7px;
+}
+
+#greenLight-ru {
+	background: url("pic/greenlight-ru.png") 0 0px;
+}
+
+#greenLight-ru:hover {
+	background: url("pic/greenlight-ru.png") 0 -86px;
+}
+
+#greenLight-en {
+	background: url("pic/greenlight-en.png") 0 0px;
+}
+
+#greenLight-en:hover {
+	background: url("pic/greenlight-en.png") 0 -86px;
+}
+
+
+#greenLight img {
+	border-radius: 7px;
+	display: none;
+}
+
+
 #langSwith {
 	padding: 10px;
 	float: right;
