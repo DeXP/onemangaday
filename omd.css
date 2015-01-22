@@ -19,6 +19,10 @@ img {
 	border: 0;
 }
 
+hr {
+	margin: 20px;
+}
+
 table {
 	border-collapse: collapse;
 }
