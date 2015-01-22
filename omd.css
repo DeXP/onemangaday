@@ -20,7 +20,10 @@ img {
 }
 
 hr {
-	margin: 20px;
+	height: 15px;
+	border: 0px;
+	border-top: 12px solid #fef;
+	border-image: url("pic/motc.png") 25 30 stretch stretch;
 }
 
 table {
