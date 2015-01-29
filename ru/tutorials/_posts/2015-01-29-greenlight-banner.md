@@ -56,6 +56,6 @@ markdown: markdown
 
 Добавляем картинку проекта и получаем конечный вариант баннера:
 
-<a href="http://steamcommunity.com/sharedfiles/filedetails/?id=372656709" target="_blank"><div class="greenLight-{% if page.curlang == "ru" %}ru{% else %}en{% endif %}" style="float: none; margin-left: auto; margin-right: auto">&nbsp;</div></a><div class="clear"></div>
+<a href="http://steamcommunity.com/sharedfiles/filedetails/?id=372656709" target="_blank"><div class="greenLight-{% if page.curlang == "ru" %}ru{% else %}en{% endif %}" style="float: none; margin-left: auto; margin-right: auto"></div></a><div class="clear"></div>
 
 Удачи Вам на зелёный свет!
