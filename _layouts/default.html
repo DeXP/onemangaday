@@ -14,13 +14,13 @@
 			<div id="supDiv">
 			<div id="supPers">
 				<div id="header">
-					<a id="aGrL" href="http://steamcommunity.com/sharedfiles/filedetails/?id=372656709" target="_blank"><div id="greenLight-{% if page.curlang == "ru" %}ru{% else %}en{% endif %}">&nbsp;</div></a>
+					<a id="aGrL" href="http://steamcommunity.com/sharedfiles/filedetails/?id=372656709" target="_blank"><div class="greenLight-{% if page.curlang == "ru" %}ru{% else %}en{% endif %}">&nbsp;</div></a>
 					<div id="langSwith">{% for lng in site.data.lang %}
 						<a href="{{ curaddlink }}{{ lng.link }}{% if page.categories %}{{ page.categories | last }}/{% endif %}{{ page.url | split:"/" | last }}"><img src="{{ curaddlink }}pic/lang{{ lng.id | upcase }}.jpg" class="flag" alt="{{ lng.id | upcase }}" title="{{ lng.fullname }}" /></a>{% endfor %}
 					</div>
 					<div id="logo">
 						<a href="{{ page.url | split:"/" | last }}">
-							<img src="{{ curaddlink }}pic/Title{{ landat.id | capitalize }}.png" alt="One Manga Day" class="big" />
+							<img src="{{ curaddlink }}pic/Title{{ landat.id | capitalize }}.png" height="93" alt="One Manga Day" class="big" />
 							<img src="{{ curaddlink }}pic/TitleSmall.png" alt="One Manga Day" class="small" />
 						</a>
 					</div>
