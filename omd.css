@@ -193,13 +193,14 @@ ul {
 	padding: 10px;
 	text-decoration: none;
 	color: #fffafe;
-	text-shadow: 1px 1px 3px #404;
+	text-shadow: 1px 1px 3px #626, -1px 0px 3px #848;
 	transition-duration: 250ms;
+	font-size: 16px;
 }
 
 #menu a:hover {
-	color: #fbf;
-	text-shadow: 1px 1px 4px black;
+	color: #fcf;
+	text-shadow: 1px 1px 3px black, -1px 0px 3px silver;
 	transition-duration: 250ms;
 }
 
