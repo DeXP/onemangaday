@@ -1,5 +1,4 @@
-<!DOCTYPE html>{% assign checkLang = "en" %}{% if page.curlang %}{% assign checkLang = page.curlang %}{% endif %} {% for lng in site.data.lang %}{% if lng.id == checkLang %}{% assign landat = lng %}{% endif %}{% endfor %}{% assign curaddlink = landat.addlink %}{% if page.linkadd %}{% assign curaddlink = page.linkadd %}{% endif %}
-<html>
+<!DOCTYPE html>{% include LANG.html %}<html>
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />{% if page.needHighLight %}

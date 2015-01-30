@@ -1,0 +1,1 @@
+{% assign checkLang = "en" %}{% if page.curlang %}{% assign checkLang = page.curlang %}{% endif %} {% for lng in site.data.lang %}{% if lng.id == checkLang %}{% assign landat = lng %}{% endif %}{% endfor %}{% assign curaddlink = landat.addlink %}{% if page.linkadd %}{% assign curaddlink = page.linkadd %}{% endif %}

@@ -1,11 +1,5 @@
-						<div class="badgeContainer">
-							<a href="http://steamcommunity.com/sharedfiles/filedetails/?id=372656709" class="whitebadge" target="_blank"><img src="{{ page.linkadd }}pic/badge-icon/steam.png" alt="IGMC" width="45" height="45" /><b>Steam</b><br/>Grenlight</a>
-							<a href="https://github.com/DeXP/onemangaday/releases/latest" class="pinkbadge"><img src="{{ page.linkadd }}pic/badge-icon/carton.png" alt="Download" width="45" height="45" />{% if page.curlang == "ru" %}<b>Скачать</b><br/><span>напрямую</span>{% else %}<span>Direct</span><br/><b>Download</b>{% endif %}</a>
-							<a href="http://www.amazon.com/DeXP-One-Manga-Day/dp/B00MFTHEU8" class="whitepicbadge centered" target="_blank"><img src="{{ page.linkadd }}pic/badge-icon/amazon.png" alt="Amazon" width="126" height="45" /></a>
-							<a href="https://play.google.com/store/apps/details?id=in.dexp.onemangaday" class="pinkbadge" target="_blank"><img src="{{ page.linkadd }}pic/badge-icon/android.png" class="vmiddle" alt="Google Play" width="44" height="45" /><span>{% if page.curlang == "ru" %}Скачать в{% else %}Get it on{% endif %}</span><br/><b>Google</b> Play</a>
-							<a href="http://contest.rpgmakerweb.com/game/view/id/101" class="whitebadge badgelong" target="_blank"><img src="{{ page.linkadd }}pic/badge-icon/igmc.png" alt="IGMC" width="45" height="45" /><span>{% if page.curlang == "ru" %}Конкурс инди<br/>разработчиков{% else %}Indie Game<br/> Maker Contest{% endif %}</span></a>
-							<a href="http://www.desura.com/games/one-manga-day" class="pinkbadge" target="_blank"><img src="{{ page.linkadd }}pic/badge-icon/desura.png" alt="Desura" width="48" height="45" /><b>Desura</b><br/><span>{% if page.curlang == "ru" %}Сообщество{% else %}Community{% endif %}</span></a>
-							<a href="https://github.com/DeXP/onemangaday" class="whitebadge" target="_blank"><img src="{{ page.linkadd }}pic/badge-icon/github.png" alt="Github" width="46" height="45" /><b>Github</b><br/><span>{% if page.curlang == "ru" %}репозиторий{% else %}Social coding{% endif %}</span></a>
+{% include LANG.html %}						<div class="badgeContainer">{% for b in landat.badges %}
+							<a href="{{ b.link }}" class="{{ b.class }}" target="_blank"><img src="{{ curaddlink }}pic/badge-icon/{{ b.icon }}" alt="{{ b.alt }}" width="{{ b.width }}" height="45" />{{ b.html }}</a>{% endfor %}
 						</div>
 
 						<div class="clear"></div>

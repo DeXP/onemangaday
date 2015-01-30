@@ -18,6 +18,55 @@
     link: donate.html
   - text: Feedback
     link: feedback.html
+  badges:
+  - link: http://steamcommunity.com/sharedfiles/filedetails/?id=372656709
+    html: <b>Steam</b><br/>Grenlight
+    alt: Steam Greenlight
+    class: whitebadge
+    icon: steam.png
+    width: 45
+  - link: https://github.com/DeXP/onemangaday/releases/latest
+    html: <span>Direct</span><br/><b>Download</b>
+    alt: Download
+    class: pinkbadge
+    icon: carton.png
+    width: 45
+  - link: http://www.amazon.com/DeXP-One-Manga-Day/dp/B00MFTHEU8
+    alt: Amazon
+    class: whitepicbadge centered
+    icon: amazon.png
+    width: 126
+  - link: https://play.google.com/store/apps/details?id=in.dexp.onemangaday
+    html: <span>Get it on</span><br/><b>Google</b> Play
+    alt: Google Play
+    class: pinkbadge
+    icon: android.png
+    width: 44
+  - link: http://contest.rpgmakerweb.com/game/view/id/101
+    html: <span>Indie Game <br/>Maker Contest</span>
+    alt: IGMC
+    class: whitebadge badgelong
+    icon: igmc.png
+    width: 45
+  - link: http://www.desura.com/games/one-manga-day
+    html: <b>Desura</b><br/><span>Community</span>
+    alt: Desura
+    class: pinkbadge
+    icon: desura.png
+    width: 48
+  - link: https://github.com/DeXP/onemangaday
+    html: <b>Github</b><br/><span>Social coding</span>
+    alt: Github
+    class: whitebadge
+    icon: github.png
+    width: 46
+
+
+
+
+
+
+
 
 - id: ru
   code: ru-ru
@@ -39,3 +88,46 @@
     link: donate.html
   - text: Связь
     link: feedback.html
+  badges:
+  - link: http://steamcommunity.com/sharedfiles/filedetails/?id=372656709
+    html: <b>Steam</b><br/>Grenlight
+    alt: Steam Greenlight
+    class: whitebadge
+    icon: steam.png
+    width: 45
+  - link: https://github.com/DeXP/onemangaday/releases/latest
+    html: <b>Скачать</b><br/><span>напрямую</span>
+    alt: Скачать
+    class: pinkbadge
+    icon: carton.png
+    width: 45
+  - link: http://www.amazon.com/DeXP-One-Manga-Day/dp/B00MFTHEU8
+    alt: Amazon
+    class: whitepicbadge centered
+    icon: amazon.png
+    width: 126
+  - link: https://play.google.com/store/apps/details?id=in.dexp.onemangaday
+    html: <span>Скачать в</span><br/><b>Google</b> Play
+    alt: Google Play
+    class: pinkbadge
+    icon: android.png
+    width: 44
+  - link: http://contest.rpgmakerweb.com/game/view/id/101
+    html: <span>Конкурс инди<br/>разработчиков</span>
+    alt: Конкурс разработчиков 2014
+    class: whitebadge badgelong
+    icon: igmc.png
+    width: 45
+  - link: http://www.desura.com/games/one-manga-day
+    html: <b>Desura</b><br/><span>Сообщество</span>
+    alt: Desura
+    class: pinkbadge
+    icon: desura.png
+    width: 48
+  - link: https://github.com/DeXP/onemangaday
+    html: <b>Github</b><br/><span>репозиторий</span>
+    alt: Github
+    class: whitebadge
+    icon: github.png
+    width: 46
+

@@ -199,7 +199,7 @@ ul {
 }
 
 #menu a:hover {
-	color: #fcf;
+	color: #fdf;
 	text-shadow: 1px 1px 3px black, -1px 0px 3px silver;
 	transition-duration: 250ms;
 }
