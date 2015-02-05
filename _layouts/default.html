@@ -3,8 +3,7 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />{% if page.needHighLight %}
 		<link rel="stylesheet" href="{{ curaddlink }}pic/syntax.css" type="text/css" />{% endif %}
-		<style type="text/css">@import url("{{ curaddlink }}omd.css");</style>
-		<!--<link rel="stylesheet" href="{{ curaddlink }}omd.css" type="text/css" />-->{% for lng in site.data.lang %}
+		<link rel="stylesheet" href="{{ curaddlink }}omd.css" type="text/css" />{% for lng in site.data.lang %}
 		<link rel="alternate" hreflang="{{ lng.id }}" href="{{ curaddlink }}{{ lng.link }}{% if page.categories %}{{ page.categories | last }}/{% endif %}{{ page.url | split:"/" | last }}" />{% endfor %}
 		<title>{{ site.name }} | {{ page.title }}</title>
 		<meta name="author" content="DeXPeriX" />
