@@ -570,4 +570,8 @@ a.galbut:hover {
 		word-spacing: -0.3ex;
 	}
 
+	#IMGdisplayer, .galbut {
+		display: none;
+	}
+
 }
