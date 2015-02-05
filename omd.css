@@ -542,6 +542,11 @@ a.galbut:hover {
 		padding-left: 5px;
 	}
 
+	.greenLight-ru, .greenLight-en {
+		float: none;
+		margin-top: 42px;
+	}
+
 	#langSwith {
 		top: -5px;
 		right: 0px;
