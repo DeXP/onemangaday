@@ -538,6 +538,10 @@ a.galbut:hover {
 		background: transparent;
 	}
 
+	#header {
+		overflow: hidden;
+	}
+
 	#logo {
 		padding-left: 5px;
 	}
