@@ -1,0 +1,80 @@
+@media only screen and (max-width: 1000px) {
+
+	#supPers {
+		background: none;
+	}
+
+	#content {
+		padding: 0px;
+	}
+
+	#langSwith {
+		position: absolute;
+		top: 15px;
+		right: 30px;
+		width: 92px;
+	}
+
+	#logo {
+		padding-left: 140px;
+	}
+
+	#menu {
+		padding-left: 50px;
+	}
+
+	.btl {
+		left: 82px;
+	}
+
+	.funzbig {
+		display: none;
+	}
+
+}
+
+@media only screen and (max-width: 550px) {
+	body {
+		margin: 0px 0px;
+		border: none;
+	}
+
+	.aTape, .aPin, .funz {
+		display: none;
+	}
+
+	.ih, .info, .info2 {
+		border: none;
+		padding: 0px;
+		margin: 10px;
+		background: transparent;
+	}
+
+	#logo {
+		padding-left: 5px;
+	}
+
+	#langSwith {
+		top: -5px;
+		right: 0px;
+		padding-right: 3px; 
+	}
+
+	#menu {
+		padding-left: 0px;
+	}
+
+	#logo .small {
+		display: inline;
+	}
+
+	#logo .big {
+		display: none;
+	}
+
+	p {
+		text-align: justify;
+		word-spacing: -0.3ex;
+	}
+
+}
