@@ -1,0 +1,21 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "renpy/common/00start.rpy", line 81, in script
+    return
+Exception: Could not find return label (u'E:\\work\\Games\\OneMangaDay/game/tl/english/ending.rpy', 1420976882, 1).
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "renpy/common/00start.rpy", line 81, in script
+    return
+  File "C:\gnu\RenPy\renpy-6.17.6-sdk\renpy\ast.py", line 1331, in execute
+    next_node(renpy.game.context().lookup_return(pop=True))
+  File "C:\gnu\RenPy\renpy-6.17.6-sdk\renpy\execution.py", line 391, in lookup_return
+    raise Exception("Could not find return label {!r}.".format(self.return_stack[-1]))
+Exception: Could not find return label (u'E:\\work\\Games\\OneMangaDay/game/tl/english/ending.rpy', 1420976882, 1).
+
+Windows-7-6.1.7601-SP1
+Ren'Py 6.18.3.761
+OneMangaDay 1.02
