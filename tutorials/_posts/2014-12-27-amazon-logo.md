@@ -1,5 +1,6 @@
 ---
 layout: post
+tags: [beginner, logo]
 title:  "Amazon logo in Comipo"
 preview:
   file: amazon.png

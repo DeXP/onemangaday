@@ -1,0 +1,11 @@
+{% include LANG.html %}						<ul id="cloud">{% for tag in site.tags %}{% capture cache %}
+	{% assign curTag = tag | first | slugize %}
+	{% for data_tag in landat.tags %}
+		{% if data_tag.slug == curTag %}
+			{% assign langtag = data_tag %}
+		{% endif %}
+	{% endfor %}{% endcapture %}{% assign cache = nil %}
+							<li style="font-size: {{ tag | last | size | times: 100 | divided_by: site.tags.size | plus: 40 }}%">
+								<a href="{{ tag | first | slugize }}.html">{{ langtag.name }}</a>
+							</li>{% endfor %}
+						</ul>

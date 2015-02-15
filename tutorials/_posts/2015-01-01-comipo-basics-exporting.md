@@ -1,5 +1,6 @@
 ---
 layout: post
+tags: [beginner]
 title:  "Comipo Basics: Export Image file"
 preview: 
   file: export.png

@@ -1,15 +1,20 @@
 ---
 layout: default
 ---
+{% include LANG.html %}{% assign post = page %}{% include POST-TAGS.html %}
 					<span id="article" class="ih">{{ page.title }}</span>
-					<span class="post-date">{% if page.curlang == "ru" %}{{ page.date | date: "%d.%m.%Y" }}{% else %}{{ page.date | date: "%Y-%m-%d" }}{% endif %}</span>
-					<div class="info{% if page.markdown %} markdown{% endif %}">
+					<span class="post-date">{{ page.date | date: landat.dateformat }}</span>
+					<div class="info">
+						{% if page.markdown %}<div class="markdown">{% endif %}
 {{ content }}
-						<a href="index.html" class="floatright">{% if page.curlang == "ru" %}Вернуться к урокам по Comipo{% else %}Return to Comipo tutorials{% endif %}</a>
+						{% if page.markdown %}</div>{% endif %}
+
+						<a href="index.html" class="floatright">{{ landat.str.ReturnToTutorials }}</a>
+						<p class="post-tags">{{ tags_content }}</p>
 						<div class="clear"></div>
 					</div>
 
-					<span id="comments" class="ih">{% if page.curlang == "ru" %}Комментарии{% else %}Comments{% endif %}</span>
+					<span id="comments" class="ih">{{ landat.str.Comments }}</span>
 					<div class="info">
 {% include disqus.html %}
 					</div>

@@ -1,5 +1,6 @@
 ---
 layout: post
+tags: [middle, logo]
 title:  "Логотип Android в Comipo"
 preview: 
   file: android.png

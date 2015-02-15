@@ -1,5 +1,6 @@
 ---
 layout: post
+tags: [beginner]
 title:  "Character with wings in Comipo"
 preview: 
   file: wings.png

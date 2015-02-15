@@ -1,0 +1,35 @@
+---
+layout: default
+---
+{% include LANG.html %}{% capture cache %}
+		{% for data_tag in landat.tags %}
+            {% if data_tag.slug == page.tag %}
+                {% assign tag = data_tag %}
+            {% endif %}
+		{% endfor %}
+
+		{% assign page.title = tag.name %}
+{% endcapture %}{% assign cache = nil %}
+					<span id="article" class="ih">{{ tag.name }}</span>
+					
+					<div class="info">
+						<p>{{ page.descr }}</p>
+
+						<p class="centered"><a href="index.html"><img src="{{ page.linkadd }}pic/tutorials/comipoLogo.png" alt="Comipo" /></a></p>
+
+						<div id="post-content">
+    {% if site.tags[page.tag] %}
+		{% for post in site.tags[page.tag] %}
+			{% if post.curlang == checkLang %}
+{% include postblock.html %}
+			{% endif %}	
+		{% endfor %}
+    {% else %}
+							<p>{{ landat.str.ErrTagNoPosts }}</p>
+    {% endif %}
+						</div>
+
+
+					</div>
+
+					&nbsp;

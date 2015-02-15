@@ -1,5 +1,6 @@
 ---
 layout: post
+tags: [middle, logo]
 title:  "WebMoney logo in Comipo"
 preview: 
   file: webmoney.png

@@ -1,5 +1,6 @@
 ---
 layout: post
+tags: [middle,ext3d]
 title:  "Создание своих 3D объектов для Comipo"
 preview: 
   file: blender.png

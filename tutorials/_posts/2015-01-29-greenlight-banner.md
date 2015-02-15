@@ -1,5 +1,6 @@
 ---
 layout: post
+tags: [advanced,web]
 title:  "Steam Greenlight banner in Comipo"
 preview: 
   file: greenlight.png

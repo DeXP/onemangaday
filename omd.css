@@ -224,6 +224,14 @@ ul {
 	margin-right: 160px;
 }
 
+#cloud li {
+	display: inline;
+}
+
+#cloud a {
+	padding: 0px;
+}
+
 
 .ih {
 	background: #feeef9;
@@ -320,6 +328,10 @@ ul.nodots {
 .post-date {
 	/*display: none;*/
 	font-size: 15px;
+}
+
+.post-tags {
+	font-size: 16px;
 }
 
 .vmiddle {
@@ -436,7 +448,7 @@ ul.nodots {
 	white-space: nowrap;
 	color: #122;
 	border: 1px solid #fce;
-	margin-top: -13px;
+	margin-top: -5px;
 	margin-right: 0px;
 	margin-bottom: 10px;
 	background: #f7ebef url("pic/badge-bg-pink.jpg") 0px -8px;

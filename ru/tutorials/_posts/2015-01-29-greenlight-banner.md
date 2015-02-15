@@ -1,5 +1,6 @@
 ---
 layout: post
+tags: [advanced,web]
 title:  "Баннер Steam Greenlight в Comipo"
 preview: 
   file: greenlight.png

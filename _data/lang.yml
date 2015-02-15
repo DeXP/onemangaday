@@ -2,7 +2,30 @@
   code: en-us
   fullname: English
   link: 
-  addlink: 
+  addlink:
+  
+  dateformat: "%Y-%m-%d"
+  str: 
+    Comments: Comments
+    ReadMore: Read more
+    MaterialTags: Material tags
+    ReturnToTutorials: Return to Comipo tutorials
+    ErrTagNoPosts: There are no posts for this tag.
+  tags:
+  - slug: beginner
+    name: Beginner
+  - slug: middle
+    name: Middle level
+  - slug: advanced
+    name: Advanced
+  - slug: logo
+    name: Logotype
+  - slug: ext3d
+    name: External 3D
+  - slug: background
+    name: Background
+  - slug: web
+    name: Web
   mainmenu:
   - text: Main
     link: index.html
@@ -73,6 +96,29 @@
   fullname: Russian
   link: ru/
   addlink: ../
+
+  dateformat: "%d.%m.%Y"
+  str:
+    Comments: Комментарии
+    ReadMore: Читать дальше
+    MaterialTags: Теги материала
+    ReturnToTutorials: Вернуться к урокам по Comipo
+    ErrTagNoPosts: Нет постов с таким тегом.
+  tags:
+  - slug: beginner
+    name: Для начинающих
+  - slug: logo
+    name: Логотипы
+  - slug: background
+    name: Фоновое изображение
+  - slug: middle
+    name: Средний уровень
+  - slug: advanced
+    name: Продвинутый уровень
+  - slug: ext3d
+    name: Внешнее 3D
+  - slug: web
+    name: Веб
   mainmenu:
   - text: Главная
     link: index.html

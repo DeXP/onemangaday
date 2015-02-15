@@ -1,5 +1,6 @@
 ---
 layout: post
+tags: [beginner]
 title:  "Основы Comipo: Экспорт изображения"
 preview: 
   file: export.png

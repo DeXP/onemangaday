@@ -1,5 +1,6 @@
 ---
 layout: post
+tags: [beginner, logo]
 title:  "Создание логотипа Amazon в Comipo"
 preview: 
   file: amazon.png

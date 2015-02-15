@@ -1,0 +1,11 @@
+{% include POST-TAGS.html %}					<hr/>
+					<a href="{{ page.shortlinkadd }}{{ post.url }}"><span>{{ post.title }}</span></a>
+					<span class="post-date"> / {{ post.date | date: landat.dateformat }}</span>
+						{% if post.preview %}<a href="{{ page.shortlinkadd }}{{ post.url }}"><img src="{{ page.linkadd }}pic/tutorials/{{ post.preview.file }}" alt="{{ post.title }}" title="{{ post.title }}" class="floatleft preview"{% if post.preview.width %} width="{{ post.preview.width }}"{% endif %}{% if post.preview.height %} height="{{ post.preview.height }}"{% endif %} /></a>{% endif %}
+						{{ post.excerpt }}
+
+						<a href="{{ page.shortlinkadd }}{{ post.url }}" class="readmore"><span>{{ landat.str.ReadMore }}</span></a>
+
+						<p class="post-tags">{{ tags_content }}</p>
+
+						<div class="clear"></div>

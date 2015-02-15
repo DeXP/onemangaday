@@ -18,19 +18,13 @@ categories:
 							<li><a href="http://www.comipo.com/en/index.html" target="_blank"><img src="{{ page.linkadd }}pic/tutorials/comipoPo.png" alt="Comipo" width="30" height="27" class="vmiddle" /></a> <a href="http://www.comipo.com/en/index.html" target="_blank">Official site</a></li>
 							<li><a href="http://store.steampowered.com/app/262490/" target="_blank"><img src="{{ page.linkadd }}pic/badge-icon/steam-small.png" alt="Steam" width="28" height="28" class="vmiddle" /></a> <a href="http://store.steampowered.com/app/262490/" target="_blank">Steam</a></li>
 						</ul>
+
+						<p>Materials by tags <img src="{{ page.linkadd }}pic/tags.png" class="vmiddle" alt="{{ landat.str.MaterialTags }}" /></p>
+					   	{% include tagcloud.html %}
+
 						<p class="centered"><a href="http://www.comipo.com/en/index.html" target="_blank"><img src="{{ page.linkadd }}pic/tutorials/comipoLogo.png" alt="Comipo" /></a></p>
 						<div class="clear"></div>
 
-{% for post in site.categories.tutorials %}{% if post.categories.size == 1 %}
-					<hr/>
-					<a href="{{ page.shortlinkadd }}{{ post.url }}"><span>{{ post.title }}</span></a>
-					<span class="post-date"> / {{ post.date | date: "%Y-%m-%d" }}</span>
-						{% if post.preview %}<a href="{{ page.shortlinkadd }}{{ post.url }}"><img src="{{ page.linkadd }}pic/tutorials/{{ post.preview.file }}" alt="{{ post.title }}" title="{{ post.title }}" class="floatleft preview"{% if post.preview.width %} width="{{ post.preview.width }}"{% endif %}{% if post.preview.height %} height="{{ post.preview.height }}"{% endif %} /></a>{% endif %}
-						{{ post.excerpt }}
-
-						<a href="{{ page.shortlinkadd }}{{ post.url }}" class="readmore"><span>Read more</span></a>
-
-						<div class="clear"></div>
-{% endif %}{% endfor %}
+{% for post in site.categories.tutorials %}{% if post.categories.size == 1 %}{% include postblock.html %}{% endif %}{% endfor %}
 					</div>
 					&nbsp;

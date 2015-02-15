@@ -1,5 +1,6 @@
 ---
 layout: post
+tags: [beginner, background]
 title:  "Park background in Comipo"
 preview: 
   file: park.png

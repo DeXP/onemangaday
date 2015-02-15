@@ -1,1 +1,26 @@
-{% assign checkLang = "en" %}{% if page.curlang %}{% assign checkLang = page.curlang %}{% endif %} {% for lng in site.data.lang %}{% if lng.id == checkLang %}{% assign landat = lng %}{% endif %}{% endfor %}{% assign curaddlink = landat.addlink %}{% if page.linkadd %}{% assign curaddlink = page.linkadd %}{% endif %}
+{% capture cache %}
+{% if LANG_INCLUDED != "TRUE" %}
+{% assign LANG_INCLUDED = "TRUE" %}
+{% comment %} Not code now will go off. {% endcomment %}
+
+{% assign checkLang = "en" %}
+
+{% if page.curlang %}
+	{% assign checkLang = page.curlang %}
+{% endif %}
+
+{% assign landat = site.data.lang.en %}
+{% for lng in site.data.lang %}
+	{% if lng.id == checkLang %}
+		{% assign landat = lng %}
+	{% endif %}
+{% endfor %}
+
+{% assign curaddlink = landat.addlink %}
+{% if page.linkadd %}
+	{% comment %} if "page.linkadd" exists - use it. Need for 404 {% endcomment %}
+	{% assign curaddlink = page.linkadd %}
+{% endif %}
+
+{% endif %}
+{% endcapture %}{% assign cache = nil %}

@@ -1,5 +1,6 @@
 ---
 layout: post
+tags: [advanced, logo]
 title:  "Steam logo Comipo"
 preview: 
   file: steam.png

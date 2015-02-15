@@ -1,5 +1,6 @@
 ---
 layout: post
+tags: [beginner]
 title:  "Персонаж с крыльями в Comipo"
 preview: 
   file: wings.png

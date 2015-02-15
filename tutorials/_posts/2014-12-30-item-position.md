@@ -1,5 +1,6 @@
 ---
 layout: post
+tags: [beginner,ext3d]
 title:  "Item Positioning in Comipo"
 preview: 
   file: hand.png

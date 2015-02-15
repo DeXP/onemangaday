@@ -1,5 +1,6 @@
 ---
 layout: post
+tags: [advanced,ext3d]
 title:  "Конвертирование PMD, или новые причёски для Comipo"
 preview: 
   file: pmd.png

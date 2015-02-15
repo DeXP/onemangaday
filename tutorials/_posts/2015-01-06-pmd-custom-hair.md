@@ -1,5 +1,6 @@
 ---
 layout: post
+tags: [advanced,ext3d]
 title:  "Converting PMD, or new hairstyles for Comipo"
 preview: 
   file: pmd.png
