@@ -9,6 +9,8 @@
     Comments: Comments
     ReadMore: Read more
     MaterialTags: Material tags
+    MaterialsByTag: Materials by tags
+    All: All
     ReturnToTutorials: Return to Comipo tutorials
     ErrTagNoPosts: There are no posts for this tag.
   tags:
@@ -102,6 +104,8 @@
     Comments: Комментарии
     ReadMore: Читать дальше
     MaterialTags: Теги материала
+    MaterialsByTag: Материалы по тегам
+    All: Все
     ReturnToTutorials: Вернуться к урокам по Comipo
     ErrTagNoPosts: Нет постов с таким тегом.
   tags:
