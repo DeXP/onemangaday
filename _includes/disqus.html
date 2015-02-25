@@ -1,6 +1,7 @@
-					<div id="disqus_thread"></div>
+					<div id="disqus_thread"></div>{% include LANG.html %}
 					<script type="text/javascript">
-						var disqus_shortname = 'onemangaday';{% if page.curlang %}
+						var disqus_shortname = 'onemangaday';
+						var disqus_identifier = '{{ page.url }}';{% if page.curlang %}
 						var disqus_config = function () { this.language = "{{ page.curlang }}"; };{% endif %}
 						(function() {
 							var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
