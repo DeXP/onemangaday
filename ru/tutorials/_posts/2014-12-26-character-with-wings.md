@@ -31,7 +31,7 @@ markdown: markdown
 
 В данном случае использован эффект со вкладки "Comic Mark" - Feathers_113.
 
-Также крылья можно импортировать как 3D-объект. Например, Fake Dragon Wings под авторством MMDFakewings18 можно скачать <a href="http://mmdfakewings18.deviantart.com/art/Fake-Dragon-Wings-362489559" target="_blank">здесь</a>. А вот так они выглядят в Comipo:
+Также крылья можно импортировать как 3D-объект. Например, Fake Dragon Wings под авторством MMDFakewings18 можно скачать <a href="http://mmdfakewings18.deviantart.com/art/Fake-Dragon-Wings-362489559" target="_blank">здесь</a>, почитать про импорт в Comipo можно а [этом уроке](pmd-custom-hair.html). А вот так они выглядят в Comipo:
 
 ![Импортированные крылья в Comipo]({{ page.linkadd }}pic/tutorials/wings/OneMangaDay-Imported-wings.png)
 
