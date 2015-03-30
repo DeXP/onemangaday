@@ -2,6 +2,8 @@ name: One Manga Day
 url: http://onemangaday.dexp.in
 markdown: redcarpet
 highlighter: pygments
+#highlighter: rouge
 permalink: /:categories/:title.html
+include: ["*.ks"]
 gems:
   - jekyll-sitemap
