@@ -94,3 +94,11 @@ p > code, p > a > code, li > code, h3 > code {
 .highlight .vg { color: #d07000; font-weight: bold } /* Name.Variable.Global */
 .highlight .vi { color: #3030B0 } /* Name.Variable.Instance */
 .highlight .il { color: #0000D0; font-weight: bold } /* Literal.Number.Integer.Long */
+
+/* Make line numbers unselectable: excludes line numbers from copy-paste user ops */
+.highlight .lineno {-webkit-user-select: none;-moz-user-select: none; -o-user-select: none;}
+.highlight .lineno::-moz-selection {background-color: transparent;}/* Mozilla specific */
+.highlight .lineno::selection {background-color: transparent;} /* Other major browsers */
+
+.highlight .lineno { color: #b8b; margin: 0px; padding: 0 5px; border-right:1px solid #fcf; }
+.highlight td { padding: 0px 7px; }
