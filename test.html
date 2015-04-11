@@ -1,0 +1,19 @@
+---
+layout: default
+curlang: en
+title: testopage
+---
+
+					<span class="ih">Site.Pages</span>
+					<div class="info">
+{% for static_file in site.pages %}
+	{{ static_file.url }}<br/>
+{% endfor %}
+					</div>
+
+					<span class="ih">Site.Posts</span>
+					<div class="info">
+{% for static_file in site.posts %}
+	{{ static_file.url }}<br/>
+{% endfor %}
+					</div>

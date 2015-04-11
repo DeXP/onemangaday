@@ -1,0 +1,25 @@
+{% capture cachem %}
+
+{% assign curUrlExists = false %}
+
+{% for curFile in site.pages %}
+    {% if curFile.url == curUrl %}
+        {% assign curUrlExists = true %}
+    {% endif %}
+{% endfor %}
+
+{% for curFile in site.posts %}
+    {% if curFile.url == curUrl %}
+        {% assign curUrlExists = true %}
+    {% endif %}
+{% endfor %}
+
+{% if curUrlExists == false %}
+	{% for curFile in site.static_files %}
+	    {% if curFile.url == curUrl %}
+	        {% assign curUrlExists = true %}
+	    {% endif %}
+	{% endfor %}
+{% endif %}
+
+{% endcapture %}{% assign cachem = nil %}
