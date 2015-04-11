@@ -41,7 +41,7 @@ needHighLight: True
 Для начала представим себе сюжет новеллы. Я вижу новеллу примерно так (левый клик работает):
 
 <p class="centered">
-	<iframe src="{{ page.picdir }}ScratchMalvina/index.html" frameborder="0" scrolling="no" width="800" height="600" id="novell"></iframe>
+	<iframe src="{{ page.picdir }}ScratchMalvina/index.html" class="noborder hidover" width="800" height="600" id="novell"></iframe>
 </p>
 
 А вот так выглядит код для RenPy:

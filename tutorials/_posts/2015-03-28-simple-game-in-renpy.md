@@ -41,7 +41,7 @@ Exporting the layers one by one. We start with a background image, select the he
 First consider a plot of the novel. I see a novel like this (left click works):
 
 <p class="centered">
-	<iframe src="{{ page.picdir }}ScratchMalvinaEn/index.html" frameborder="0" scrolling="no" width="800" height="600" id="novell"></iframe>
+	<iframe src="{{ page.picdir }}ScratchMalvinaEn/index.html" class="noborder hidover" width="800" height="600" id="novell"></iframe>
 </p>
 
 This is how the RenPy code looks:
@@ -88,6 +88,6 @@ Line 16: *show dex norm at left with dissolve*. Reads as follows: show character
 
 Lines 23 and 24 - the animation of Malya and Dex position exchange. In these lines we use the *show* command, but since the character is already on the screen, then only animation will be applied.
 
-In fact - everything our first game ready. It has a small source, is not very difficult to understand. Here lies another trick in the RenPy study - study it is necessary to gradually adding one new feature, and depending on how they affect. Good help is <a href="http://www.renpy.org/doc/html/quickstart.html" target = "_ blank">Quickstart Guide</a>. Much more useful links can be found in the <a href="http://www.renpy.org/wiki/renpy/Wiki_Home_Page" target="_blank">Ren'Py Wiki</a>.
+In fact - everything our first game ready. It has a small source, is not very difficult to understand. Here lies another trick in the RenPy study - study it is necessary to gradually adding one new feature, and depending on how they affect. Good help is <a href="http://www.renpy.org/doc/html/quickstart.html" target = "_blank">Quickstart Guide</a>. Much more useful links can be found in the <a href="http://www.renpy.org/wiki/renpy/Wiki_Home_Page" target="_blank">Ren'Py Wiki</a>.
 
 Good luck in creating games!
