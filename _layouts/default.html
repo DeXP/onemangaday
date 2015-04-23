@@ -17,7 +17,6 @@
 			<div id="supDiv">
 			<div id="supPers">
 				<div id="header">
-					<a id="aGrL" href="http://steamcommunity.com/sharedfiles/filedetails/?id=372656709" target="_blank"><div class="greenLight-{% if page.curlang == "ru" %}ru{% else %}en{% endif %}">&nbsp;</div></a>
 					<div id="langSwith">{% for lng in site.data.lang %}{% capture cache %}
 						{% capture pagePostURL %}{{ lng.link }}{% if page.categories %}{{ page.categories | last }}/{% endif %}{{ page.url | split:"/" | last }}{% endcapture %}
 

@@ -44,9 +44,9 @@
   - text: Feedback
     link: feedback.html
   badges:
-  - link: http://steamcommunity.com/sharedfiles/filedetails/?id=372656709
-    html: <b>Steam</b><br/>Grenlight
-    alt: Steam Greenlight
+  - link: http://store.steampowered.com/app/365070
+    html: Download<br/>on <b>Steam</b>
+    alt: Steam Store
     class: whitebadge
     icon: steam.png
     width: 45
@@ -73,16 +73,10 @@
     class: whitebadge badgelong
     icon: igmc.png
     width: 45
-  - link: http://www.desura.com/games/one-manga-day
-    html: <b>Desura</b><br/><span>Community</span>
-    alt: Desura
-    class: pinkbadge
-    icon: desura.png
-    width: 48
   - link: https://github.com/DeXP/onemangaday
     html: <b>Github</b><br/><span>Social coding</span>
     alt: Github
-    class: whitebadge
+    class: pinkbadge
     icon: github.png
     width: 46
 
@@ -139,9 +133,9 @@
   - text: Связь
     link: feedback.html
   badges:
-  - link: http://steamcommunity.com/sharedfiles/filedetails/?id=372656709
-    html: <b>Steam</b><br/>Grenlight
-    alt: Steam Greenlight
+  - link: http://store.steampowered.com/app/365070
+    html: Скачать в<br/><b>Steam</b>
+    alt: Магазин Steam 
     class: whitebadge
     icon: steam.png
     width: 45
@@ -168,16 +162,10 @@
     class: whitebadge badgelong
     icon: igmc.png
     width: 45
-  - link: http://www.desura.com/games/one-manga-day
-    html: <b>Desura</b><br/><span>Сообщество</span>
-    alt: Desura
-    class: pinkbadge
-    icon: desura.png
-    width: 48
   - link: https://github.com/DeXP/onemangaday
     html: <b>Github</b><br/><span>репозиторий</span>
     alt: Github
-    class: whitebadge
+    class: pinkbadge
     icon: github.png
     width: 46
 
