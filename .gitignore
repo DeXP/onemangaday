@@ -1,0 +1,9 @@
+tmp
+game/saves
+pic
+**.bak
+**.rpyc
+**.rpyb
+**.swp
+*.txt
+*.tab

@@ -186,7 +186,7 @@ screen main_menu:
     window:
         style "mm_root"
         #Image( _("bg/Title.png"), xalign=0.9, yalign=0.025)
-        add __("bg/Title.png") xalign .9 yalign .025
+        add __("bg/Title.png") xalign .97 yalign .025
         #add anim.Blink( __("bg/Title.png"), high=0.7, low=1.0  ) xalign .9 yalign .025
         #Animation( _("bg/Title.png"), 0.5, im.FactorScale(_("bg/Title.png"), 0.9), 0.5) 
         #add mmTitle
@@ -248,22 +248,22 @@ screen help:
             $ fulltext +=__("Звуковые эффекты взяты с сайта {a=http://freesound.org/}http://freesound.org{/a}. Особая благодарность {a=http://www.freesound.org/people/MadamVicious/}MadamVicious{/a} и {a=https://www.freesound.org/people/ecfike/}ecfike{/a} за их прекрасные голоса.\n")
             $ fulltext +=__("\n")
             $ fulltext +=__("Игра выполнена в рамках {a=http://contest.rpgmakerweb.com/}2014 Indie Game Maker Contest{/a}\n")
-            $ fulltext +=__("(с) Все права защищены. {a=http://dexperix.net}DeXPeriX{/a}, июнь 2014")
+            $ fulltext +=__("(с) Все права защищены. {a=http://dexp.in}DeXPeriX{/a}, июнь 2014")
             $ fulltext += "{/color}"
             text["[fulltext]"]
-            $ ss = [__("{color=#555555}Эта игра посвящена одному дню из жизни переводчика манги. События и персонажи имеют отношение к реально существующей команде, но все факты жесточайшим образом преувеличены или извращены.\n"
-                 "Больше информации можно найти в титрах после прохождения игры или на сайте:\n"
-                 "{a=http://OneMangaDay.dexp.in}http://OneMangaDay.dexp.in{/a}\n"
-                 "\n"
-                 "Игра сделана на движке {b}Ren'Py{/b}. Информацию о Ren'Py и о его авторах можно найти на сайте: {a=http://renpy.org}http://www.renpy.org/{/a}\n"
-                 "\n"
-                 "Графика сделана в {a=http://www.comipo.com/en/}Manga Maker ComiPo!{/a}, с использованием {a=http://gimp.org}GIMP{/a}.\n"
-                 "Музыка сделана в программе {a=http://magix.com}MAGIX Music Maker 2014{/a}.\n"
-                 "\n"
-                 "Звуковые эффекты взяты с сайта {a=http://freesound.org/}http://freesound.org{/a}. Особая благодарность {a=http://www.freesound.org/people/MadamVicious/}MadamVicious{/a} и {a=https://www.freesound.org/people/ecfike/}ecfike{/a} за их прекрасные голоса.\n"
-                 "\n"
-                 "Игра выполнена в рамках {a=http://contest.rpgmakerweb.com/}2014 Indie Game Maker Contest{/a}\n"
-                 "(с) Все права защищены. {a=http://dexperix.net}DeXPeriX{/a}, июнь 2014{/color}")]
+            #$ ss = [__("{color=#555555}Эта игра посвящена одному дню из жизни переводчика манги. События и персонажи имеют отношение к реально существующей команде, но все факты жесточайшим образом преувеличены или извращены.\n"
+            #     "Больше информации можно найти в титрах после прохождения игры или на сайте:\n"
+            #     "{a=http://OneMangaDay.dexp.in}http://OneMangaDay.dexp.in{/a}\n"
+            #     "\n"
+            #     "Игра сделана на движке {b}Ren'Py{/b}. Информацию о Ren'Py и о его авторах можно найти на сайте: {a=http://renpy.org}http://www.renpy.org/{/a}\n"
+            #     "\n"
+            #     "Графика сделана в {a=http://www.comipo.com/en/}Manga Maker ComiPo!{/a}, с использованием {a=http://gimp.org}GIMP{/a}.\n"
+            #     "Музыка сделана в программе {a=http://magix.com}MAGIX Music Maker 2014{/a}.\n"
+            #     "\n"
+            #     "Звуковые эффекты взяты с сайта {a=http://freesound.org/}http://freesound.org{/a}. Особая благодарность {a=http://www.freesound.org/people/MadamVicious/}MadamVicious{/a} и {a=https://www.freesound.org/people/ecfike/}ecfike{/a} за их прекрасные голоса.\n"
+            #     "\n"
+            #     "Игра выполнена в рамках {a=http://contest.rpgmakerweb.com/}2014 Indie Game Maker Contest{/a}\n"
+            #     "(с) Все права защищены. {a=http://dexp.in}DeXPeriX{/a}, июнь 2014{/color}")]
     #Здесь создается ссылка на главное меню 
     frame: 
         style_group "mm" 

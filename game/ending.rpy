@@ -39,7 +39,7 @@ label titles:
     centered "Сюжет, графика, музыка,\n
 идея и реализация:\n
 {b}DeXPeriX{/b} a.k.a. Храбров Дмитрий\n
-{a=http://dexperix.net}http://dexperix.net{/a}"  #with dissolve #"\n"
+{a=http://dexp.in}http://dexp.in{/a}"  #with dissolve #"\n"
     hide Cracker with dissolve
     
     
@@ -52,8 +52,20 @@ label titles:
         xalign 1.45 yalign -2.5
     centered "Перевод на английский:\n
 {b}Mari Prianaja{/b},\n
-{b}DeXPeriX{/b} a.k.a. Храбров Дмитрий"
+{b}DeXPeriX{/b} a.k.a. Храбров Дмитрий\n\n
+
+Улучшения английского текста:\n
+{b}Mangles{/b} a.k.a. Richard Hogan,\n
+Warren '{b}Wazza{/b}' Brent"
+    
+    centered "Вычитка английского текста:\n
+bluecasuality@gmail.com (День 1)\n
+{b}EeuorT{/b} a.k.a. Robert Nesbitt (День 2, 7)\n
+{b}PintSizedPurple{/b} a.k.a. Will Williams (3, 4)\n
+{b}Mangles{/b} a.k.a. Richard Hogan (День 5)\n
+Warren '{b}Wazza{/b}' Brent (День 6)" with dissolve
     hide CrEn
+    
     
 
     image CrRu = "items/flags/ru.jpg"
@@ -135,8 +147,22 @@ label titles:
     centered "Больше информации можно найти на сайте:\n{a=http://OneMangaDay.dexp.in}http://OneMangaDay.dexp.in{/a}\n
 \n
 Или на сайте автора:\n
-{a=http://dexperix.net}http://dexperix.net{/a}"  with dissolve
+{a=http://dexp.in}http://dexp.in{/a}"  with dissolve
     #hide CrKaska
+    
+    image SteamGreenlight = "items/SteamGreenlight.png"
+    show SteamGreenlight at left with dissolve:
+        xalign 0.9 yalign 0.1
+    image SteamIcon = "items/SteamIcon.png"
+    show SteamIcon at left with dissolve:
+        xalign 0.0 yalign 1.0
+    centered "Отдельное спасибо проголосовавшим за игру в {a=http://steamcommunity.com/sharedfiles/filedetails/?id=372656709}Steam Greenlight{/a}.\n
+И площадке {a=http://store.steampowered.com/app/365070}Steam{/a} в общем за возможность опубликовать игру.\n
+\n
+Так же огромное спасибо всем бэта-тестрам финальной версии. Без вас игра не получилась бы настолько хорошей!"
+    hide SteamGreenlight
+    hide SteamIcon
+    with dissolve
     
     show Flags at topleft
     centered "Спасибо, что были с нами!" with dissolve

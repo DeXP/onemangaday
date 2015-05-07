@@ -26,8 +26,10 @@ init -1 python hide:
     ## поставить False перед выпуском игры, чтобы
     ## пользователь не смог мошенничать, используя эти инструменты.
 
-    config.developer = True
+    #config.developer = True
+    config.developer = False
     #config.help = "android"
+    #config.help = "steam"
     
     
     build.google_play_key = "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAim+nfSYGZfSiY+73iyXcx4ZTuFAiEt7tZjRIQQCNqyrFBvMQpiTV+oCweEKCfh8UHPpu9OXkMyLely0AnVUCUa0GzNUSZ3lVSYNw2IR1xl8AVtNgFu7XoAv5hA8JVAgsOElZAqvHyOzTm8Edu34ElB1ZtnaDolVfHvFmbKFtQf1ZRhzcoFsAV5KFyKHmdgfRFyZ/mHZXGPAyNe4Uuo7pfLjs7mXNTt34V5KURlLeRMF+ECQRblQ49yZxh/EayQwXhSAMh9vY7Tam49KEkV+8rQoQnu32Yj/PPtCMxTquH/+iUUM9KMYRFptAK0F2xoDIb+CW95gtVKWHbfFMP0+9+QIDAQAB"
@@ -51,7 +53,7 @@ init -1 python hide:
     # Эти управляют именем и версией игры, которые указываются
     # в журналах отладки.
     config.name = "OneMangaDay"
-    config.version = "1.02"
+    config.version = "1.7"
 
     #########################################
     # Темы
@@ -106,13 +108,14 @@ init -1 python hide:
         #        "bg/Branch_Cherry4_mm.png", 1.5),
         SnowBlossom("bg/particle/sak2.png", count=7, xspeed=(15, 40), yspeed=(80, 160), start=0, border=80),
         
+
+        Image("items/Gate1.png", xalign=1.0, yalign=0.53),
+        Image("bg/team_mm3.png", xalign=0.2, yalign=1.0),
         Animation("pers/gol/g1.png", 0.6,
                 "pers/gol/g3.png", 0.15,
                 "pers/gol/g2.png", 1.1,
                 "pers/gol/g3.png", 0.05
                 ),
-        Image("items/Gate1.png", xalign=1.0, yalign=0.53),
-        Image("bg/team_mm3.png", xalign=0.35, yalign=1.0),
         Animation("pers/face/t.png", 1,
                 "pers/face/lyba_eye_wink.png", 2),
         #SnowBlossom("bg/Petal_01.png", count=2, xspeed=(10, 30), yspeed=(50, 70), start=1),
@@ -221,7 +224,7 @@ init -1 python hide:
 
     config.has_voice = False
     #config.has_voice = True
-    #config.auto_voice = "voice/ru/{id}.wav"
+    config.auto_voice = "voice/ru/{id}.ogg"
 
     ## Звуки при нажатии на кнопки и imagemap-ы.
 
@@ -352,7 +355,7 @@ init python:
     ## The name that's used for directories and archive files. For example, if
     ## this is 'mygame-1.0', the windows distribution will be in the
     ## directory 'mygame-1.0-win', in the 'mygame-1.0-win.zip' file.
-    build.directory_name = "OneMangaDay-1.02"
+    build.directory_name = "OneMangaDay-1.7"
 
     ## The name that's uses for executables - the program that users will run
     ## to start the game. For example, if this is 'mygame', then on Windows,
@@ -394,9 +397,25 @@ init python:
     build.classify('**~', None)
     build.classify('**.bak', None)
     build.classify('**.rpy', None)
+    build.classify('**.html', None)
+    build.classify('**.yml', None)
+    build.classify('**.css', None)
+    build.classify('**LICENSE', None)
     build.classify('**/.**', None)
     build.classify('**/#**', None)
     build.classify('**/thumbs.db', None)
+    build.classify('_data/**', None)
+    build.classify('_includes/**', None)
+    build.classify('_layouts/**', None)
+    build.classify('pic/**', None)
+    build.classify('ru/**', None)
+    build.classify('banner/**', None)
+    build.classify('tutorials/**', None)
+    build.classify('CNAME', None)
+    build.classify('favicon.ico', None)
+    build.classify('robots.txt', None)
+    build.classify('Lybares_dialog.txt', None)
+
 
     ## To archive files, classify them as 'archive'.
 

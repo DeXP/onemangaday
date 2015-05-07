@@ -540,3 +540,71 @@ translate english strings:
     new "q"
 
 
+# TODO: Translation updated at 2015-01-11 14:34
+
+translate english strings:
+
+    # renpy/common/00preferences.rpy:373
+    old "Self-voicing enabled. Press 'v' to disable."
+    new "Self-voicing enabled. Press 'v' to disable."
+
+# TODO: Translation updated at 2015-04-26 11:28
+
+translate english strings:
+
+    # renpy/common/00preferences.rpy:387
+    old "Clipboard voicing enabled. Press 'shift+C' to disable."
+    new "Clipboard voicing enabled. Press 'shift+C' to disable."
+
+# TODO: Translation updated at 2015-04-26 11:28
+
+translate english strings:
+
+    # renpy/common/00updater.rpy:362
+    old "The Ren'Py Updater is not supported on mobile devices."
+    new "The Ren'Py Updater is not supported on mobile devices."
+
+    # renpy/common/00updater.rpy:478
+    old "An error is being simulated."
+    new "An error is being simulated."
+
+    # renpy/common/00updater.rpy:654
+    old "Either this project does not support updating, or the update status file was deleted."
+    new "Either this project does not support updating, or the update status file was deleted."
+
+    # renpy/common/00updater.rpy:668
+    old "This account does not have permission to perform an update."
+    new "This account does not have permission to perform an update."
+
+    # renpy/common/00updater.rpy:671
+    old "This account does not have permission to write the update log."
+    new "This account does not have permission to write the update log."
+
+    # renpy/common/00updater.rpy:696
+    old "Could not verify update signature."
+    new "Could not verify update signature."
+
+    # renpy/common/00updater.rpy:956
+    old "The update file was not downloaded."
+    new "The update file was not downloaded."
+
+    # renpy/common/00updater.rpy:974
+    old "The update file does not have the correct digest - it may have been corrupted."
+    new "The update file does not have the correct digest - it may have been corrupted."
+
+    # renpy/common/00updater.rpy:1030
+    old "While unpacking {}, unknown type {}."
+    new "While unpacking {}, unknown type {}."
+
+# TODO: Translation updated at 2015-04-26 11:28
+
+translate english strings:
+
+    # renpy/common/_developer/developer.rpym:437
+    old "Rectangle copied to clipboard."
+    new "Rectangle copied to clipboard."
+
+    # renpy/common/_developer/developer.rpym:440
+    old "Position copied to clipboard."
+    new "Position copied to clipboard."
+

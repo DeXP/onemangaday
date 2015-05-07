@@ -198,7 +198,7 @@
 
     # game/screens.rpy:238
     old "Больше информации можно найти в титрах после прохождения игры или на сайте:\n"
-    new "More info can be found in titers, or on the official site:\n"
+    new "More info can be found in credits, or on the official site:\n"
 
     # game/screens.rpy:239
     old "{a=http://OneMangaDay.dexp.in}http://OneMangaDay.dexp.in{/a}\n"
@@ -228,12 +228,10 @@
     old "Игра выполнена в рамках {a=http://contest.rpgmakerweb.com/}2014 Indie Game Maker Contest{/a}\n"
     new "The game is made in the {a=http://contest.rpgmakerweb.com/}2014 Indie Game Maker Contest{/a}\n"
 
-    # game/screens.rpy:249
-    old "(с) Все права защищены. {a=http://dexperix.net}DeXPeriX{/a}, июнь 2014"
-    new "(c) All rights reserved. {a=http://dexperix.net}DeXPeriX{/a}, June 2014"
+    # game/screens.rpy:251
+    old "(с) Все права защищены. {a=http://dexp.in}DeXPeriX{/a}, июнь 2014"
+    new "(c) All rights reserved. {a=http://dexp.in}DeXPeriX{/a}, June 2014"
 
-
-# TODO: Translation updated at 2014-06-25 16:15
 
 translate english strings:
 

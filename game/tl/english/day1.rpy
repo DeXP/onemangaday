@@ -8,13 +8,13 @@ translate english day1_be2bda80:
 translate english day1_baac4ec7:
 
     # "???" "Ты попал в штаб-квартиру. Мы переводим мангу."
-    "???" "You’ve got in the headquarters. We translate manga."
+    "???" "You’ve got into the headquarters. We translate manga."
 
 # game/day1.rpy:15
 translate english day1_2b9ef353:
 
     # "???" "И мы должны переводить её быстрее и качественнее вероятного противника!"
-    "???" "And we must translate it faster and better than potential enemy!"
+    "???" "And we must translate it faster and better than potential enemies!"
 
 # game/day1.rpy:16
 translate english day1_6f404aea:
@@ -26,13 +26,13 @@ translate english day1_6f404aea:
 translate english day1_7f130acb:
 
     # "???" "Ну и отлично. Работы непочатый край, рабочие руки всегда нужны."
-    "???" "Very good. We have a lot of work and workers' hands are always needed."
+    "???" "Very good. We have a lot of work and helping hands are always needed."
 
 # game/day1.rpy:33
 translate english day1_0608368f:
 
     # "???" "Не важно! Работы слишком много, и тебе придётся её делать. Родина тебя не забудет!"
-    "???" "Does not matter! There is too much work, and you have to do it. Motherland will not forget you!"
+    "???" "It doesn’t matter! There is a lot of work to do, and you have to do it. The Motherland will not forget you!"
 
 # game/day1.rpy:36
 translate english day1_0838fe54:
@@ -62,19 +62,19 @@ translate english day1_b2f87161:
 translate english day1_e9502699:
 
     # lyblabla "Он вообще-то нормальный парень, но периодически совсем неадекват..."
-    lyblabla "He is actually a normal guy, but sometimes quite inadequate..."
+    lyblabla "He’s actually a pretty normal guy, but sometimes quite inadequate..."
 
 # game/day1.rpy:54
 translate english day1_51714f5b:
 
     # lyblabla "Ну... В штаб-квартиру тебе пока ещё рано. Так что пойдём, я покажу тебе учебную базу. Заодно и с остальной командой познакомишься!"
-    lyblabla "Well... You cannot enter the headquarters yet. So come on, I'll show you a training base. And you can meet the rest of the team!"
+    lyblabla "Well... You cannot enter the headquarters yet. Follow me to the training base, and I’ll introduce you to the rest of the team!"
 
 # game/day1.rpy:62
 translate english day1_529a7663:
 
     # lyblabla "Вот, это наше учебное помещение. Иногда оно же рабочее, оно же столовая, оно же... Хотя нет, про остальные возможные применения помещения узнаешь в процессе!"
-    lyblabla "Here is our training room. Sometimes it is working room, it is also a dining room, it is also... No, you'll know about other possible uses of this room in the working process!"
+    lyblabla "Here is our training room. Sometimes it’s used as a working room, it could also be used as a dining room, it could also... Nevermind, you'll figure out the full functionality of this room in due course!"
 
 # game/day1.rpy:63
 translate english day1_5417e248:
@@ -86,19 +86,19 @@ translate english day1_5417e248:
 translate english day1_e2495b10:
 
     # lap "Да, Лайби. Зачем я тебе понадобилась?"
-    lap "Yes, Laiby. Why do you need me?"
+    lap "Yeah Laiby? Is there something you need from me?"
 
 # game/day1.rpy:74
 translate english day1_8b6326d5:
 
     # lap "Ой, а ты новенький, да? Рада с тобой познакомиться!"
-    lap "Oh, you're newcomer, right? Pleased to meet you!"
+    lap "Oh, you're the newcomer, right? Pleased to meet you!"
 
 # game/day1.rpy:76
 translate english day1_47e5e25c:
 
     # lap "Ну, теперь работать станет чуточку легче, и мы сможем делать релизы чаще."
-    lap "Well, now will be a little easier to work, and we can do more releases."
+    lap "Well, now it’ll be a little easier to work, and we can make a lot more releases."
 
 # game/day1.rpy:78
 translate english day1_c512cdfa:
@@ -110,73 +110,73 @@ translate english day1_c512cdfa:
 translate english day1_cdd66f3c:
 
     # lap "Ай, ну вас всех. Только \"хи-хи\" да \"ха-ха\". А на серьёзные темы и поговорить не с кем..."
-    lap "Oh, get off. You can only \"hee-hee\" and \"ha ha\". And no one can talk about serious topics..."
+    lap "Oh, come on. You can only \"hee-hee\" and \"ha ha\". And no one can talk about serious topics..."
 
 # game/day1.rpy:96
 translate english day1_fb61514c:
 
     # lyblabla "Мда. Придётся всё-таки мне лично показать тебе основные этапы перевода манги."
-    lyblabla "Hmm. I guess, I have personally to show you the basic steps of the manga translation."
+    lyblabla "Hmm. I guess I have to personally demonstrate the manga translation process for you."
 
 # game/day1.rpy:97
 translate english day1_09a4dc44:
 
     # lyblabla "Или ты и так знаком с основными этапами перевода манги?"
-    lyblabla "Or you already familiar with the basic steps of the manga translation?"
+    lyblabla "Or are you already familiar with it?"
 
 # game/day1.rpy:104
 translate english day1_04c2d02e:
 
     # lyblabla "Сначала оригинал манги сканируется и переводится в цифровой вид. За это отвечает сканировщик."
-    lyblabla "First, the original manga is scanned and converted into digital form. Scanner is responsible for this."
+    lyblabla "First, the original manga is scanned and converted into digital form. The Scanner is responsible for this."
 
 # game/day1.rpy:106
 translate english day1_ed5fc9ad:
 
     # lyblabla "Дальше изображение надо очистить от мусора и старых надписей. Этим занимается клинер."
-    lyblabla "Next, the image must be cleaned of debris and old inscriptions. Cleaner is doing this."
+    lyblabla "Next, the image must be cleaned of debris and old inscriptions. A Cleaner will do this."
 
 # game/day1.rpy:108
 translate english day1_3c0465a3:
 
     # lyblabla "Параллельно со сканированием и клином можно осуществлять непосредственно перевод манги с одного языка на другой. Обычно переводчик выдаёт результат своей деятельности в виде текстового файла."
-    lyblabla "Translation from one language into another can be done in parallel with scanning and cleaning. Usually translators produce a result of their activities in the text file form."
+    lyblabla "Translation from one language into another can be done in parallel with scanning and cleaning. Usually Translators compile the finished result in text file form."
 
 # game/day1.rpy:109
 translate english day1_2eb34a54:
 
     # lyblabla "Каждый перевод потом вычитывается на лексические, орфографические и прочие ошибки. Этим занимается корректор."
-    lyblabla "Then each translation is proofreading on lexical, spelling and other mistakes. Only proofreader can do it."
+    lyblabla "Then each translation is proofread to correct vocabulary, spelling and other errors. Only the Proofreader can do this."
 
 # game/day1.rpy:111
 translate english day1_0f85a2fa:
 
     # lyblabla "Когда есть очищенные сканы и вычитанный перевод, то перевод можно нанести на подготовленные изображения. Этим занимается тайпер."
-    lyblabla "When there is the cleaned scans and proofreaded translation, the translation can be applied to the prepared images. Typer is doing this."
+    lyblabla "When the cleaned scans and proofread translations are available, the translation can be applied to the prepared images. The Typist is doing this."
 
 # game/day1.rpy:112
 translate english day1_0d7cae70:
 
     # lyblabla "Ну а когда текст нанесён на изображения остаётся проверить общее качество всей выполненной работы. Этим занимается бэта-ридер."
-    lyblabla "The last part of the work - total quality control. This is main beta-reader's function."
+    lyblabla "The last part of the work - overall quality control. This is the main Beta-Reader's function."
 
 # game/day1.rpy:121
 translate english day1_03517946:
 
     # lyblabla "Ну хорошо. Пройдись по коридору, выбери себе занятие по душе."
-    lyblabla "Oh well, now walk down the hall, pick something to do."
+    lyblabla "Okay, now you’re free to roam down the hall and select a role for yourself."
 
 # game/day1.rpy:122
 translate english day1_23d601ac:
 
     # lyblabla "Но помни, что можешь пройти обучение только у трёх учителей!"
-    lyblabla "But remember that you can be trained only three teachers!"
+    lyblabla "But remember that you can be trained by only three teachers!"
 
 # game/day1.rpy:150
 translate english domenu_1c1e9a7b:
 
     # lyblabla "Люк! Дао сканирования познаётся лишь однажды! Познай другую сторону силы."
-    lyblabla "Luke! Scanning Dao can be known only once! Know the other side of the force."
+    lyblabla "Hold it! You've already been shown everything about scanning! Go and learn some other skills."
 
 # game/day1.rpy:159
 translate english domenu_b6cc98ba:
@@ -194,14 +194,14 @@ translate english domenu_0e44300b:
 translate english domenu_bab1b3bb:
 
     # lyblabla "Текст после релиза не корректируют! Не судьба..."
-    lyblabla "Text cannot be corrected after release! No luck ..."
+    lyblabla "Text can’t be corrected after release! Hopeless..."
 
 
 # game/day1.rpy:186
 translate english domenu_bddaa668:
 
     # lyblabla "Да даже газету не печатают дважды! А ты два раза на тайп хочешь..."
-    lyblabla "Even the newspaper does not print twice! But you want to learn typer profession twice..."
+    lyblabla "The newspaper doesn’t even print twice! But you want to learn the typist’s job twice..."
 
 
 # game/day1.rpy:195
@@ -215,43 +215,43 @@ translate english domenu_4e55cb62:
 translate english domenu_50f81b10:
 
     # lyblabla "Хватит есть! Так и потолстеть недолго..."
-    lyblabla "Enough to eat! So long... and getting fat."
+    lyblabla "Enough eating! Doing it for so long is getting you all fattened up."
 
 # game/day1.rpy:212
 translate english domenu_7626dafb:
 
     # lyblabla "Работать - нужно!"
-    lyblabla "You need to work!"
+    lyblabla "You need to get to work!"
 
 # game/day1.rpy:229
 translate english scan_78dee48f:
 
     # dexp "Привет. Мы уже знакомы. Однако я не только переводчик, но и сканировщик."
-    dexp "Hey. We’ve met earlier. However, I am not only a translator but also a scanner."
+    dexp "Hey. We’ve met earlier. By the way, I am not only a translator, but I’m also a scanner."
 
 # game/day1.rpy:230
 translate english scan_24e4eb46:
 
     # dexp "Казалось бы, что там сложного в этом сканировании? Берёшь бумажки, кладёшь на сканер, жмёшь кнопку."
-    dexp "It just seems that there is no complicated things in scan? You take a piece of paper, put on the scanner, press the button."
+    dexp "Scanning doesn’t sound that complicated though... Don’t you just take a piece of paper, put on the scanner, and press the button?"
 
 # game/day1.rpy:232
 translate english scan_c817eea4:
 
     # dexp "Но всё не так просто..."
-    dexp "But things are not so simple..."
+    dexp "But it’s not as simple as you think..."
 
 # game/day1.rpy:234
 translate english scan_584e3611:
 
     # dexp "Во-первых, томики манги - это не подготовленные единичные странички, а именно цельные книги."
-    dexp "First, the volumes of the manga - it is not prepared single pages. This is a whole book."
+    dexp "First, the volumes of the manga - it is not prepared as single pages. This is a whole book."
 
 # game/day1.rpy:236
 translate english scan_67717f72:
 
     # dexp "Чтобы расклеить мангу на листки, необходимо разогревать утюгом корешок. Что бы при этом мангу не сжечь, необходимо греть аккуратно, через марлю."
-    dexp "To split manga volume on single pages you need to heat it's spine with iron. You must not burn your manga, so does it gently, through cheesecloth."
+    dexp "To split the manga volume on single pages you need to heat its spine with iron. You can’t burn your manga, so you have to iron it gently with cheesecloth."
 
 # game/day1.rpy:237
 translate english scan_73a95180:
@@ -263,7 +263,7 @@ translate english scan_73a95180:
 translate english scan_63b1452c:
 
     # dexp "Далее надо провести непосредственно сканирование полученных страничек. Сотни их, сотни..."
-    dexp "Further it is necessary to do scanning work on received pages. Hundreds of them, hundreds..."
+    dexp "Additionally, you have to do scanning work on hundreds and hundreds of distributed pages..."
 
 # game/day1.rpy:240
 translate english scan_f3be5621:
@@ -287,13 +287,13 @@ translate english scan_5d47a9bf:
 translate english scan_47d61c0d:
 
     # dexp "И какая же из картинок лучше?"
-    dexp "Which of the image is better?"
+    dexp "Which image is better?"
 
 # game/day1.rpy:257
 translate english scan_b3a618ab:
 
     # dexp "Левая, правая... Непонятно! Лучше посмотрим под увеличением!"
-    dexp "Left one, right one... it's incomprehensible! But we can look under the zoom!"
+    dexp "Left one, right one... can't tell the difference! But we can look under the zoom!"
 
 # game/day1.rpy:264
 translate english scan_7f530a79:
@@ -317,13 +317,13 @@ translate english scan_adf46e79:
 translate english scan_dae4f650:
 
     # dexp "Это изображение получено на CIS-сканере. Размытие в области деформаций ужасно!"
-    dexp "This image was obtained on the CIS-scanner. Blur in deformation area is awful!"
+    dexp "This image was obtained on the CIS-scanner. The blur in the deformed area is awful!"
 
 # game/day1.rpy:278
 translate english scan_b2e9445e:
 
     # dexp "А это получено на CDD-сканере. Деформация примерно одинакова, но какова разница в результирующей картинке!"
-    dexp "And it's got on CDD-scanner. Deformation is approximately the same, but what a difference in the resulting picture!"
+    dexp "And here's the image from the CDD-scanner. Deformation is approximately the same, but what a difference in the resulting picture!"
 
 # game/day1.rpy:281
 translate english scan_afb63e18:
@@ -335,13 +335,13 @@ translate english scan_afb63e18:
 translate english scan_c1a8b387:
 
     # dexp "Ещё при сканировании следует не забывать следить за именованием файлов и за ориентацией сканов."
-    dexp "Also you should not forget to follow the file naming and the scans orientation."
+    dexp "Also you should not forget to follow the file naming and scan orientation."
 
 # game/day1.rpy:288
 translate english scan_77aadd54:
 
     # dexp "Ну... Я рассказал тебе о сканировании всё, что знаю. Дальше поможет только практика."
-    dexp "Well... I've told you about scanning everything I know. Now you need only practice."
+    dexp "Well... I've told you everything I know about scanning. Now all you need is practice."
 
 # game/day1.rpy:291
 translate english scan_29e87a70:
@@ -353,39 +353,39 @@ translate english scan_29e87a70:
 translate english scan_4449b1d1:
 
     # lap "Это что, домогательство? Нарываешься, да?!?"
-    lap "Is this harassment? Expecting trouble, huh??"
+    lap "Is this harassment? You looking for trouble, huh??"
 
 # game/day1.rpy:315
 translate english kliner_091ecd7c:
 
     # "???" "Мда, ну и как поставить PHP под FreeBSD? Ууу! Сервера - зло!"
-    "???" "Hmm, how to install PHP under FreeBSD? Ooh! Servers - evil!"
+    "???" "Hmm, how do you install PHP under FreeBSD? Ooh! Servers - evil!"
 
 # game/day1.rpy:318
 translate english kliner_160bca4f:
 
     # "???" "Да и как-то кривоват сервер-то... Наверное, не следовало собирать его из подручного мусора..."
-    "???" "Hmm. Server is awfull... Probably, I should not collect it from improvised rubbish..."
+    "???" "Hmm. The server is awful... I probably shouldn't have set it up with parts from the garbage bin..."
 
 # game/day1.rpy:321
 translate english kliner_92a7cefc:
 
     # lexa "А, привет! Я энжынегр-зубр. Можно просто \"Лёха\". Я тут иногда клиню."
     # Шутку про зубра ваще выкинуть? Жаалко)  Там же ник обыгрывается... можно оставить
-    lexa "Oh, hey! I am a bison. You can call \"Alex\". Sometimes I do the cleaning."
+    lexa "Oh, hey! I am a bison. You can call me \"Alex\". Sometimes I do the cleaning."
 
 # game/day1.rpy:322
 translate english kliner_0f569393:
 
     # lexa "Но всё чаще пытаюсь разрулить выдуманные проблемы с несуществующим сервером!"
-    lexa "But increasingly I’ve tried to fix the fictional problems with non-existing server!"
+    lexa "But I’ve tried fixing the fictional problems with non-existing servers more often!"
 
 # game/day1.rpy:325
 translate english kliner_dc4ea302:
 
     # dexp "Лёша, зараза, сделай клин, а?"
     # an infection 
-    dexp "Alex, dumb, make a cleaning, eh?"
+    dexp "Silly Alex, make a cleaning, eh?"
 
 # game/day1.rpy:327
 translate english kliner_4c5656ea:
@@ -397,25 +397,25 @@ translate english kliner_4c5656ea:
 translate english kliner_22e30dac:
 
     # lexa "Слева изображение после сканера. Справа - правильное изображение после клина."
-    lexa "Left there is the image after the scanner, right one - the correct image after the cleaning."
+    lexa "The left one is the image after the scanner, and the right one is the correct image after the cleaning."
 
 # game/day1.rpy:334
 translate english kliner_bcf1f2c8:
 
     # lexa "Разница видна в уровнях шума, в цветах и текстурах. Ну а теперь рассмотрим самые распространённые ошибки:"
-    lexa "The difference is in the noise level, colors and textures. Well, now discuss the most common mistakes."
+    lexa "The difference is in the noise level, colors and textures. We’ll discuss the most common mistakes now."
 
 # game/day1.rpy:341
 translate english kliner_c37238c9:
 
     # lexa "Вот. Слева нормальный клин. Справа - с преувеличенным количеством чёрного. Так быть не должно."
-    lexa "That's it. Left one is normal. Right one has an exaggerated amount of black. It should not be so."
+    lexa "That's it. Left one is normal. The right one has an exaggerated amount of black. It shouldn’t be like that."
 
 # game/day1.rpy:345
 translate english kliner_705d008d:
 
     # lexa "А теперь правый клин пересветлён. Тоже плохо."
-    lexa "And now the right image is enlightened. It is bad too."
+    lexa "And now the right image is too light. It is bad too."
 
 # game/day1.rpy:349
 translate english kliner_36dd0e91:
@@ -427,7 +427,7 @@ translate english kliner_36dd0e91:
 translate english kliner_c22b6d25:
 
     # lap "Не поможешь мне немного?"
-    lap "Can you help me a bit?"
+    lap "Could you help out for a bit?"
 
 # game/day1.rpy:354
 translate english kliner_4ab4dd24:
@@ -445,7 +445,7 @@ translate english kliner_e3311317:
 translate english kliner_cc4d5906:
 
     # lexa "Теперь у нас переклин. В данном случае изображение перечищено: потеряны текстуры, некоторые цвета. Так тоже делать нельзя."
-    lexa "Now we have overclean: some textures are lost, some colors are wrong. Please, don’t do so."
+    lexa "Now we have overclean: some textures are lost, and some colors are wrong. Try to avoid this."
 
 # game/day1.rpy:368
 translate english kliner_ccfef833:
@@ -463,7 +463,7 @@ translate english kliner_9ca17e3e:
 translate english kliner_7bd33f6d:
 
     # lyba "Лёха, блин! Когда уже клин доделаешь!"
-    lyba "Alex, damn it! When will you finish your part of work?"
+    lyba "Alex, damn it! When will you finish your share of work?"
 
 # game/day1.rpy:376
 translate english kliner_7cac71dd:
@@ -475,19 +475,19 @@ translate english kliner_7cac71dd:
 translate english kliner_3492d533:
 
     # lyba "Все заняты! Но все - делают!"
-    lyba "Everyone is busy! But still do!"
+    lyba "Everyone is busy! But you still have to do it!"
 
 # game/day1.rpy:381
 translate english kliner_fd8bf504:
 
     # carry "Гы-гы! Ой ну вообще! Ну просто вообще! Гыыыы!"
-    carry "Gee-gee! Oh well at all! Well, just in general! Gee!"
+    carry "Geez! Oh well at all! Well, just in general! Gee!"
 
 # game/day1.rpy:383
 translate english kliner_c2fbfed4:
 
     # lyba "Кэрри, а ты чего ржёшь! У тебя долгов по работе на полгода вперёд!"
-    lyba "Carrie, what are you laughing at? You have work on debt for half a year ahead!"
+    lyba "Carrie, what are you laughing at? You still have a lot of work to do!"
 
 # game/day1.rpy:385
 translate english kliner_c5552a0f:
@@ -499,25 +499,25 @@ translate english kliner_c5552a0f:
 translate english kliner_dfa654c2:
 
     # carry "Как что? Я клинер вообще-то..."
-    carry "Like what? I am a cleaner too..."
+    carry "What do you mean? I am a cleaner too..."
 
 # game/day1.rpy:396
 translate english kliner_2193132e:
 
     # carry "О! Точно! Пойду-ка я поиграюсь!"
-    carry "Oh! Exactly! I'll go to play games!"
+    carry "Oh! Brainwave! I'll go to play games!"
 
 # game/day1.rpy:402
 translate english kliner_c068fd22:
 
     # lyba "Вот и как с такими людьми работать, а?"
-    lyba "How to work with such people, huh?"
+    lyba "It’s a wonder how we work with people like that, huh?"
 
 # game/day1.rpy:424
 translate english translator_b10545fa:
 
     # dexp "Прости! Сие тайна великая есть!"
-    dexp "I'm sorry! These things have a great mystery!"
+    dexp "I'm sorry! These things are a huge mystery!"
 
 # game/day1.rpy:429
 translate english translator_6258331f:
@@ -535,13 +535,13 @@ translate english translator_ac8cddb6:
 translate english translator_09624486:
 
     # dexp "А, что? Я вообще-то тут человеку объясняю..."
-    dexp "What? Actually, I'm explaining some basics to newcomer..."
+    dexp "What? Actually, I'm explaining some basics to the newcomer..."
 
 # game/day1.rpy:435
 translate english translator_15acdaf8:
 
     # lin "Да ладно. Заодно на примере и покажешь! Переведи, пожалуйста, фразу: \"Ne, ne! Eliru el ci tie!\""
-    lin "Come on. You can show basics on some example! Please, translate the phrase: \"Ne, ne! Eliru el ci tie!\""
+    lin "Come on. You can show the basics with some kind of example! Please, translate the phrase: \"Ne, ne! Eliru el ci tie!\""
 
 # game/day1.rpy:439
 translate english translator_0b565bca:
@@ -571,7 +571,7 @@ translate english translator_1a2f6324:
 translate english translator_17f2d2a6:
 
     # dexp "И вообще, на каком языке фраза?!"
-    dexp "And in general, what language is it?"
+    dexp "And also, what language was that?"
 
 # game/day1.rpy:464
 translate english translator_0dc4dcab:
@@ -595,7 +595,7 @@ translate english translator_d52d290e:
 translate english translator_5cd89919:
 
     # dexp "Ааа! За что мне всё это?!?"
-    dexp "Aah! For what I do it?"
+    dexp "Aah! What do I do with this?"
 
 # game/day1.rpy:478
 translate english translator_cfa3d48a:
@@ -607,7 +607,7 @@ translate english translator_cfa3d48a:
 translate english translator_8918ec99:
 
     # prana "Вижу, твоё отчаяние достигло крайней точки."
-    prana "I see, that your despair has reached an extreme point."
+    prana "I noticed your despair has reached a new extreme."
 
 # game/day1.rpy:482
 translate english translator_c25c0f72:
@@ -651,20 +651,20 @@ translate english korrektor_62c2da0b:
 translate english korrektor_226c7f8e:
 
     # lin "И я сейчас покажу тебе на примере, что такое редактирование текста!"
-    lin "And I'll show you an example, what is meaning “text editing”!"
+    lin "And I'll show you an example of what “text editing” means!"
 
 # game/day1.rpy:513
 translate english korrektor_5b04d8d6:
 
     # lin "Пускай у нас есть текст \"Он был умный, был красивый, но мы на него ложили!\". Как бы его лучше отредактировать?"
     # Пример дже на русском идиотский. Но надо как-то выкручиваться. Я хз как( Пряня, спасай! – это жуть! Не знаю!
-    lin "Let we have a text \"He was smart and beautiful, but we put it on!\". How to edit it better?"
+    lin "Here we have some text \"He was smart and beautiful, but we put it on!\". How do we edit this?"
 
 # game/day1.rpy:518
 translate english korrektor_f6031af1:
 
     # lin "Ну какое нафиг \"ложили\", а?! Клали. Клали!!!"
-    lin "Well, what the \"put it on\", eh? Put on him. Put on him!"
+    lin "Well, where did you see \"put it on\", eh? Put on him. Put on him!"
 
 # game/day1.rpy:522
 translate english korrektor_f81a3dcc:
@@ -677,13 +677,13 @@ translate english korrektor_f81a3dcc:
 translate english korrektor_dd9f7a0a:
 
     # lin "Ну и кто тут извращенец, а?! Совсем фантазия разыгралась?"
-    lin "Well, who's a pervert, eh? Quite fantasy played out?"
+    lin "Well, who's the pervert now, eh? Did that fantasy play out in your head?"
 
 # game/day1.rpy:530
 translate english korrektor_ea99acef:
 
     # lin "Ну понятно, да? Не всё оно так просто, как казалось..."
-    lin "Well, obviously, yes? Not all of it is as simple as it seems..."
+    lin "Well, it's obvious now, yes? Not at all as simple as it first seems..."
 
 # game/day1.rpy:533
 translate english korrektor_ab5e381f:
@@ -713,13 +713,13 @@ translate english korrektor_f546f720:
 translate english typer_74a28247:
 
     # andry "Привет, я Андрей, и я покажу тебе основы тайпа. Только давай быстрее, я занят."
-    andry "Hi, I'm Andrew, and I'll show you the basics of type. But hurry up, I'm busy."
+    andry "Hi, I'm Andrew, and I'll show you the basics of typing. But hurry up, I'm busy."
 
 # game/day1.rpy:566
 translate english typer_f00a6545:
 
     # andry "Вот. Слева плохой тайп, справа хороший. Всё ясно? Ну я тогда пойду..."
-    andry "Okay. Left one is a bad type, right is good. Is that clear? Well then I'll go..."
+    andry "Okay. Left one is a bad form, right is good. Is that clear? Well then I'll go..."
 
 # game/day1.rpy:575
 translate english typer_4f912708:
@@ -731,7 +731,7 @@ translate english typer_4f912708:
 translate english typer_b8ee5b88:
 
     # lap "А не лучше ли тайпить как-то так?"
-    lap "Is not it better to type somehow as on image?"
+    lap "Isn’t it better to type it somehow as an image?"
 
 # game/day1.rpy:581
 translate english typer_4ba2cdfb:
@@ -743,62 +743,62 @@ translate english typer_4ba2cdfb:
 translate english typer_cd1147d3:
 
     # andry "Такой шрифт был бы неплох где-нибудь в названии, но не в основном тексте. И строки расположены слишком близко друг другу - такой текст тяжело читать."
-    andry "This font would be nice somewhere in the title, but not in the main text. And lines are too close to each other - this text would be hard to read."
+    andry "This font would be nice somewhere in the title, but not in the main text. And the lines are too close to each other - this text would be hard to read."
 
 # game/day1.rpy:587
 translate english typer_3b70b874:
 
     # lap "Ага, спасибо большое! Буду знать. Текст должен хорошо выглядеть, быть расположенным равномерно по облачку, но в то же время хорошо читаться."
-    lap "Yeah, thanks a lot! Good to know. The text must look good, be placed uniformly in a cloud, but at the same time easy to read."
+    lap "Yeah, thanks a lot! Good to know. The text should look good, be placed uniformly in a speech bubble, but at the same time easy to read."
 
 # game/day1.rpy:593
 translate english typer_a45bfe00:
 
     # andry "Ну, я побежал? Мне ещё раствор для травления печатных плат делать..."
-    andry "Well, I’m gone? I have to do a solution for etching circuit boards..."
+    andry "Well, I guess I’m going? I have to find a solution for etching circuit boards..."
 
 # game/day1.rpy:600
 translate english typer_b460b875:
 
     # lap "Ой! Кажется, мы переборщили с \"Lorem Ipsum\" и призвали что-то ужасное!"
-    lap "Oh! It seems we have gone too far with \"Lorem Ipsum\" and called something awful!"
+    lap "Oh! It seems we have gone too far with \"Lorem Ipsum\" and summoned something terrifying!"
 
 # game/day1.rpy:601
 translate english typer_12c26ccc:
 
     # lap "Бежим отсюда!"
-    lap "Run away!"
+    lap "Let's get out of here!"
 
 # game/day1.rpy:607
 translate english typer_43e180b3:
 
     # lyba "Ууу! Химики-сатанисты хреновы! А убирать кто будет?!"
-    lyba "Ooh! Fucking chemists-satanists! And who is going to clean up?"
+    lyba "Ooh! Damn chemists-satanists! And who is going to clean this up?"
 
 # game/day1.rpy:632
 translate english betareader_d1456fb5:
 
     # lyblabla "Я иногда делаю бэта-чтение наших переводов."
-    lyblabla "I sometimes make beta-reading of our translations."
+    lyblabla "I sometimes beta-read our translations."
 
 # game/day1.rpy:634
 translate english betareader_da24cc6a:
 
     # lyblabla "Но стараюсь делать это на крыше. Успокаивает."
-    lyblabla "But I'm trying to do it on the roof. It soothes."
+    lyblabla "But I'm trying to do it on the roof. It soothes me."
 
 # game/day1.rpy:635
 translate english betareader_b47691ea:
 
     # lyblabla "И мысли о суициде почти не лезут в голову..."
-    lyblabla "And thoughts of suicide almost isn’t crawling into my head ..."
+    lyblabla "I have almost no thoughts of suicide. Almost..."
 
 # game/day1.rpy:637
 translate english betareader_5b1a1312:
 
     # lyblabla "Нет, всё-таки иногда лезут. Так что буду соблюдать технику безопасности!"
     # Хотелось бы не потерять именно ТБ, а не просто "safety"...
-    lyblabla "Not work. So I shall observe safety!"
+    lyblabla "Ehh. I still have thoughts of suicide. So I shall observe safety!"
 
 # game/day1.rpy:639
 translate english betareader_418ca221:
@@ -810,49 +810,49 @@ translate english betareader_418ca221:
 translate english betareader_b48b978f:
 
     # lyblabla "Ну сам посуди, вот изображение готового клина:"
-    lyblabla "Well, judge for yourself, here is the finished image:"
+    lyblabla "Well here’s the finished image, judge it for yourself:"
 
 # game/day1.rpy:646
 translate english betareader_10056fb1:
 
     # lyba "А пятно на воротнике, кто убирать будет?!"
-    lyba "And who will clean a stain on the collar?!"
+    lyba "And who will clean the stain on the collar?!"
 
 # game/day1.rpy:647
 translate english betareader_236374c1:
 
     # lyba "Я?! Меня на все проекты просто физически не хватит..."
-    lyba "Again I?! I physically can’t do all projects..."
+    lyba "Me again?! I can’t do all these projects by myself..."
 
 # game/day1.rpy:652
 translate english betareader_00f1145f:
 
     # lyblabla "Вот так и живём. Что не выловит бэта-ридер, то потом вывалят на нас читатели..."
-    lyblabla "That's how we live. That will not be caught by beta reader, then be dumped on us by readers later..."
+    lyblabla "That's how we live. That won’t be caught by the beta reader, and will be dumped on us by other readers..."
 
 # game/day1.rpy:654
 translate english betareader_c928ab4e:
 
     # lyblabla "Ай, ну её, эту технику безопасности..."
-    lyblabla "Ah, I don't want to observe safety..."
+    lyblabla "Ah, let's forget about the safety measures..."
 
 # game/day1.rpy:659
 translate english betareader_2e34075e:
 
     # lin "О! Лайби! А я тебя ищу. Смотри, как наши накосячили!"
-    lin "Oh! Laiby! I've been looking for you. Look how many mistakes our team have done!"
+    lin "Oh! Laiby! I've been looking for you. Look at how many mistakes our team made!"
 
 # game/day1.rpy:661
 translate english betareader_a5c2d77d:
 
     # lin "Представляешь, там написали не \"клали\", а \"ложили\"! Ложили! Вот умора! Ха-ха-ха!"
-    lin "Imagine, there is instead \"put in\" written \"put on\"! Put on! That's hilarious! Ha-ha-ha!"
+    lin "Imagine, there is \"put in\" written instead of \"put on\"! Put on! That's hilarious! Ha-ha-ha!"
 
 # game/day1.rpy:665
 translate english betareader_9bfb3314:
 
     # lyba "Лин! Ты ведь сама корректила этот проект! Почему раньше не выловила?!"
-    lyba "Lin! You ware the corrector of this project! Why have not caught it earlier?!"
+    lyba "Lin! You were the proofreader of this project! Why didn't you catch this mistake earlier?!"
 
 # game/day1.rpy:669
 translate english betareader_9f79c529:
@@ -864,55 +864,55 @@ translate english betareader_9f79c529:
 translate english betareader_e17bc417:
 
     # lyblabla "Всё ещё есть желание быть бэта-ридером? Если да, то теперь тебе поможет только практика!"
-    lyblabla "Your desire to be a beta-reader hasn’t gone yet? If no, then now you should just practice!"
+    lyblabla "Has your dream of being a beta reader faded yet? If not, then you better get practicing!"
 
 # game/day1.rpy:695
 translate english dinning_masta_18d4bb99:
 
     # carry "О! И ты уже в столовке!"
-    carry "Oh! And you're already in the canteen!"
+    carry "Oh! You're already in the canteen!"
 
 # game/day1.rpy:697
 translate english dinning_masta_ce515f6b:
 
     # carry "Шустро, шустро!"
-    carry "Smartly, smartly!"
+    carry "Nice, nice!"
 
 # game/day1.rpy:699
 translate english dinning_masta_64c29fcd:
 
     # carry "Если будешь так же быстро делать клин - станешь незаменимой частью команды!"
-    carry "If you're going to do such quickly cleaning, you will become an indispensable part of the team!"
+    carry "If you're going to do such quick cleaning, you will become an indispensable part of the team!"
 
 # game/day1.rpy:706
 translate english dinning_masta_f02b6e5d:
 
     # lap "Лин, как продвигается корректировка текстов?"
-    lap "Lin, how the correction of the texts is going?"
+    lap "Lin, how is the correction of the text going?"
 
 # game/day1.rpy:708
 translate english dinning_masta_39601aba:
 
     # lin "Всё путём! Не забывать удалять лишние повторения - и текст сразу становится более читаемым!"
-    lin "Everything is super! If I do not forget to delete unnecessary repetition, then text immediately becomes more readable!"
+    lin "Everything is superb! If I don’t forget to delete unnecessary repetition, then the text immediately becomes more readable!"
 
 # game/day1.rpy:710
 translate english dinning_masta_215dc2b6:
 
     # lin "А ты ведь и клинишь и тайпишь?"
-    lin "Lap, are you both leaner and typer, right?"
+    lin "Lap, you’re both a cleaner and typist, right?"
 
 # game/day1.rpy:712
 translate english dinning_masta_79562853:
 
     # lap "Ага! Но пока ещё не совсем чувствую центр массы текста. Надеюсь, придёт с опытом."
-    lap "Sure! But I'm still not quite feel the center of the text mass. I hope that will come with experience."
+    lap "Sure! But I still feel quite in the center of the text mass. I hope that’ll come with experience."
 
 # game/day1.rpy:714
 translate english dinning_masta_e2bd1ca2:
 
     # lin "Кстати, а что есть-то будем?"
-    lin "By the way, what shall we eat?"
+    lin "By the way, what should we eat?"
 
 # game/day1.rpy:715
 translate english dinning_masta_c180a088:
@@ -930,13 +930,13 @@ translate english dinning_masta_67592535:
 translate english dinning_masta_4579530e:
 
     # andry "Эй! Меня подождите, меня!"
-    andry "Wait for me, wait!"
+    andry "Hey! Wait up!"
 
 # game/day1.rpy:727
 translate english dinning_masta_e8bfe881:
 
     # dexp "Ну сколько можно про еду говорить, а!?"
-    dexp "How much can you talk about the food!?"
+    dexp "How much are you going to talk about the food!?"
 
 # game/day1.rpy:728
 translate english dinning_masta_868c8c5f:
@@ -948,26 +948,26 @@ translate english dinning_masta_868c8c5f:
 translate english dinning_masta_40f4ce88:
 
     # dexp "Ну и фиг с ним! Пойду нажрусь!"
-    dexp "Anyway! I'll go to eat too and a lot!"
+    dexp "Anyways, I'll make sure to eat a lot too!"
 
 # game/day1.rpy:731
 translate english dinning_masta_4a940a9d:
 
     # dexp "Кстати, если будешь сканировать - не забывай расшитые листы класть стопкой рядом со сканером. Тогда получится быстрее!"
-    dexp "If you're going to scan, do not forget to put a stack of embroidered sheets next to the scanner. So you can get faster!"
+    dexp "If you're going to scan, don’t forget to put a stack of embroidered sheets next to the scanner. It’s so you can get faster!"
 
 # game/day1.rpy:732
 translate english dinning_masta_05c05384:
 
     # dexp "А если решишься стать переводчиком - то используй несколько словарей, значения слов могут быть разными!"
-    dexp "And if you make up your mind to become a translator, then use several dictionaries, the meaning of words can be different!"
+    dexp "And if your final decision is to become a translator - use several dictionaries; the meaning of the words can vary!"
 
 # game/day1.rpy:737
 translate english dinning_masta_7b68ba74:
 
     # lyblabla "Народ! Может хватит тут жевать?"
     # Сам туплю об эту фразу совсем. Ниже версия чистого гугл транслейт
-    lyblabla "People! Not tired about the same thing to say? "
+    lyblabla "People! Aren’t you all tired of saying the same thing? "
 
 # game/day1.rpy:738
 translate english dinning_masta_63ed7869:
@@ -979,7 +979,7 @@ translate english dinning_masta_63ed7869:
 translate english dinning_masta_6c8b88d4:
 
     # lyblabla "Да и при бэта-чтении чем больше народу, тем лучше!"
-    lyblabla "One of beta-reading principles: more people are better!"
+    lyblabla "One of the beta-reading principles: the more people the better!"
 
 # game/day1.rpy:752
 translate english after_learn_fff8b458:
@@ -991,7 +991,7 @@ translate english after_learn_fff8b458:
 translate english after_learn_0bb90c49:
 
     # lyblabla "Ну, кем ты хочешь стать?"
-    lyblabla "Well, whom do you want to become?"
+    lyblabla "Well, what do you want to become?"
 
 # game/day1.rpy:810
 translate english after_learn_0a598ccc:
@@ -1003,13 +1003,13 @@ translate english after_learn_0a598ccc:
 translate english after_learn_13ab4ce8:
 
     # lyblabla "Извини, ты нам не подходишь."
-    lyblabla "Sorry, you don’t approach us."
+    lyblabla "Sorry, you don’t appeal to us."
 
 # game/day1.rpy:814
 translate english after_learn_79b1f9b4:
 
     # lyblabla "Тебе не хватает прилежности. Возможно, в следующий раз повезёт больше..."
-    lyblabla "You do not have enough diligence. Maybe next time you'd get better luck..."
+    lyblabla "You don’t have enough diligence. Better luck next time..."
 
 # game/day1.rpy:815
 translate english after_learn_1e35ba70:
@@ -1040,19 +1040,19 @@ translate english after_learn_f18d3f56:
 translate english after_learn_880a8ba9:
 
     # lyblabla "Cначала надо набраться опыта. Но ты уже можешь участвовать в реальных проектах, делать перевод манги вместе с нами!"
-    lyblabla "From beginning it is necessary to gain experience. But you can already participate in real projects, doing translation manga with us!"
+    lyblabla "From the beginning it is necessary to gain experience. But you can already participate in real projects, doing translation manga with us!"
 
 # game/day1.rpy:844
 translate english after_learn_a25fc21e:
 
     # lyblabla "А после первого релиза с твоим участием ты станешь полноправным членом команды."
-    lyblabla "And after the first release with your participation, you will become a full member of the team."
+    lyblabla "And after the first release with your collaboration, you will become a full-fledged member of the team."
 
 # game/day1.rpy:845
 translate english after_learn_12b454cf:
 
     # lyblabla "Но это всё потом, а сейчас..."
-    lyblabla "But it all then, and now..."
+    lyblabla "But that was all then, and now..."
 
 # game/day1.rpy:863
 translate english after_learn_4edd70e3:
@@ -1064,37 +1064,37 @@ translate english after_learn_4edd70e3:
 translate english after_learn_2da7bdde:
 
     # lyba "Веселись как следует, ведь завтра будет тяжёлый рабочий день, а перед ним нужно хорошо отдохнуть!"
-    lyba "Cry out as it should, because tomorrow will be a hard working day. It is necessary to have a good rest!"
+    lyba "Now’s a good time to cry as much as you need to, because tomorrow will be a hard working day. It is necessary to have a good rest!"
 
 # game/day1.rpy:866
 translate english after_learn_133553ec:
 
     # lyba "Бэта-ридерам не легко живётся, но именно на нас держится качество выполненной работы!"
-    lyba "Beta-readers are not easy, but we keep on the work quality!"
+    lyba "Being beta-readers isn’t easy, but we keep the quality of the work in check!"
 
 # game/day1.rpy:878
 translate english after_learn_58d44c22:
 
     # "" "От обилия поздравлений стало душно."
-    "" "From the abundance of congratulations became stifling."
+    "" "The abundance of congratulations became stifling."
 
 # game/day1.rpy:899
 translate english after_learn_cf6c100e:
 
     # lexa "А почему я не мог тебя найти?"
-    lexa "Why I could not find you?"
+    lexa "Where have you been?"
 
 # game/day1.rpy:900
 translate english after_learn_281a893a:
 
     # lexa "А, не важно..."
-    lexa "Ah, it does not matter..."
+    lexa "Ah, it doesn’t matter..."
 
 # game/day1.rpy:902
 #translate english after_learn_ebdcb8d2:
 
     # lexa "Поздравляю! И если будут вопросы по схемотехнике - обращайся!"
-#    lexa "Congratulations! And if you have questions on the circuit design - you are welcome!"
+#    lexa "Congratulations! And if you have questions on the circuit design – fire away!"
 
 # game/day1.rpy:932
 translate english after_learn_c7746741:
@@ -1107,7 +1107,7 @@ translate english after_learn_c7746741:
 translate english after_learn_01502c75:
 
     # lexa "В любом случае, погуляй по залу, пообщайся с людьми. С нами весело!"
-    lexa "In any case, take a walk around, talk to people. Have some fun!"
+    lexa "In the meanwhile, take a stroll around and talk to people. Have some fun!"
 
 # game/day1.rpy:911
 translate english after_learn_3f0f58eb:
@@ -1131,13 +1131,13 @@ translate english after_learn_4026b825:
 translate english after_learn_2fcb216c:
 
     # dexp "Нравишься ты мне, говорю!"
-    dexp "I like you, I say!"
+    dexp "I said, I like you!"
 
 # game/day1.rpy:925
 translate english after_learn_b8ab4d13:
 
     # lap "Ах так, да?! А ну-ка иди сюда, повтори!"
-    lap "Ah well, yes? Come here and repeat, if you dare!"
+    lap "Excuse me? Come here and repeat that if you dare!"
 
 # game/day1.rpy:933
 translate english after_learn_47f935b5:
@@ -1179,19 +1179,19 @@ translate english after_learn_b1aa9359:
 translate english after_learn_8a106dfd:
 
     # lin "Нравишься ты мне, говорю!"
-    lin "I like you, I say!"
+    lin "I said, I like you!"
 
 # game/day1.rpy:957
 translate english after_learn_8a45301b:
 
     # "" "(Сговорились они, что ли? Или фраз других нет?)"
-    "" "(Have they conspired? Or there no other phrases?)"
+    "" "(Have they conspired? Or are there no other phrases?)"
 
 # game/day1.rpy:961
 translate english after_learn_b8ab4d13_1:
 
     # lap "Ах так, да?! А ну-ка иди сюда, повтори!"
-    lap "Ah well, yes? Come here and repeat!"
+    lap "Ah well, yes? Come here and say it again!"
 
 # game/day1.rpy:971
 translate english after_learn_fea3e1dc:
@@ -1203,7 +1203,7 @@ translate english after_learn_fea3e1dc:
 translate english after_learn_6e0a5bba:
 
     # lap "Лёша! Я давно..."
-    lap "Alex! I've been so long..."
+    lap "Alex! It’s been so long..."
 
 # game/day1.rpy:979
 translate english after_learn_6ec09e9b:
@@ -1215,13 +1215,13 @@ translate english after_learn_6ec09e9b:
 translate english after_learn_a911f449:
 
     # lap "Ты самый лучший! Когда вижу тебя, звёзды на небе светят ярче! Хочу быть с тобой!"
-    lap "You're the best! When I see you, the stars shine brighter in the sky! Wanna be with you!"
+    lap "You're the best! When I see you, the stars shine brighter in the sky! I wanna be with you!"
 
 # game/day1.rpy:986
 translate english after_learn_ae759288:
 
     # lexa "А? Ты что-то говорила? Прости, я задумался!"
-    lexa "Huh? Have you said something? Sorry, I was thinking!"
+    lexa "Huh? Did you say something? Sorry, I was thinking!"
 
 # game/day1.rpy:989
 translate english after_learn_9fe84959:
@@ -1233,19 +1233,19 @@ translate english after_learn_9fe84959:
 translate english after_learn_098dff72:
 
     # lexa "Прости, но мне нравятся только серверы!"
-    lexa "I'm sorry, but I like only the servers!"
+    lexa "I'm sorry, but I only like the servers!"
 
 # game/day1.rpy:996
 translate english after_learn_b8ab4d13_2:
 
     # lap "Ах так, да?! А ну-ка иди сюда, повтори!"
-    lap "Ah well, yes? Come here and repeat!"
+    lap "Ah well, yes? Come here and say it again!"
 
 # game/day1.rpy:1008
 translate english after_learn_e7a00676:
 
     # "" "Мда. Слишком уж тут насыщенная дискотека. Пойду-ка я спать..."
-    "" "Hmm. Here is too saturated disco. I’m going to sleep..."
+    "" "Hmm. The disco is too saturated here. I’m going to sleep..."
 
 # game/day1.rpy:1014
 translate english after_learn_61780245:
@@ -1257,49 +1257,49 @@ translate english after_learn_61780245:
 translate english after_learn_0aa90bdd:
 
     # centered "А на следующий - уже началась тяжёлая работа!"
-    centered "And the next the hard work has already begun!"
+    centered "And the next day, the hard work had already begun!"
 
 # game/day1.rpy:1023
 translate english text_team_omedeto_1c5e9369:
 
     # dexp "Поздравляю с поступлением в команду! Хорошо поработаем вместе!"
-    dexp "Congratulations on entering to the team! Let's work well together!"
+    dexp "Congratulations on joining the team! Let's work well together!"
 
 # game/day1.rpy:1025
 translate english text_team_omedeto_fd4df00b:
 
     # dexp "Переводчикам нелегко живётся, но вместе мы - сила. Удачи тебе, коллега!"
-    dexp "Translators have a hard life, but together we are the power. Good luck to you, colleague!"
+    dexp "Translators have a hard life, but together we have power. Good luck to you, colleague!"
 
 # game/day1.rpy:1028
 translate english text_team_omedeto_e16466c6:
 
     # lin "Так держать! Мы - команда!"
-    lin "Keep it up! We are the team!"
+    lin "Keep it up! We’re a team!"
 
 # game/day1.rpy:1030
 translate english text_team_omedeto_e2ac4f5f:
 
     # lin "Далеко не все переводчики умеют красиво излагать свои мысли. Наша главная задача как корректоров - донести мысль до читателя!"
-    lin "Not all translators are able to express their thoughts beautifully. Our main task as proofreaders to convey the idea to the reader!"
+    lin "Not all translators are able to express their thoughts beautifully. Our main task, as proofreaders, is to convey the idea to the reader!"
 
 # game/day1.rpy:1037
 translate english pic_team_omedeto_0b1200fa:
 
     # andry "Тебе удалось! Теперь ты с нами. Ура!"
-    andry "You did it! Now you are with us. Hooray!"
+    andry "You did it! Now you’re with us. Hooray!"
 
 # game/day1.rpy:1039
 translate english pic_team_omedeto_56154f60:
 
     # andry "Набирать текст далеко не так просто. Но мы как тайперы справимся! Так ведь?"
-    andry "Typing is not so simple. But we can handle, because we are typers, aren’t we?"
+    andry "Typing isn’t so simple. But we can handle it, because we are typists, no?"
 
 # game/day1.rpy:1043
 translate english pic_team_omedeto_d85368a6:
 
     # lap "Молодчина! Теперь в команде на целого человека больше! Да мы теперь вместе горы свернём!"
-    lap "Attaboy! Now the team grows on one person more! We turn back along the mountain!"
+    lap "Atta boy! Now the team is one person bigger! We turn back along the mountain!"
 
 # game/day1.rpy:1046
 translate english pic_team_omedeto_210b9edc:
@@ -1311,13 +1311,13 @@ translate english pic_team_omedeto_210b9edc:
 translate english disko_roof_8d1f80ad:
 
     # lyblabla "Что, тоже не любишь шумные сборища?"
-    lyblabla "What? You do not like noisy gatherings too?"
+    lyblabla "What? You don’t like noisy gatherings either?"
 
 # game/day1.rpy:1057
 translate english disko_roof_ac3018c6:
 
     # lyblabla "На крыше всегда тихо и свежий воздух."
-    lyblabla "On the roof is always quiet and fresh air."
+    lyblabla "The roof is always quiet and we get to enjoy the fresh air."
 
 # game/day1.rpy:1058
 translate english disko_roof_4efd46c2:
@@ -1329,43 +1329,43 @@ translate english disko_roof_4efd46c2:
 translate english disko_roof_049fc550:
 
     # lyblabla "Пойдём лучше ко всем, ведь сегодня знаменательный день!"
-    lyblabla "Let's go to all, because today is a momentous day!"
+    lyblabla "Let's all go together, because today is a momentous day!"
 
 # game/day1.rpy:1071
 translate english disko_yard_ab527b31:
 
     # "???" "О! Привет! Тоже любишь погулять?"
-    "???" "Oh! Hi! Do you love to take a walk too?"
+    "???" "Oh! Hi! Do you like to take walks too?"
 
 # game/day1.rpy:1072
 translate english disko_yard_948c80d7:
 
     # mala "Меня Мальвиной зовут. Можно просто Маля."
-    mala "I'm Malvina. You can call simply - Malia."
+    mala "I'm Malvina. You can just call me - Malia."
 
 # game/day1.rpy:1074
 translate english disko_yard_95fc6ab3:
 
     # mala "Я в команде относительно недавно, но сама и перевожу, и клиню, и тайплю."
-    mala "I am relatively new in the team, but I translate, clean, and type."
+    mala "I’m relatively new in the team, but I translate, clean, and type."
 
 # game/day1.rpy:1075
 translate english disko_yard_7f2690ec:
 
     # mala "У меня не слишком много опыта, но чем смогу - помогу."
-    mala "I do not have too much experience, but I will help with pleasure."
+    mala "I don’t have too much experience, but I help for fun."
 
 # game/day1.rpy:1076
 translate english disko_yard_99ece504:
 
     # mala "Если будут вопросы - обращайся!"
-    mala "If you have questions, ask me!"
+    mala "If you have any questions, you can ask me!"
 
 # game/day1.rpy:1078
 translate english disko_yard_b4f52c54:
 
     # mala "А теперь давай вернёмся ко всем. Всё-таки это твой праздник!"
-    mala "And now let's get back to everyone. Still, it's your holiday!"
+    mala "And now let's get back to everyone. Still, it's your party!"
 
 # game/day1.rpy:1090
 translate english disko_stolovka_ce55da16:
@@ -1378,19 +1378,19 @@ translate english disko_stolovka_ce55da16:
 translate english disko_stolovka_b578b7f0:
 
     # dexp "Ну вот! Даже ночью поесть спокойно не дают!"
-    dexp "Well! Even at night... No one give me to eat quietly!"
+    dexp "Argh! Even at night... No-one will let me eat in peace!"
 
 # game/day1.rpy:1098
 translate english disko_stolovka_b3421b32:
 
     # azyki "Ну и зачем надо было его пугать?"
-    azyki "Well, why it was necessary to scare him?"
+    azyki "Awww, why did you have to scare him?"
 
 # game/day1.rpy:1100
 translate english disko_stolovka_9495d576:
 
     # azyki "За Дэксом так смешно наблюдать, когда он думает, что его никто не видит!"
-    azyki "It is so funny to watch Dex when he thinks no one sees him!"
+    azyki "Watching Dex's antics when he thinks no one is watching is hilarious!"
 
 # game/day1.rpy:1102
 translate english disko_stolovka_e81aa71d:
@@ -1402,19 +1402,19 @@ translate english disko_stolovka_e81aa71d:
 translate english disko_stolovka_eac53e1c:
 
     # azyki "Я клинер, и Лайби считает, что очень даже неплохой."
-    azyki "I'm cleaner, and Laiby believes that I do my work very well."
+    azyki "I'm a cleaner, and Laiby believes that I do my work very well."
 
 # game/day1.rpy:1104
 translate english disko_stolovka_cca085b2:
 
     # azyki "Если будут вопросы - обращайся."
-    azyki "If you have questions, ask me."
+    azyki "If you have any questions, you can ask me."
 
 translate english strings:
 
     # game/day1.rpy:19
     old "Переводить мангу?"
-    new "To translate manga?"
+    new "Do you translate manga?"
 
     # game/day1.rpy:19
     old "Конечно, хочу. Я с Вами!"
@@ -1422,7 +1422,7 @@ translate english strings:
 
     # game/day1.rpy:19
     old "Нет, спасибо. Я так, мимо прохожу."
-    new "No, thank you. I'm just passing by."
+    new "No thanks. I'm just passing by."
 
     # game/day1.rpy:80
     old "Креативный экзистенциализм?"
@@ -1434,7 +1434,7 @@ translate english strings:
 
     # game/day1.rpy:80
     old "Ну... Как бы сказать..."
-    new "Well... How should I say..."
+    new "Well... How should I say it..."
 
     # game/day1.rpy:80
     old "Креативному чего-чего?"
@@ -1450,11 +1450,11 @@ translate english strings:
 
     # game/day1.rpy:100
     old "Да, я всё знаю. Перейдём к делу."
-    new "Yes, I know. Get down to business."
+    new "Yes, I know. Let’s get down to business."
 
     # game/day1.rpy:145
     old "\n\n\nНа какой из этапов пройти обучение?"
-    new "\n\n\nWhat kind of jobs to be trained?"
+    new "\n\n\nWhat kind of jobs could I be trained for?"
 
     # game/day1.rpy:145
     old "Сканировщик"
@@ -1474,7 +1474,7 @@ translate english strings:
 
     # game/day1.rpy:145
     old "Тайпер"
-    new "Typer"
+    new "Typist"
 
     # game/day1.rpy:145
     old "Бэта-ридер"
@@ -1542,7 +1542,7 @@ translate english strings:
 
     # game/day1.rpy:756
     old "И да поможет тебе великий Ктулху!"
-    new "Will help you a great Cthulhu!"
+    new "May the Cthulhu be with you!"
 
     # game/day1.rpy:761
     old "сканировщик"
@@ -1550,7 +1550,7 @@ translate english strings:
 
     # game/day1.rpy:762
     old "Этап сканирования наиболее связан с этапами клина и тайпа. Кстати, кого-нибудь из сканировщиков часто можно найти в столовой."
-    new "Scanning stage is the most associated with the stages of the clean and type. By the way, someone from scanners can often be found in the canteen."
+    new "The scanning stage is most associated with the stages of the cleaning and typing. By the way, some of our scanners can often be found in the canteen."
 
     # game/day1.rpy:769
     old "клинер"
@@ -1558,7 +1558,7 @@ translate english strings:
 
     # game/day1.rpy:770
     old "Этап клина связан со сканированием и тайпом. Кроме того, бэта-ридер тоже может вылавливать огрехи клина."
-    new "Cleaning step associated with scanning and type. Furthermore, beta-reader can also catch clean flaws."
+    new "The cleaning step is associated with scanning and typing. Furthermore, the beta-reader checks for cleaning flaws."
 
     # game/day1.rpy:777
     old "переводчик"
@@ -1566,7 +1566,7 @@ translate english strings:
 
     # game/day1.rpy:778
     old "Переводчик теснее всего связан с корректировщиком и тайпером. При тайпе текст не всегда влазит в необходимую область и приходится его сокращать."
-    new "Translator is most closely associated with the proofreader and typer. If the text is not always intermeddling in necessary area, it has been cut."
+    new "Translator works closely with the proofreader and typist. If the text isn’t structured properly, it won't make sense."
 
     # game/day1.rpy:785
     old "корректор"
@@ -1574,15 +1574,15 @@ translate english strings:
 
     # game/day1.rpy:786
     old "Корректор часто общается с переводчиком, бэта-ридером и иногда тайпером."
-    new "Proofreader is often communicates with the translator, beta-reader and sometimes typer."
+    new "The proofreader often communicates with the translator, beta-reader and occasionally the typist."
 
     # game/day1.rpy:793
     old "тайпер"
-    new "typer"
+    new "typist"
 
     # game/day1.rpy:794
     old "Этап тайпа связан как с результатами этапа перевода и корректировки, так и с результатами сканирования и клина."
-    new "Type stage is connected with the results of translation, proofreading, scanning and cleaning."
+    new "The typing stage is connected with the results of translation, proofreading, scanning and cleaning."
 
     # game/day1.rpy:801
     old "бэта-ридер"
@@ -1590,7 +1590,7 @@ translate english strings:
 
     # game/day1.rpy:802
     old "Этап бэта-прочтения больше всего связан с этапом тайпа, т.к. при наборе текста ошибки предыдущих этапов частично вылавливаются и остаётся проверить только сам тайп."
-    new "Beta-reading is most associated with type stage, because typer checks errors of the previous stages. And usually beta-reader needs to verify only the type."
+    new "Beta-reading is usually conducted during the typing stage, while the typist checks for errors in the previous stages. The beta-reader generally only needs to check the final draft."
 
     # game/day1.rpy:880
     old "Что делать?"
@@ -1611,5 +1611,4 @@ translate english strings:
     # game/day1.rpy:880
     old "Остаться в зале"
     new "Stay at the disco"
-
 

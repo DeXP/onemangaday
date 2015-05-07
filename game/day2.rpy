@@ -227,12 +227,12 @@ label day2:
         show dexp norm with dissolve:
             xalign 0.1 yalign 1.0
         show azyki angry at center with dissolve
-        mala "Дэкс! Что ты там вчера насканировал? А нормально сделать не мог?"
+        azyki "Дэкс! Что ты там вчера насканировал? А нормально сделать не мог?"
         dexp "Да всё я нормально сделал."
         show carry norm with moveinright:
             xalign 1.4 yalign 0.8
         show lexa attention at right with moveinright
-        lexa "Проверь-ка настройки сканирования ещё раз!"
+        lexa "Проверь ка настройки сканирования ещё раз!"
         show dexp angry with dissolve
         dexp "Да все настройки правильные!"
         dexp "Всегда так делал, и никаких проблем не было!"
@@ -244,7 +244,7 @@ label day2:
             "Кто прав?"
             "Прав Дэкс.":
                 pass
-            "Права Маля.":
+            "Права Азуки.":
                 pass
             "Прав Лёха.":
                 pass

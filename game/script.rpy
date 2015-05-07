@@ -250,6 +250,18 @@ image proofreaderAch = "items/ach/proofreader.png"
 image typerAch = "items/ach/typer.png"
 image betareaderAch =  "items/ach/betareader.png"
 
+#$achievement.register("b1e")
+#$achievement.register("b4e")
+#$achievement.register("photo")
+#$achievement.register("shrine")
+#$achievement.register("stripMaster")
+#$achievement.register("seeSeagul")
+#$achievement.register("scanner")
+#$achievement.register("cleaner")
+#$achievement.register("translator")
+#$achievement.register("proofreader")
+#$achievement.register("typer")
+#$achievement.register("betareader")
 
 transform achieveanim:
     #xalign 1.0  yalign 0.0 alpha 0.0
@@ -298,6 +310,7 @@ label showAchiv:
     if achId == "betareader":
         show betareaderAch at achieveanim:
             xalign 0.52  yalign 0.025 
+    $achievement.grant(achId)
     show text "[achievementUlocked]\n[achText]" at achieveanim with dissolve:
         xanchor 0.0 yanchor 0.0
         xpos 560 ypos 10
@@ -833,7 +846,7 @@ label language_chooser:
 label splashscreen:
     if not persistent.chose_lang:
         $ persistent.chose_lang = True
-        call language_chooser
+        call language_chooser from _call_language_chooser
     #if _preferences.language == None:
     #    $ config.translations.update(rusDic)
     return
