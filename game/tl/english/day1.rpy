@@ -1,4 +1,4 @@
-﻿# game/day1.rpy:12
+# game/day1.rpy:12
 translate english day1_be2bda80:
 
     # "???" "Приветствую тебя, новобранец!"
@@ -14,7 +14,11 @@ translate english day1_baac4ec7:
 translate english day1_2b9ef353:
 
     # "???" "И мы должны переводить её быстрее и качественнее вероятного противника!"
+<<<<<<< HEAD
     "???" "And we must translate it faster and better than potential enemies!"
+=======
+    "???" "And we must translate it faster and better than other potential enemies!"
+>>>>>>> origin/master
 
 # game/day1.rpy:16
 translate english day1_6f404aea:
@@ -74,7 +78,11 @@ translate english day1_51714f5b:
 translate english day1_529a7663:
 
     # lyblabla "Вот, это наше учебное помещение. Иногда оно же рабочее, оно же столовая, оно же... Хотя нет, про остальные возможные применения помещения узнаешь в процессе!"
+<<<<<<< HEAD
     lyblabla "Here is our training room. Sometimes it’s used as a working room, it could also be used as a dining room, it could also... Nevermind, you'll figure out the full functionality of this room in due course!"
+=======
+    lyblabla "Here is our training room. Sometimes it’s used as a working room, it could also be used a dining room, it could also... Nevermind, you'll figure out the full functionality of this room in the working process!"
+>>>>>>> origin/master
 
 # game/day1.rpy:63
 translate english day1_5417e248:
@@ -86,7 +94,11 @@ translate english day1_5417e248:
 translate english day1_e2495b10:
 
     # lap "Да, Лайби. Зачем я тебе понадобилась?"
+<<<<<<< HEAD
     lap "Yeah Laiby? Is there something you need from me?"
+=======
+    lap "Yeah Laiby? Why do you need me?"
+>>>>>>> origin/master
 
 # game/day1.rpy:74
 translate english day1_8b6326d5:
@@ -116,55 +128,91 @@ translate english day1_cdd66f3c:
 translate english day1_fb61514c:
 
     # lyblabla "Мда. Придётся всё-таки мне лично показать тебе основные этапы перевода манги."
+<<<<<<< HEAD
     lyblabla "Hmm. I guess I have to personally demonstrate the manga translation process for you."
+=======
+    lyblabla "Hmm. I guess I have personally demonstrate the manga translation process for you."
+>>>>>>> origin/master
 
 # game/day1.rpy:97
 translate english day1_09a4dc44:
 
     # lyblabla "Или ты и так знаком с основными этапами перевода манги?"
+<<<<<<< HEAD
     lyblabla "Or are you already familiar with it?"
+=======
+    lyblabla "Or you already familiar with it?"
+>>>>>>> origin/master
 
 # game/day1.rpy:104
 translate english day1_04c2d02e:
 
     # lyblabla "Сначала оригинал манги сканируется и переводится в цифровой вид. За это отвечает сканировщик."
+<<<<<<< HEAD
     lyblabla "First, the original manga is scanned and converted into digital form. The Scanner is responsible for this."
+=======
+    lyblabla "First, the original manga is scanned and converted into digital form. The scanner is responsible for this."
+>>>>>>> origin/master
 
 # game/day1.rpy:106
 translate english day1_ed5fc9ad:
 
     # lyblabla "Дальше изображение надо очистить от мусора и старых надписей. Этим занимается клинер."
+<<<<<<< HEAD
     lyblabla "Next, the image must be cleaned of debris and old inscriptions. A Cleaner will do this."
+=======
+    lyblabla "Next, the image must be cleaned of debris and old inscriptions. Cleaner will do this."
+>>>>>>> origin/master
 
 # game/day1.rpy:108
 translate english day1_3c0465a3:
 
     # lyblabla "Параллельно со сканированием и клином можно осуществлять непосредственно перевод манги с одного языка на другой. Обычно переводчик выдаёт результат своей деятельности в виде текстового файла."
+<<<<<<< HEAD
     lyblabla "Translation from one language into another can be done in parallel with scanning and cleaning. Usually Translators compile the finished result in text file form."
+=======
+    lyblabla "Translation from one language into another can be done in parallel with scanning and cleaning. Usually translators compile the finished result in text file form."
+>>>>>>> origin/master
 
 # game/day1.rpy:109
 translate english day1_2eb34a54:
 
     # lyblabla "Каждый перевод потом вычитывается на лексические, орфографические и прочие ошибки. Этим занимается корректор."
+<<<<<<< HEAD
     lyblabla "Then each translation is proofread to correct vocabulary, spelling and other errors. Only the Proofreader can do this."
+=======
+    lyblabla "Then each translation is proofreading on lexical, spelling and other mistakes. Only the proofreader can do this."
+>>>>>>> origin/master
 
 # game/day1.rpy:111
 translate english day1_0f85a2fa:
 
     # lyblabla "Когда есть очищенные сканы и вычитанный перевод, то перевод можно нанести на подготовленные изображения. Этим занимается тайпер."
+<<<<<<< HEAD
     lyblabla "When the cleaned scans and proofread translations are available, the translation can be applied to the prepared images. The Typist is doing this."
+=======
+    lyblabla "When the cleaned scans and proofread translations are available, the translation can be applied to the prepared images. The typist is doing this."
+>>>>>>> origin/master
 
 # game/day1.rpy:112
 translate english day1_0d7cae70:
 
     # lyblabla "Ну а когда текст нанесён на изображения остаётся проверить общее качество всей выполненной работы. Этим занимается бэта-ридер."
+<<<<<<< HEAD
     lyblabla "The last part of the work - overall quality control. This is the main Beta-Reader's function."
+=======
+    lyblabla "The last part of the work - total quality control. This is the main beta-reader's function."
+>>>>>>> origin/master
 
 # game/day1.rpy:121
 translate english day1_03517946:
 
     # lyblabla "Ну хорошо. Пройдись по коридору, выбери себе занятие по душе."
+<<<<<<< HEAD
     lyblabla "Okay, now you’re free to roam down the hall and select a role for yourself."
+=======
+    lyblabla "Okay, now you’re free to roam down the hall and pick out an errand."
+>>>>>>> origin/master
 
 # game/day1.rpy:122
 translate english day1_23d601ac:
@@ -176,7 +224,11 @@ translate english day1_23d601ac:
 translate english domenu_1c1e9a7b:
 
     # lyblabla "Люк! Дао сканирования познаётся лишь однажды! Познай другую сторону силы."
+<<<<<<< HEAD
     lyblabla "Hold it! You've already been shown everything about scanning! Go and learn some other skills."
+=======
+    lyblabla "Luke! Scanning Dao can be learned only once! Learn other skills in the team."
+>>>>>>> origin/master
 
 # game/day1.rpy:159
 translate english domenu_b6cc98ba:
@@ -293,7 +345,11 @@ translate english scan_47d61c0d:
 translate english scan_b3a618ab:
 
     # dexp "Левая, правая... Непонятно! Лучше посмотрим под увеличением!"
+<<<<<<< HEAD
     dexp "Left one, right one... can't tell the difference! But we can look under the zoom!"
+=======
+    dexp "Left one, right one... it's not differentiable! But we can look under the zoom!"
+>>>>>>> origin/master
 
 # game/day1.rpy:264
 translate english scan_7f530a79:
@@ -365,7 +421,11 @@ translate english kliner_091ecd7c:
 translate english kliner_160bca4f:
 
     # "???" "Да и как-то кривоват сервер-то... Наверное, не следовало собирать его из подручного мусора..."
+<<<<<<< HEAD
     "???" "Hmm. The server is awful... I probably shouldn't have set it up with parts from the garbage bin..."
+=======
+    "???" "Hmm. The server is awful... I should probably not collect it from improvised rubbish..."
+>>>>>>> origin/master
 
 # game/day1.rpy:321
 translate english kliner_92a7cefc:
@@ -445,7 +505,11 @@ translate english kliner_e3311317:
 translate english kliner_cc4d5906:
 
     # lexa "Теперь у нас переклин. В данном случае изображение перечищено: потеряны текстуры, некоторые цвета. Так тоже делать нельзя."
+<<<<<<< HEAD
     lexa "Now we have overclean: some textures are lost, and some colors are wrong. Try to avoid this."
+=======
+    lexa "Now we have overclean: some textures are lost, and some colors are wrong. Please don’t do that."
+>>>>>>> origin/master
 
 # game/day1.rpy:368
 translate english kliner_ccfef833:
@@ -677,7 +741,11 @@ translate english korrektor_f81a3dcc:
 translate english korrektor_dd9f7a0a:
 
     # lin "Ну и кто тут извращенец, а?! Совсем фантазия разыгралась?"
+<<<<<<< HEAD
     lin "Well, who's the pervert now, eh? Did that fantasy play out in your head?"
+=======
+    lin "Well, who's the pervert now, eh? Did the fantasy play out?"
+>>>>>>> origin/master
 
 # game/day1.rpy:530
 translate english korrektor_ea99acef:
@@ -749,7 +817,11 @@ translate english typer_cd1147d3:
 translate english typer_3b70b874:
 
     # lap "Ага, спасибо большое! Буду знать. Текст должен хорошо выглядеть, быть расположенным равномерно по облачку, но в то же время хорошо читаться."
+<<<<<<< HEAD
     lap "Yeah, thanks a lot! Good to know. The text should look good, be placed uniformly in a speech bubble, but at the same time easy to read."
+=======
+    lap "Yeah, thanks a lot! Good to know. The text should look good, be placed uniformly in a cloud, but at the same time easy to read."
+>>>>>>> origin/master
 
 # game/day1.rpy:593
 translate english typer_a45bfe00:
@@ -761,7 +833,11 @@ translate english typer_a45bfe00:
 translate english typer_b460b875:
 
     # lap "Ой! Кажется, мы переборщили с \"Lorem Ipsum\" и призвали что-то ужасное!"
+<<<<<<< HEAD
     lap "Oh! It seems we have gone too far with \"Lorem Ipsum\" and summoned something terrifying!"
+=======
+    lap "Oh! It seems we have gone too far with \"Lorem Ipsum\" and created something awful!"
+>>>>>>> origin/master
 
 # game/day1.rpy:601
 translate english typer_12c26ccc:
@@ -773,13 +849,21 @@ translate english typer_12c26ccc:
 translate english typer_43e180b3:
 
     # lyba "Ууу! Химики-сатанисты хреновы! А убирать кто будет?!"
+<<<<<<< HEAD
     lyba "Ooh! Damn chemists-satanists! And who is going to clean this up?"
+=======
+    lyba "Ooh! Fucking chemists-satanists! And who is going to clean this up?"
+>>>>>>> origin/master
 
 # game/day1.rpy:632
 translate english betareader_d1456fb5:
 
     # lyblabla "Я иногда делаю бэта-чтение наших переводов."
+<<<<<<< HEAD
     lyblabla "I sometimes beta-read our translations."
+=======
+    lyblabla "I make beta-reading of our translations sometimes."
+>>>>>>> origin/master
 
 # game/day1.rpy:634
 translate english betareader_da24cc6a:
@@ -791,7 +875,11 @@ translate english betareader_da24cc6a:
 translate english betareader_b47691ea:
 
     # lyblabla "И мысли о суициде почти не лезут в голову..."
+<<<<<<< HEAD
     lyblabla "I have almost no thoughts of suicide. Almost..."
+=======
+    lyblabla "And thoughts of suicide almost aren’t crawling into my head ..."
+>>>>>>> origin/master
 
 # game/day1.rpy:637
 translate english betareader_5b1a1312:
@@ -822,19 +910,31 @@ translate english betareader_10056fb1:
 translate english betareader_236374c1:
 
     # lyba "Я?! Меня на все проекты просто физически не хватит..."
+<<<<<<< HEAD
     lyba "Me again?! I can’t do all these projects by myself..."
+=======
+    lyba "Me again?! I can’t physically do all these projects..."
+>>>>>>> origin/master
 
 # game/day1.rpy:652
 translate english betareader_00f1145f:
 
     # lyblabla "Вот так и живём. Что не выловит бэта-ридер, то потом вывалят на нас читатели..."
+<<<<<<< HEAD
     lyblabla "That's how we live. That won’t be caught by the beta reader, and will be dumped on us by other readers..."
+=======
+    lyblabla "That's how we live. That won’t be caught by the beta reader, and dumped on us by other readers..."
+>>>>>>> origin/master
 
 # game/day1.rpy:654
 translate english betareader_c928ab4e:
 
     # lyblabla "Ай, ну её, эту технику безопасности..."
+<<<<<<< HEAD
     lyblabla "Ah, let's forget about the safety measures..."
+=======
+    lyblabla "Ah, I don't want to observe the safety..."
+>>>>>>> origin/master
 
 # game/day1.rpy:659
 translate english betareader_2e34075e:
@@ -852,7 +952,11 @@ translate english betareader_a5c2d77d:
 translate english betareader_9bfb3314:
 
     # lyba "Лин! Ты ведь сама корректила этот проект! Почему раньше не выловила?!"
+<<<<<<< HEAD
     lyba "Lin! You were the proofreader of this project! Why didn't you catch this mistake earlier?!"
+=======
+    lyba "Lin! You were the proofreader of this project! Why haven’t you caught the mistake earlier?!"
+>>>>>>> origin/master
 
 # game/day1.rpy:669
 translate english betareader_9f79c529:
@@ -900,7 +1004,11 @@ translate english dinning_masta_39601aba:
 translate english dinning_masta_215dc2b6:
 
     # lin "А ты ведь и клинишь и тайпишь?"
+<<<<<<< HEAD
     lin "Lap, you’re both a cleaner and typist, right?"
+=======
+    lin "Lap, you’re both a leaner and typer, right?"
+>>>>>>> origin/master
 
 # game/day1.rpy:712
 translate english dinning_masta_79562853:
@@ -960,7 +1068,11 @@ translate english dinning_masta_4a940a9d:
 translate english dinning_masta_05c05384:
 
     # dexp "А если решишься стать переводчиком - то используй несколько словарей, значения слов могут быть разными!"
+<<<<<<< HEAD
     dexp "And if your final decision is to become a translator - use several dictionaries; the meaning of the words can vary!"
+=======
+    dexp "And if you make up your mind and become a translator - use several dictionaries; the meaning of the words can vary!"
+>>>>>>> origin/master
 
 # game/day1.rpy:737
 translate english dinning_masta_7b68ba74:
@@ -991,7 +1103,11 @@ translate english after_learn_fff8b458:
 translate english after_learn_0bb90c49:
 
     # lyblabla "Ну, кем ты хочешь стать?"
+<<<<<<< HEAD
     lyblabla "Well, what do you want to become?"
+=======
+    lyblabla "Well, who do you want to become?"
+>>>>>>> origin/master
 
 # game/day1.rpy:810
 translate english after_learn_0a598ccc:
@@ -1082,7 +1198,11 @@ translate english after_learn_58d44c22:
 translate english after_learn_cf6c100e:
 
     # lexa "А почему я не мог тебя найти?"
+<<<<<<< HEAD
     lexa "Where have you been?"
+=======
+    lexa "Why I couldn’t find you?"
+>>>>>>> origin/master
 
 # game/day1.rpy:900
 translate english after_learn_281a893a:
@@ -1317,7 +1437,11 @@ translate english disko_roof_8d1f80ad:
 translate english disko_roof_ac3018c6:
 
     # lyblabla "На крыше всегда тихо и свежий воздух."
+<<<<<<< HEAD
     lyblabla "The roof is always quiet and we get to enjoy the fresh air."
+=======
+    lyblabla "The roof is always quiet and has fresh air."
+>>>>>>> origin/master
 
 # game/day1.rpy:1058
 translate english disko_roof_4efd46c2:
@@ -1566,7 +1690,11 @@ translate english strings:
 
     # game/day1.rpy:778
     old "Переводчик теснее всего связан с корректировщиком и тайпером. При тайпе текст не всегда влазит в необходимую область и приходится его сокращать."
+<<<<<<< HEAD
     new "Translator works closely with the proofreader and typist. If the text isn’t structured properly, it won't make sense."
+=======
+    new "Translator is most closely associated with the proofreader and typer. If the text isn’t always intermeddling in the right area, it’s been cut."
+>>>>>>> origin/master
 
     # game/day1.rpy:785
     old "корректор"
@@ -1574,7 +1702,11 @@ translate english strings:
 
     # game/day1.rpy:786
     old "Корректор часто общается с переводчиком, бэта-ридером и иногда тайпером."
+<<<<<<< HEAD
     new "The proofreader often communicates with the translator, beta-reader and occasionally the typist."
+=======
+    new "The proofreader often communicates with the translator, beta-reader and sometimes typer."
+>>>>>>> origin/master
 
     # game/day1.rpy:793
     old "тайпер"
