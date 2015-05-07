@@ -400,7 +400,7 @@ init python:
     build.classify('**.html', None)
     build.classify('**.yml', None)
     build.classify('**.css', None)
-    build.classify('**LICENSE', None)
+    build.classify('**LICENSE*', None)
     build.classify('**/.**', None)
     build.classify('**/#**', None)
     build.classify('**/thumbs.db', None)
@@ -412,9 +412,11 @@ init python:
     build.classify('banner/**', None)
     build.classify('tutorials/**', None)
     build.classify('CNAME', None)
+    build.classify('README.md', None)
     build.classify('favicon.ico', None)
     build.classify('robots.txt', None)
     build.classify('Lybares_dialog.txt', None)
+    build.classify('.gitignore', None)
 
 
     ## To archive files, classify them as 'archive'.
