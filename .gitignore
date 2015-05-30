@@ -3,8 +3,6 @@ tmp
 .project
 *.json
 *.swp
-*.png
-*.jpg
 *.ico
 *.txt
 *.tab
