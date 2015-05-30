@@ -39,6 +39,27 @@
     thumb: thumb-1.jpg
     text: English is wrong
 
+- id: screenshotsPL
+  description: One Manga Day Screeny
+  imagefolder: ../pic/scrPL
+  images:
+  - name: screenshot0001.png
+    text: Screen 1
+  - name: screenshot0002.png
+    text: Screen 2
+  - name: screenshot0003.png
+    text: Screen 3
+  - name: screenshot0004.png
+    text: Screen 4
+  - name: screenshot0005.png
+    text: Screen 5
+  - name: screenshot0006.png
+    text: Screen 6
+  - name: screenshot0007.png
+    text: Screen 7
+  - name: screenshot0008.png
+    text: Screen 8
+    
 - id: screenshotsRU
   description: Скриншоты из One Manga Day 
   imagefolder: ../pic/scrRU

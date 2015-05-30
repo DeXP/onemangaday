@@ -1,0 +1,29 @@
+---
+layout: default
+linkadd: ../
+curlang: pl
+title: Multimedia
+galleryid: screenshotsPL
+---
+
+					<script type="text/javascript">
+						function galleryClick(path){
+							document.getElementById("IMGdisplayer").src = path;
+							return false;
+						}
+					</script>
+
+					<span id="screenshots" class="ih">Screeny</span><div class="aTape">&nbsp;</div>
+					<div class="info">
+{% include screenshots.html %}
+					</div>
+
+					<span id="video" class="ih">Wideo</span>
+					<div class="info">
+						<p class="centered">
+							<iframe width="960" height="540" class="noborder" src="//www.youtube.com/embed/IMeWtNx7Br0" allowfullscreen></iframe>
+						</p>
+					</div>
+
+					<span id="music" class="ih">Ścieżka dźwiękowa</span>
+{% include musicplayer.html %}

@@ -169,3 +169,89 @@
     icon: github.png
     width: 46
 
+
+
+
+
+
+
+
+- id: pl
+  code: pl-pl
+  fullname: Polish
+  link: pl/
+  addlink: ../
+  
+  dateformat: "%Y-%m-%d"
+  str: 
+    Comments: Comments
+    ReadMore: Read more
+    MaterialTags: Material tags
+    MaterialsByTag: Materials by tags
+    All: All
+    ReturnToTutorials: Return to Comipo tutorials
+    ErrTagNoPosts: There are no posts for this tag.
+  tags:
+  - slug: beginner
+    name: Beginner
+  - slug: middle
+    name: Middle level
+  - slug: advanced
+    name: Advanced
+  - slug: logo
+    name: Logotype
+  - slug: ext3d
+    name: External 3D
+  - slug: background
+    name: Background
+  - slug: web
+    name: Web
+  mainmenu:
+  - text: Główna
+    link: index.html
+  - text: Media
+    link: media.html
+  - text: Manga
+    link: manga.html
+  - text: FAQ
+    link: faq.html
+  - text: Banery
+    link: banners.html
+  - text: Feedback
+    link: feedback.html
+  badges:
+  - link: http://store.steampowered.com/app/365070
+    html: Pobierz<br/>na <b>Steam</b>
+    alt: Steam
+    class: whitebadge
+    icon: steam.png
+    width: 45
+  - link: https://github.com/DeXP/onemangaday/releases/latest
+    html: <span>Bezpośredni</span><br/><b>Download</b>
+    alt: Download
+    class: pinkbadge
+    icon: carton.png
+    width: 45
+  - link: http://www.amazon.com/DeXP-One-Manga-Day/dp/B00MFTHEU8
+    alt: Amazon
+    class: whitepicbadge centered
+    icon: amazon.png
+    width: 126
+  - link: https://play.google.com/store/apps/details?id=in.dexp.onemangaday
+    html: <span>Pobierz z</span><br/><b>Google</b> Play
+    alt: Google Play
+    class: pinkbadge
+    icon: android.png
+    width: 44
+  - link: http://contest.rpgmakerweb.com/game/view/id/101
+    html: <span>Indie Game <br/>Maker Contest</span>
+    alt: IGMC
+    class: whitebadge badgelong
+    icon: igmc.png
+    width: 45
+  - link: https://github.com/DeXP/onemangaday
+    html: <b>Github</b><br/><span>Social coding</span>
+    alt: Github
+    class: pinkbadge
+    icon: github.png
+    width: 46
