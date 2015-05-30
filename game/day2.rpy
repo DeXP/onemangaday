@@ -20,20 +20,25 @@ label day2:
     show dexp norm
     
     if met == "malya":
-        show mala work at left with dissolve
+        show mala work with dissolve:
+            xalign 0.15 yalign 1.0
         mala "Привет, Дэкс!"
         mala "Я за вчера перевела главу, но там есть кое-какие вопросы... Не поможешь?"
     if met == "azyki":
-        show azyki norm  at left with dissolve
+        show azyki norm with dissolve:
+            xalign 0.15 yalign 1.0
         azyki "Привет, Дэкс!"
-        show azyki angry at left with dissolve
+        show azyki angry with dissolve:
+            xalign 0.2 yalign 1.0
         azyki "Скоро уже перевод там доделаешь? Уже нужно!"
     if met == "lyba":
-        show yana norm at left with dissolve
+        show yana norm with dissolve:
+            xalign 0.2 yalign 0.8
         yana "Привет, Дэкс!"
         yana "Тут по твоему переводу несколько вопросов. Ты сейчас занят?"
     
-    show carry normflip at right with moveinright
+    show carry normflip with dissolve:
+        xalign 0.85 yalign 1.0
     carry "О! А чего это вы тут собрались? Гы!"
     
     dexp "Так, не мешайте! Дайте с человеком договорить!"
@@ -100,8 +105,9 @@ label day2:
             show lap bride at center with dissolve
             show dexp norm at left with dissolve            
             "" "... Объявляю вас мужем и женой! Жених, можете поцеловать невесту!"
-            hide lap with moveoutright
-            hide dexp with moveoutright
+            hide lap
+            hide dexp
+            with moveoutright
             play sound "sound/gflower__perfect-kiss.ogg"
             
             scene bg Classroom44 with squares
@@ -128,8 +134,9 @@ label day2:
             show lin bride at center with dissolve
             show lap norm at left with dissolve            
             "" "... Объявляю вас мужем и женой! Жених, можете поцеловать невесту!"
-            hide lin with moveoutright
-            hide lap with moveoutright
+            hide lin
+            hide lap
+            with moveoutright
             play sound "sound/gflower__perfect-kiss.ogg"
             
             scene bg Classroom49 with squares
@@ -159,8 +166,9 @@ label day2:
             lexa "Куда вы меня тащите?!"
             lexa "Отпустите меня!!!"
             "" "... Объявляю вас мужем и женой! Жених, можете поцеловать невесту!"
-            hide lexa with moveoutright
-            hide lap with moveoutright
+            hide lexa
+            hide lap
+            with moveoutright
             play sound "sound/gflower__perfect-kiss.ogg"
             
             scene bg Shop with squares
@@ -274,21 +282,23 @@ label day2:
     dexp "Пошли подглядывать!"
     
     scene bg HomeDoorNight with fade
-    show andry shy at right with moveinleft
-    show dexp think at center with moveinleft
-    show lexa norm at left with moveinleft
+    show andry shy at right 
+    show dexp think at center 
+    show lexa norm at left
+    with moveinleft
     lexa "Что-то я очкую!"
     andry "Ага, боязно как-то... Может, ну его нафиг?"
     show dexp norm with dissolve
     dexp "Да не бойтесь! Я сто раз так делал!"
     andry "Ну... раз ты так говоришь... Ладно!"
-    hide andry with moveoutright
-    hide dexp with moveoutright
-    hide lexa with moveoutright
+    hide andry
+    hide dexp
+    hide lexa
+    with moveoutright
     
     play music "Music/Dubstep1.OGG" fadeout 1 fadein 2
     scene bg HomeCorridor with fade
-    show lap sleepy at center
+    show lap sleepy at center with dissolve
     lap "(зевает) Увааах!"
     lap "А вы не подскажете, как пройти в библиотеку?"
     show dexp norm at offscreenleft

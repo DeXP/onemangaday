@@ -1,6 +1,6 @@
 # TODO: Translation updated at 2014-06-16 20:06
 
-translate english strings:
+translate polish strings:
 
     # game/script.rpy:194
     old "Дэкс"
@@ -64,14 +64,14 @@ translate english strings:
 
     # game/script.rpy:527
     old "Незнакомка"
-    new "Stranger"
+    new "Nieznajoma"
 
     # game/script.rpy:644
     old "Новичок"
-    new "Rookie"
+    new "Rekrut"
 
 
-    # game/script.rpy:651
+    # game/script.rpy:832
     old "{image=items/flags/en.jpg} English language"
     new "{image=items/flags/en.jpg} English language"
 
@@ -79,62 +79,64 @@ translate english strings:
     old "{image=items/flags/ru.jpg} Русский язык"
     new "{image=items/flags/ru.jpg} Русский язык"
 
-    # game/script.rpy:843
+    # game/script.rpy:832
     old "{image=items/flags/pl.jpg} Język polski"
     new "{image=items/flags/pl.jpg} Język polski"
 
 
 
+
     # game/script.rpy:218
     old "{size=20}Достижение разблокировано{/size}"
-    new "{size=20}Achievement Unlocked{/size}"
+    new "{size=20}Osiągnięcie odblokowane{/size}"
 
     # game/script.rpy:219
     old "\"Не устроиться на работу\""
-    new "\"Do not get a job\""
+    new "\"Nie dostań pracy\""
 
     # game/script.rpy:227
     old "\"Потеряться в космосе\""
-    new "\"Lost in space\""
+    new "\"Zagubiony w kosmosie\""
 
     # game/script.rpy:235
     old "\"Дожить до старости\""
-    new "\"Live to old age\""
+    new "\"Dożyć starości\""
 
     # game/script.rpy:243
     old "\"Общее фото\""
-    new "\"Overall photo\""
+    new "\"Wspólne zdjęcie\""
 
     # game/script.rpy:251
     old "\"Мастер раздевания\""
-    new "\"Master of undressing\""
+    new "\"Mistrz rozbierania\""
 
     # game/script.rpy:259
     old "\"Посмотреть на птичку\""
-    new "\"Look at the bird\""
+    new "\"Spójrz na ptaka\""
 
     # game/script.rpy:268
     old "\"Сканировщик\""
-    new "\"Scanner\""
+    new "\"Skanujący\""
 
     # game/script.rpy:276
     old "\"Клинер\""
-    new "\"Cleaner\""
+    new "\"Czyściciel\""
 
     # game/script.rpy:284
     old "\"Переводчик\""
-    new "\"Translator\""
+    new "\"Tłumacz\""
 
     # game/script.rpy:292
     old "\"Корректор\""
-    new "\"Proofreader\""
+    new "\"Korektor\""
 
     # game/script.rpy:300
     old "\"Тайпер\""
-    new "\"Typer\""
+    new "\"Piszący\""
 
     # game/script.rpy:308
     old "\"Бэта-ридер\""
-    new "\"Beta-reader\""
+    new "\"Beta-czytający\""
+
 
 

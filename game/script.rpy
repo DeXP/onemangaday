@@ -165,6 +165,7 @@ image Lantern = "items/Lantern.png"
 image Cracker = "items/Cracker.png"
 image Flags = "items/Flags.png"
 image Server = "items/Server.png"
+image ServerFlip = im.Flip("items/Server.png", horizontal=True)
 image Binocle = "items/Binocle.png"
 image BinocularMask = "items/BinocularMask.png"
 image StarShip = "items/StarShip.png"
@@ -342,6 +343,7 @@ image dexp fearbigflip = im.Flip("pers/dexp_fear_big.png", horizontal=True)
 image side dexp fearbigflip = "pers/dexp_side_fear.png"
 image dexp thinkbig = "pers/dexp_think_big.png"
 image side dexp thinkbig = "pers/dexp_side_think.png"
+image dexp thinkbigflip = im.Flip("pers/dexp_think_big.png", horizontal=True)
 
 image dexp maikasad = "pers/dexp_maika_sad.png"
 image side dexp maikasad = "pers/dexp_side_maika_sad.png"
@@ -352,6 +354,9 @@ image side dexp maikasurprised = "pers/dexp_side_maika_sad.png"
 
 image dexp happykust = im.Crop("pers/dexp_happy.png", 175, 30, 200, 390)
 image side dexp happykust = "pers/dexp_side_joy.png"
+
+image dexp normhalf = "pers/dexp_norm_half.png"
+image side dexp normhalf = "pers/dexp_side_norm.png"
 
 
 
@@ -391,6 +396,10 @@ image lap sexytort = "pers/lap_tort.png"
 image side lap sexytort = "pers/lap_side_sexy.png"
 image lap liedown = Transform( Image("pers/lap_angry.png"), rotate=80)
 image side lap liedown = "pers/lap_side_angry.png"
+image lap normhalf = "pers/lap_norm_half.png"
+image side lap normhalf = "pers/lap_side_norm.png"
+image lap angryhalf = "pers/lap_angry_half.png"
+image side lap angryhalf = "pers/lap_side_angry.png"
 
 image lap cosmo = LiveComposite(
     (530, 530),
@@ -498,7 +507,9 @@ image side lexa norm = "pers/lexa_side_norm.png"
 image lexa attention = "pers/lexa_attention.png"
 image side lexa attention = "pers/lexa_side_norm.png"
 image lexa lookdown = "pers/lexa_lookdown.png"
-image side lexa downserver = "pers/lexa_side_norm.png"
+image side lexa lookdown = "pers/lexa_side_norm.png"
+image lexa lookdownflip = im.Flip("pers/lexa_lookdown.png", horizontal=True)
+image side lexa lookdownflip = "pers/lexa_side_norm.png"
 image lexa bride = "pers/lexa_bride.png"
 image side lexa bride = "pers/lexa_side_bride.png"
 image lexa sit = "pers/lexa_sit.png"
@@ -833,9 +844,13 @@ label language_chooser:
         "{image=items/flags/en.jpg}  English language":
             $ renpy.change_language("english")
             pass
-        "{image=items/flags/ru.jpg}  Русский язык      ":
+        "{image=items/flags/ru.jpg}  Русский язык":
             $ renpy.change_language(None)
             pass
+        "{image=items/flags/pl.jpg}  Język polski":
+            $ renpy.change_language("polish")
+            pass
+            
     #$ renpy.utter_restart()
     hide Question
     hide dexp with dissolve

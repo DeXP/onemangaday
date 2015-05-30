@@ -601,6 +601,7 @@ screen preferences:
                 label _("Язык")
                 textbutton "{image=items/flags/en.jpg} "+_("English   ") action Language("english")
                 textbutton "{image=items/flags/ru.jpg} "+_("Русский") action Language(None)
+                textbutton "{image=items/flags/pl.jpg} "+_("Polski     ") action Language("polish")
                 
 
 init -2 python:

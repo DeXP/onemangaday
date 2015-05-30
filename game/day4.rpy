@@ -118,7 +118,7 @@ label day4afterGod:
     carry "Да. Все секретные данные у меня."
     carry "Да, при ближайшей оказии я передам Вам документы..."
     
-    show lexa norm at right with moveinright
+    show lexa norm at right with dissolve
     lexa "О, Кэрри! Привет."
     lexa "А что это ты такое делаешь?"
     play sound "sound/madamvicious_female-ehem.ogg"
@@ -207,8 +207,10 @@ label day4afterGod:
     
     scene bg Dinning1 with fade
     play music "Music/PopRock2.OGG" fadeout 1 fadein 2
-    show lyblabla helsilent at center with dissolve
-    show jess funnycard behind lyblabla at left with moveinleft
+    show lyblabla helsilent with dissolve:
+        xalign 0.2 yalign 1.0
+    show jess funnycard behind lyblabla with moveinleft:
+        xalign -0.25 yalign 1.0
     jess "Лайби! Смотри, что у меня есть!"
     lyblabla "Что это?"
     jess "Пара пикантных фоток Дэкса, Мали и Лёхи!"
@@ -218,13 +220,14 @@ label day4afterGod:
     show lyblabla silent
     jess "Хе хе!"
     
-    show dexp norm behind jess at right with easeinright
+    show dexp norm behind jess with dissolve:
+        xalign 0.6 yalign 1.0
     dexp "И что здесь происходит?"
     show dexp laugh with dissolve
     dexp "О! Довольная Джесс!"
     
     show dexp laugh with easeinright:
-        xalign 0.03 yalign 0.5
+        xalign -0.22 yalign 0.5
     show dexp maikasurprised with dissolve
     
     show lyblabla normal
@@ -233,29 +236,35 @@ label day4afterGod:
     lyblabla "Дэкс, стесняюсь спросить..."
     lyblabla "Но что ты делаешь так близко к Джесс?"
     hide lyblabla
-    show lyba angryflip with dissolve
+    show lyba angryflip with dissolve:
+        xalign 0.2 yalign 1.0
     play sound "sound/mattskydoodle_censor-beep.ogg"
     lyba "И КАКОГО ЧЁРТА ТЫ БЕЗ ШТАНОВ?!?"
     dexp "Так жарко же."
     lyba "Всё равно! Надень штаны! Ты на официальном мероприятии!"
-    show dexp norm at left with dissolve
+    show dexp norm with dissolve:
+        xalign -0.22 yalign 0.5
     dexp "Ну ладно..."
     hide lyba
-    show lyblabla normal with dissolve
+    show lyblabla normal with dissolve:
+        xalign 0.15 yalign 1.0
     lyblabla "Ну и хорошо..."
     show lyblabla silent
     hide jess with moveoutleft
     
-    show drakoha norm behind lyblabla at right with moveinright
+    show drakoha norm behind lyblabla with dissolve:
+        xalign 0.65 yalign 1.0
     drakoha "Всем привет! Я вернулась!"
     show dexp think with dissolve
     dexp "Ну ни фига себе за хлебушком сходила..."
     drakoha "Ой. Соль забыла. Я сейчас, 5 минут!"
-    hide drakoha with easeoutright
+    hide drakoha with dissolve
     
-    show mala norm at right with moveinright
-    show lexa norm with moveinright:
-        xalign 1.4 yalign 1.0
+    show mala norm behind lyblabla:
+        xalign 0.41 yalign 1.0
+    show lexa norm behind mala:
+        xalign 0.63 yalign 1.0
+    with dissolve
     mala "Всем привет! А что здесь происходит?"
     
     show lyblabla normal
@@ -269,9 +278,10 @@ label day4afterGod:
     show mala work with dissolve
     mala "Ну надо, значит надо..."
     
-    hide lexa with moveoutright
-    hide mala with moveoutright
-    hide dexp with moveoutright
+    hide lexa
+    hide mala
+    hide dexp 
+    with dissolve
     
     
     
@@ -282,9 +292,13 @@ label day4afterGod:
     centered "Да что ж такое?!?"
     
     scene bg Dinning1 with fade 
-    show lyblabla silent at center with dissolve
-    show mala work at left with moveinright
-    show dexp think at right with moveinright
+    show lyblabla silent with dissolve:
+        xalign 0.2 yalign 1.0
+    show mala work:
+        xalign -0.2 yalign 1.0
+    show dexp think:
+        xalign 0.6 yalign 1.0
+    with dissolve
     
     dexp "Эмм. Лайби, мы тут подумали..."
     mala "В общем, вечер уже, пора ужинать."

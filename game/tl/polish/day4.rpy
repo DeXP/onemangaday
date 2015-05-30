@@ -1,625 +1,625 @@
 # TODO: Translation updated at 2014-06-19 19:15
 
 # game/day4.rpy:5
-translate english day4_5c3f2745:
+translate polish day4_5c3f2745:
 
     # centered "День 4"
-    centered "Day 4"
+    centered "Dzień 4"
 
 # game/day4.rpy:11
-translate english day4_6d88340b:
+translate polish day4_6d88340b:
 
     # lap "Ух! Как тут красиво!"
-    lap "Wow! It is so beautiful here!"
+    lap "Łał! Ale tu pięknie!"
 
 # game/day4.rpy:13
-translate english day4_ca1d02dd:
+translate polish day4_ca1d02dd:
 
     # lap "Всегда мечтала побывать в космосе..."
-    lap "I have always dreamed of going to space..."
+    lap "Zawsze marzyłam, by polecieć w kosmos..."
 
 # game/day4.rpy:17
-translate english day4_a670af6b:
+translate polish day4_a670af6b:
 
     # lap "Спасибо большое Андрею, что собрал для меня космический корабль!"
-    lap "Thank you Andre, for making me this spaceship!"
+    lap "Dziękuję Andre, że zrobiłeś dla mnie ten statek kosmiczny!"
 
 # game/day4.rpy:23
-translate english day4_72ab89f3:
+translate polish day4_72ab89f3:
 
     # god "Девочка! Ты зачем засоряешь мой космос всяким хламом?!?"
-    god "Girl! Why do you pollute my universe with this junk??"
+    god "Dziewczyno! Dlaczego zanieczyszczasz mój świat tym rupieciem?!"
 
 # game/day4.rpy:25
-translate english day4_23e5f5c0:
+translate polish day4_23e5f5c0:
 
     # lap "Это не хлам! Это мой космический корабль!"
-    lap "Its not junk! That's my spaceship!"
+    lap "To nie rupieć! To mój statek kosmiczny!"
 
 # game/day4.rpy:26
-translate english day4_db7f5042:
+translate polish day4_db7f5042:
 
     # god "Но выглядит как хлам!"
-    god "But it looks like trash!"
+    god "Ale wygląda jak śmieć!"
 
 # game/day4.rpy:27
-translate english day4_bb67bae4:
+translate polish day4_bb67bae4:
 
     # lap "Может и выглядит, но Андрей же старался!"
-    lap "Maybe... But Andre tried really hard!"
+    lap "Może... ale Andre bardzo się starał!"
 
 # game/day4.rpy:30
-translate english day4_152a0959:
+translate polish day4_152a0959:
 
     # lap "И ведь это всё не важно! А я давно хотела спросить!"
-    lap "Anyway, that's not important! I’ve always wanted to ask this!"
+    lap "Zresztą, to nie jest ważne! Zawsze chciałam cię o coś zapytać!"
 
 # game/day4.rpy:52
-translate english godQuestions_7f749024:
+translate polish godQuestions_7f749024:
 
     # god "Кушать меньше не пробовала?"
-    god "Have you tried to eat less?"
+    god "Próbowałaś jeść mniej?"
 
 # game/day4.rpy:56
-translate english godQuestions_d36ebfc5:
+translate polish godQuestions_d36ebfc5:
 
     # god "Спроси что-нибудь полегче, а?"
-    god "Ask me something easier, huh?"
+    god "Zapytaj mnie o coś prostszego, dobra?"
 
 # game/day4.rpy:60
-translate english godQuestions_7c0e0536:
+translate polish godQuestions_7c0e0536:
 
     # god "А я тут причём? Я женщина, что ли?"
-    god "Why do I deal with this? Am I a woman, or what?"
+    god "A dlaczego ma mnie to obchodzić? Sam jestem kobietą, czy co?"
 
 
 # game/day4.rpy:65
-translate english godQuestions_7561eac3:
+translate polish godQuestions_7561eac3:
 
     # god "Переводить вовремя не пробовали?"
-    god "Did you give yourself enough time to do the translation?"
+    god "A dawaliście sobie więcej czasu na tłumaczenie?"
 
 # game/day4.rpy:69
-translate english godQuestions_41d4e11d:
+translate polish godQuestions_41d4e11d:
 
     # god "Работать, так понимаю, не вариант?"
-    god "Is working not an option?"
+    god "Czy praca to nie rozwiązanie?"
 
 # game/day4.rpy:73
-translate english godQuestions_1bab21de:
+translate polish godQuestions_1bab21de:
 
     # god "Как насчёт меньше маяться дурью?"
-    god "How about, less fooling around?"
+    god "A gdyby tak, nie zajmować się głupoty?"
 
 # game/day4.rpy:86
-translate english day4afterGod_083b9afa:
+translate polish day4afterGod_083b9afa:
 
     # lap "Скажи, а..."
-    lap "Tell me, or else..."
+    lap "Odpowiedz mi, albo..."
 
 # game/day4.rpy:87
-translate english day4afterGod_cb20be4d:
+translate polish day4afterGod_cb20be4d:
 
     # god "Кхм. Эй, эй, полегче!"
-    god "Ahem. Alright, alright, take it easy!"
+    god "Ekhm. Dobra, dobra, wyluzuj!"
 
 # game/day4.rpy:88
-translate english day4afterGod_d4ef6b5b:
+translate polish day4afterGod_d4ef6b5b:
 
     # lap "А ещё я хотела бы узнать..."
-    lap "I also would like to know..."
+    lap "Chciałabym też wiedzieć..."
 
 # game/day4.rpy:89
-translate english day4afterGod_b7c5110f:
+translate polish day4afterGod_b7c5110f:
 
     # god "Ой. Я тут вспомнил. У меня тут срочные дела! До свидания!"
-    god "Oh! I just remembered, I have urgent business to attend to! Goodbye!"
+    god "Och! Właśnie sobie przypomniałem. Mam ważną sprawę do załatwienia. Do widzenia!"
 
 # game/day4.rpy:94
-translate english day4afterGod_bb4f92cf:
+translate polish day4afterGod_bb4f92cf:
 
     # lap "Куда?!? А ну стоять! Я ещё не всё спросила!"
-    lap "What?? Stop right there! You haven’t answered all of my questions yet!"
+    lap "Co?! Zatrzymaj się! Nie odpowiedziałeś na wszystkie moje pytania!"
 
 # game/day4.rpy:108
-translate english day4afterGod_332ea6fc:
+translate polish day4afterGod_332ea6fc:
 
     # andry "Эй! Лап! Ты меня слушаешь? Я тебе уже целый час объясняю!"
-    andry "Hey! Lap! Are you even listening? I've been trying to explain this to you for over an hour!"
+    andry "Hej, Lap! Czy ty w ogóle słuchasz? Próbuję ci to wytłumaczyć już od godziny!"
 
 # game/day4.rpy:111
-translate english day4afterGod_8481f7b1:
+translate polish day4afterGod_8481f7b1:
 
     # lap "Ой, я, кажется, немножко отвлеклась... Так что ты там говорил?"
-    lap "Oh, I was a little distracted ... So what are you saying?"
+    lap "Och, byłam trochę zamyślona... Co mówiłeś?"
 
 # game/day4.rpy:113
-translate english day4afterGod_e864d136:
+translate polish day4afterGod_e864d136:
 
     # andry "Вот, слушай..."
-    andry "Here, look..."
+    andry "Słuchaj..."
 
 # game/day4.rpy:118
-translate english day4afterGod_26c3e129:
+translate polish day4afterGod_26c3e129:
 
     # carry "Да. Все секретные данные у меня."
-    carry "Yes, I have all of the secret data."
+    carry "Tak, mam wszystkie tajne dane."
 
 # game/day4.rpy:119
-translate english day4afterGod_4aade234:
+translate polish day4afterGod_4aade234:
 
     # carry "Да, при ближайшей оказии я передам Вам документы..."
-    carry "Yes, I will give you the documents as soon as I can..."
+    carry "Tak, dam wam te dokumenty tak szybko, jak to będzie możliwe..."
 
 # game/day4.rpy:122
-translate english day4afterGod_3e0bee3d:
+translate polish day4afterGod_3e0bee3d:
 
     # lexa "О, Кэрри! Привет."
-    lexa "Oh, Carry! Hi."
+    lexa "Och, Carry! Cześć."
 
 # game/day4.rpy:123
-translate english day4afterGod_c9a91938:
+translate polish day4afterGod_c9a91938:
 
     # lexa "А что это ты такое делаешь?"
-    lexa "What are you doing?"
+    lexa "Co robisz?"
 
 # game/day4.rpy:125
-translate english day4afterGod_2087b96c:
+translate polish day4afterGod_2087b96c:
 
     # carry "Упс."
-    carry "Oops."
+    carry "Ups."
 
 # game/day4.rpy:128
-translate english day4afterGod_c85584c5:
+translate polish day4afterGod_c85584c5:
 
     # carry "Да так, ничего. Гы-гы."
-    carry "Oh, nothing. Bwahaha."
+    carry "Ach, nic. Bwahaha."
 
 # game/day4.rpy:129
-translate english day4afterGod_de236f08:
+translate polish day4afterGod_de236f08:
 
     # carry "Не говори никому, что меня видел, ладно?"
-    carry "Don’t tell anyone that you’ve seen me, okay?"
+    carry "Nie mów nikomu, że mnie widziałeś, dobrze?"
 
 # game/day4.rpy:130
-translate english day4afterGod_9e43d856:
+translate polish day4afterGod_9e43d856:
 
     # lexa "Да без проблем..."
-    lexa "No problem..."
+    lexa "Nie na problemu..."
 
 # game/day4.rpy:135
-translate english day4afterGod_a56f6f8e:
+translate polish day4afterGod_a56f6f8e:
 
     # lyblabla "Итак, товарищи! Вчера мы так ничего и не решили!"
-    lyblabla "So, comrades! Yesterday we still did not decide anything!"
+    lyblabla "No dobra, towarzysze! Wczoraj nic nie zadecydowaliśmy!"
 
 # game/day4.rpy:136
-translate english day4afterGod_5710000f:
+translate polish day4afterGod_5710000f:
 
     # lyblabla "Всё-таки, у кого какие будут предложения?"
-    lyblabla "So does anyone have any suggestions?"
+    lyblabla "Czy ktoś ma jakieś sugestie?"
 
 # game/day4.rpy:138
-translate english day4afterGod_25859bf0:
+translate polish day4afterGod_25859bf0:
 
     # lyblabla "И где Дэкс?!"
-    lyblabla "Also, where is Dex?"
+    lyblabla "I gdzie jest Alex?"
 
 # game/day4.rpy:142
-translate english day4afterGod_97290c2f:
+translate polish day4afterGod_97290c2f:
 
     # centered "В то же время" with dissolve
-    centered "At the same time" with dissolve
+    centered "W tym samym czasie" with dissolve
 
 # game/day4.rpy:153
-translate english day4afterGod_81ed28e2:
+translate polish day4afterGod_81ed28e2:
 
     # mala "Лёша... Я очень любопытная..."
-    mala "Alex... I'm very curious..."
+    mala "Alex... Jestem bardzo ciekawa..."
 
 # game/day4.rpy:156
-translate english day4afterGod_32209c8d:
+translate polish day4afterGod_32209c8d:
 
     # mala "И давно хотела спросить у тебя..."
-    mala "I've always wanted to ask you..."
+    mala "Zawsze chciałam cię o to zapytać..."
 
 # game/day4.rpy:160
-translate english day4afterGod_11e35e6b:
+translate polish day4afterGod_11e35e6b:
 
     # dexp "(Ухх! Сейчас что-то будет!)"
-    dexp "(Uhh! Now this will be something!)"
+    dexp "(Uch! To będzie coś!)"
 
 # game/day4.rpy:163
-translate english day4afterGod_d66433a5:
+translate polish day4afterGod_d66433a5:
 
     # mala "Я, правда, немного стесняюсь такое спрашивать..."
-    mala "However, it’s hard for me to ask..."
+    mala "To trochę kłopotliwe..."
 
 # game/day4.rpy:166
-translate english day4afterGod_a10ace6c:
+translate polish day4afterGod_a10ace6c:
 
     # dexp "(Ну же! Ну же!)"
-    dexp "(Come on! Come on!)"
+    dexp "(No dalej! No dalej!)"
 
 # game/day4.rpy:170
-translate english day4afterGod_08fc79cb:
+translate polish day4afterGod_08fc79cb:
 
     # jess "Ага! Попались! Всех сфотографирую!"
-    jess "Aha! Gotcha! Say cheese!"
+    jess "Aha! Mam was! Powiedzcie ser!"
 
 # game/day4.rpy:180
-translate english day4afterGod_9f6614b7:
+translate polish day4afterGod_9f6614b7:
 
     # dexp "О нет! Мы попались! Бежииим!!!"
-    dexp "Oh no! We’ve been caught! Run!"
+    dexp "O, nie! Przyłapali nas! Ewakuacja!"
 
 # game/day4.rpy:184
-translate english day4afterGod_cf625a9d:
+translate polish day4afterGod_cf625a9d:
 
     # dexp "Я так думаю, нас ведь уже всё равно сфотографировали? Так что пойду-ка я."
-    dexp "I think we've already been photographed anyway, so I’ll go."
+    dexp "I tak już zrobili nam zdjęcie, więc nie ma nic do stracenia."
 
 # game/day4.rpy:188
-translate english day4afterGod_b6edcaa0:
+translate polish day4afterGod_b6edcaa0:
 
     # dexp "Ахаха! Вот умора-то! Ахаха!"
-    dexp "Ahaha! That is hilarious! Ahaha!"
+    dexp "Ahaha! Ale to zabawne! Ahaha!"
 
 # game/day4.rpy:195
-translate english day4afterGod_9dd6d454:
+translate polish day4afterGod_9dd6d454:
 
     # mala "Ах! Так он, значит, за нами всё это время подсматривал!!!"
     # So, all this time he was spying on us! 
-    mala "So, all this time he was peeping on us!"
+    mala "Przez cały czas nas podglądał!"
 
 # game/day4.rpy:196
-translate english day4afterGod_86ed787e:
+translate polish day4afterGod_86ed787e:
 
     # mala "Ну пускай только мне попадётся!"
-    mala "He's in trouble if he comes my way!"
+    mala "Będzie miał problem, jeśli wejdzie mi w drogę!"
 
 # game/day4.rpy:197
-translate english day4afterGod_d1573683:
+translate polish day4afterGod_d1573683:
 
     # mala "Из-за него я так и не узнала, почему Лёша носит с собой эту чёртову клавиатуру!"
-    mala "Because of him, I'll never know why Alex carries that damn keyboard!"
+    mala "Przez niego nigdy się nie dowiem, dlaczego Alex nosi ze sobą tę cholerną klawiaturę!"
 
 # game/day4.rpy:206
-translate english day4afterGod_1b840f25:
+translate polish day4afterGod_1b840f25:
 
     # centered "Чуть позже"
-    centered "A little later"
+    centered "Trochę później"
 
 # game/day4.rpy:212
-translate english day4afterGod_22aea1cc:
+translate polish day4afterGod_22aea1cc:
 
     # jess "Лайби! Смотри, что у меня есть!"
-    jess "Laiby! Look what I’ve got!"
+    jess "Laiby! Patrz, co mam!"
 
 # game/day4.rpy:213
-translate english day4afterGod_4b2118e2:
+translate polish day4afterGod_4b2118e2:
 
     # lyblabla "Что это?"
-    lyblabla "What's this?"
+    lyblabla "Co to?"
 
 # game/day4.rpy:214
-translate english day4afterGod_79e66e33:
+translate polish day4afterGod_79e66e33:
 
     # jess "Пара пикантных фоток Дэкса, Мали и Лёхи!"
-    jess "A couple of juicy pictures of Dex, Malia and Alex!"
+    jess "Parę pikantnych zdjęć z Dexem, Malią i Alexem!"
 
 # game/day4.rpy:216
-translate english day4afterGod_c7ccdba6:
+translate polish day4afterGod_c7ccdba6:
 
     # lyblabla "Молодец, молодец. Делай ещё фотки!"
-    lyblabla "Well done, well done. Get more pictures!"
+    lyblabla "Bardzo dobrze, bardzo dobrze. Zrób ich więcej!"
 
 # game/day4.rpy:219
-translate english day4afterGod_b65fe79e:
+translate polish day4afterGod_b65fe79e:
 
     # jess "Хе хе!"
-    jess "Heh heh!"
+    jess "Hehe!"
 
 # game/day4.rpy:222
-translate english day4afterGod_b4c75012:
+translate polish day4afterGod_b4c75012:
 
     # dexp "И что здесь происходит?"
-    dexp "What's going on here?"
+    dexp "Co się dzieje?"
 
 # game/day4.rpy:224
-translate english day4afterGod_ae5ace41:
+translate polish day4afterGod_ae5ace41:
 
     # dexp "О! Довольная Джесс!"
-    dexp "Oh! Jess is pleased!"
+    dexp "O, Jess się cieszy!"
 
 # game/day4.rpy:232
-translate english day4afterGod_7f170a19:
+translate polish day4afterGod_7f170a19:
 
     # lyblabla "Кхм..."
-    lyblabla "Ahem..."
+    lyblabla "Ekhm..."
 
 # game/day4.rpy:233
-translate english day4afterGod_e77a74c6:
+translate polish day4afterGod_e77a74c6:
 
     # lyblabla "Дэкс, стесняюсь спросить..."
-    lyblabla "Dex, I'm too shy to ask..."
+    lyblabla "Dex, trochę wstydzę się zapytać..."
 
 # game/day4.rpy:234
-translate english day4afterGod_20a9cc06:
+translate polish day4afterGod_20a9cc06:
 
     # lyblabla "Но что ты делаешь так близко к Джесс?"
-    lyblabla "But what are you doing so close to Jess?"
+    lyblabla "Ale co ty wyprawiasz tak blisko Jess?"
 
 # game/day4.rpy:238
-translate english day4afterGod_f698c35a:
+translate polish day4afterGod_f698c35a:
 
     # lyba "И КАКОГО ЧЁРТА ТЫ БЕЗ ШТАНОВ?!?"
-    lyba "AND WHAT THE HELL, WHERE ARE YOUR PANTS??"
+    lyba "I GDZIE SĄ, DO JASNEJ CHOLERY, TWOJE SPODNIE?!"
 
 # game/day4.rpy:239
-translate english day4afterGod_9c58cf49:
+translate polish day4afterGod_9c58cf49:
 
     # dexp "Так жарко же."
-    dexp "It’s really hot today."
+    dexp "Jest dzisiaj bardzo ciepło."
 
 # game/day4.rpy:240
-translate english day4afterGod_4070161a:
+translate polish day4afterGod_4070161a:
 
     # lyba "Всё равно! Надень штаны! Ты на официальном мероприятии!"
-    lyba "Argh, put on your pants! You're at an event!"
+    lyba "Argh, zakładaj spodnie! Jesteś na spotkaniu!"
 
 # game/day4.rpy:242
-translate english day4afterGod_10eeebe8:
+translate polish day4afterGod_10eeebe8:
 
     # dexp "Ну ладно..."
-    dexp "Well..."
+    dexp "No, cóż..."
 
 # game/day4.rpy:245
-translate english day4afterGod_36df2e57:
+translate polish day4afterGod_36df2e57:
 
     # lyblabla "Ну и хорошо..."
-    lyblabla "That's better..."
+    lyblabla "Tak lepiej..."
 
 # game/day4.rpy:250
-translate english day4afterGod_76e9d2a3:
+translate polish day4afterGod_76e9d2a3:
 
     # drakoha "Всем привет! Я вернулась!"
-    drakoha "Hello! I'm back!"
+    drakoha "Cześć! Już jestem!"
 
 # game/day4.rpy:252
-translate english day4afterGod_66ead79c:
+translate polish day4afterGod_66ead79c:
 
     # dexp "Ну ни фига себе за хлебушком сходила..."
-    dexp "Oh wow... I just went for some bread..."
+    dexp "Ojej... A więc poszłaś kupić chleb..."
 
 # game/day4.rpy:253
-translate english day4afterGod_7274cc3f:
+translate polish day4afterGod_7274cc3f:
 
     # drakoha "Ой. Соль забыла. Я сейчас, 5 минут!"
-    drakoha "Oh, I forgot some salt. I'll be back in 5 minutes!"
+    drakoha "Och, zapomniałam soli. Będę za pięć minut!"
 
 # game/day4.rpy:259
-translate english day4afterGod_28f26c6d:
+translate polish day4afterGod_28f26c6d:
 
     # mala "Всем привет! А что здесь происходит?"
-    mala "Hello everyone! What's going on here?"
+    mala "Cześć wam! Co u was?"
 
 # game/day4.rpy:262
-translate english day4afterGod_05a21ac2:
+translate polish day4afterGod_05a21ac2:
 
     # lyblabla "Ага! Вот и остальные проштрафившиеся появились!"
-    lyblabla "Aha! More latecomers!"
+    lyblabla "Aha! Więcej spóźnialskich!"
 
 # game/day4.rpy:263
-translate english day4afterGod_91463a16:
+translate polish day4afterGod_91463a16:
 
     # lyblabla "Мы тут общим собранием решаем, что с конфликтом делать, а они гуляют!"
-    lyblabla "We're having a meeting regarding this conflict, while you’re slacking off!"
+    lyblabla "Mamy spotkanie dotyczące konfliktu, a wy się obijacie!"
 
 # game/day4.rpy:265
-translate english day4afterGod_64543e04:
+translate polish day4afterGod_64543e04:
 
     # lyblabla "В наказание сегодня сами пойдёте говорить с вражеской командой!"
-    lyblabla "As a punishment, you have to go talk to the enemy team today!"
+    lyblabla "Za karę, to wy dzisiaj porozmawiacie z wrogiem!"
 
 # game/day4.rpy:266
-translate english day4afterGod_a6fcb364:
+translate polish day4afterGod_a6fcb364:
 
     # lyblabla "Шагом марш!"
-    lyblabla "Forward, march!"
+    lyblabla "Naprzód, marsz!"
 
 # game/day4.rpy:270
-translate english day4afterGod_e91e8662:
+translate polish day4afterGod_e91e8662:
 
     # mala "Ну надо, значит надо..."
-    mala "Well if you think it's necessary, I’ll do it..."
+    mala "Jeśli to takie ważne, to to zrobię..."
 
 # game/day4.rpy:280
-translate english day4afterGod_8abecce5:
+translate polish day4afterGod_8abecce5:
 
     # centered "И пошли они в бой." with dissolve
-    centered "They went forth to do battle." with dissolve
+    centered "Od razu ruszyli do boju." with dissolve
 
 # game/day4.rpy:281
-translate english day4afterGod_e79c0597:
+translate polish day4afterGod_e79c0597:
 
     # centered "И... "
-    centered "And... "
+    centered "I... "
 
 # game/day4.rpy:282
-translate english day4afterGod_736e83bf:
+translate polish day4afterGod_736e83bf:
 
     # centered "Да что ж такое?!?"
-    centered "But what's this??"
+    centered "Co jest?!"
 
 # game/day4.rpy:289
-translate english day4afterGod_55978e38:
+translate polish day4afterGod_55978e38:
 
     # dexp "Эмм. Лайби, мы тут подумали..."
-    dexp "Emm. Laiby, we were thinking..."
+    dexp "Emm, Laiby, tak sobie myśleliśmy..."
 
 # game/day4.rpy:290
-translate english day4afterGod_a391e614:
+translate polish day4afterGod_a391e614:
 
     # mala "В общем, вечер уже, пора ужинать."
-    mala "It can't be helped, it's already evening, so time for dinner."
+    mala "Jest wieczór, więc czas na kolację."
 
 # game/day4.rpy:291
-translate english day4afterGod_866ba9d6:
+translate polish day4afterGod_866ba9d6:
 
     # dexp "Может, мы сначала поедим, а завтра уже утром на свежую голову будем разборки устраивать?"
-    dexp "Can we eat first? Tomorrow morning we'll arrange the showdown with a fresh mind."
+    dexp "Możemy najpierw zjeść? Rano będziemy walczyć o trzeźwych umysłach!"
 
 # game/day4.rpy:294
-translate english day4afterGod_1744e4d6:
+translate polish day4afterGod_1744e4d6:
 
     # lyblabla "Ужин - святое. Кушайте на здоровье."
-    lyblabla "Dinner is sacred, it’s what keeps us healthy."
+    lyblabla "Kolacja to świętość, utrzymuje nas przy zdrowiu."
 
 # game/day4.rpy:299
-translate english day4afterGod_b3365918:
+translate polish day4afterGod_b3365918:
 
     # dexp "Да уж. Война войной, а еда по расписанию!"
-    dexp "Yeah. Can't fight a war on an empty stomach!"
+    dexp "O, tak! Wojna nie może się odbyć o pustym żołądku!"
 
 # game/day4.rpy:304
-translate english day4afterGod_debb0584:
+translate polish day4afterGod_debb0584:
 
     # mala "Ах, вот ты где!"
-    mala "Ah, there you are!"
+    mala "Ach, tutaj jesteś!"
 
 # game/day4.rpy:305
-translate english day4afterGod_bbdde4a2:
+translate polish day4afterGod_bbdde4a2:
 
     # mala "Ты почему за нами в парке подглядывал?!"
-    mala "Why were you peeping on us in the park?"
+    mala "Dlaczego nas podglądałeś w parku?"
 
 # game/day4.rpy:309
-translate english day4afterGod_ccf78e6e:
+translate polish day4afterGod_ccf78e6e:
 
     # dexp "Я просто посмотреть хотел, честно!"
-    dexp "I just wanted to see, honestly!"
+    dexp "Chciałem tylko popatrzeć, serio!"
 
 # game/day4.rpy:312
-translate english day4afterGod_b968270e:
+translate polish day4afterGod_b968270e:
 
     # mala "Ах, посмотреть, да? А ну иди сюда!"
-    mala "Oh, is that all huh? Come here!"
+    mala "Och, to wszystko, hę? Chodź tutaj!"
 
 # game/day4.rpy:319
-translate english day4afterGod_8ba3fa92:
+translate polish day4afterGod_8ba3fa92:
 
     # dexp "Ай!" with vpunch
-    dexp "Ouch!" with vpunch
+    dexp "Auć!" with vpunch
 
 # game/day4.rpy:323
-translate english day4afterGod_59b30c57:
+translate polish day4afterGod_59b30c57:
 
     # centered "Вот так и закончился ещё один день..." with dissolve
-    centered "And so ended another long day..." with dissolve
+    centered "I tak się skończył kolejny długi dzień..." with dissolve
 
 # game/day4.rpy:324
-translate english day4afterGod_c1dae069:
+translate polish day4afterGod_c1dae069:
 
     # centered "Выживут ли наши герои, или всё будет плохо?" with dissolve
-    centered "Will our heroes survive, or will all have been for naught?" with dissolve
+    centered "Czy nasi bohaterowie przetrwają? A może wszystko pójdzie na marne?" with dissolve
 
 
 # game/day4.rpy:331
-translate english godBadEnd_bfd3eca4:
+translate polish godBadEnd_bfd3eca4:
 
     # god "Девочка!"
-    god "Girl!"
+    god "Dziewczyno!"
 
 # game/day4.rpy:332
-translate english godBadEnd_65bd7418:
+translate polish godBadEnd_65bd7418:
 
     # god "Ты задаёшь неправильные вопросы!"
-    god "You're asking the wrong questions!"
+    god "Zadajesz nieodpowiednie pytania!"
 
 # game/day4.rpy:333
-translate english godBadEnd_b1463d65:
+translate polish godBadEnd_b1463d65:
 
     # god "И теперь ты навсегда останешься у меня!!!"
-    god "Now you'll never go home!!!"
+    god "Już nigdy nie wrócisz do domu!"
 
 # game/day4.rpy:335
-translate english godBadEnd_290bb1c8:
+translate polish godBadEnd_290bb1c8:
 
     # centered "И ведь не существует спасения от вечности..." with dissolve
-    centered "After all, there is no salvation from eternity..." with dissolve
+    centered "Jako, że nie da się uwolnić od wieczności..." with dissolve
 
 # game/day4.rpy:336
-translate english godBadEnd_a48cb482:
+translate polish godBadEnd_a48cb482:
 
     # centered "А вечность заставляет задуматься" with dissolve
-    centered "Eternity will give you time to think" with dissolve
+    centered "Wieczność da ci czas do myślenia." with dissolve
 
 # game/day4.rpy:337
-translate english godBadEnd_48caaa7b:
+translate polish godBadEnd_48caaa7b:
 
     # centered "Задуматься... О душе?" with dissolve
-    centered "Think ... about the soul?" with dissolve
+    centered "Myślenia... o duszy?" with dissolve
 
 # game/day4.rpy:338
-translate english godBadEnd_becd8809:
+translate polish godBadEnd_becd8809:
 
     # centered "Жадность, насилие, деньги - для этого ли живём?" with dissolve
-    centered "Greed, violence, money – for what do we live?" with dissolve
+    centered "Chciwość, przemoc, pieniądze - po to żyjemy?" with dissolve
 
 # game/day4.rpy:339
-translate english godBadEnd_4979658d:
+translate polish godBadEnd_4979658d:
 
     # centered "{size=36}{b}ПЛОХАЯ КОНЦОВКА{/b}{/size}" with wipeleft
-    centered "{size=36}{b}BAD ENDING{/b}{/size}" with wipeleft
+    centered "{size=36}{b}ZŁE ZAKOŃCZENIE{/b}{/size}" with wipeleft
 
 # game/day4.rpy:340
-translate english godBadEnd_007ef76e:
+translate polish godBadEnd_007ef76e:
 
     # centered "( P.S. Не забудьте найти другие концовки! )" with irisout
-    centered "( P.S. Do not forget to find the other endings! )" with irisout
+    centered "( P.S. Nie zapomnij znaleźć innych zakończeń! )" with irisout
 
 
-translate english strings:
+translate polish strings:
 
     # game/day4.rpy:46
     old "Как быстро похудеть?"
-    new "Is there a way to quickly lose weight?"
+    new "Jest jakiś szybki sposób, by stracić wagę?"
 
     # game/day4.rpy:46
     old "Есть ли справедливость?"
-    new "Is there justice?"
+    new "Czy istnieje tu sprawiedliwość?"
 
     # game/day4.rpy:46
     old "Как понять женщину и своё руководство?"
     # вопрос немного изменён, но по смыслу можно
-    new "Is there a true guide to understanding women?"
+    new "Czy istnieje prawdziwy poradnik o tym, jak zrozumieć kobiety?"
 
     # game/day4.rpy:46
     old "Почему наши проекты всё время перехватывают?"
-    new "Why are our projects stolen all the time?"
+    new "Dlaczego nasze projekty są cały czas kradzione?"
 
     # game/day4.rpy:46
     old "Где взять много денег?"
-    new "Where can I get a lot of money?"
+    new "Skąd wziąć dużo pieniędzy?"
 
     # game/day4.rpy:46
     old "Где взять свободное время?"
-    new "Where can I find some free time?"
+    new "Gdzie mogę znaleźć trochę wolnego czasu?"
 
     # game/day4.rpy:175
     old "Что делать Дэксу?"
-    new "What should Dex do?"
+    new "Co Dex powinien zrobić?"
 
     # game/day4.rpy:175
     old "Панически скрыться!"
-    new "Retreat! Better Part of Valor!"
+    new "Odwrót! Panika!"
 
     # game/day4.rpy:175
     old "Отступить с чувством достоинства"
-    new "Retreat with dignity"
+    new "Odejść z godnością"
 
     # game/day4.rpy:175
     old "Обратить всё в шутку"
-    new "Act as if the whole thing is just a joke"
+    new "Zachować się tak, jakby to był żart"
 

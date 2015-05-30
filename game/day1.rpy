@@ -63,7 +63,7 @@ label day1:
     lyblabla "Вот, это наше учебное помещение. Иногда оно же рабочее, оно же столовая, оно же... Хотя нет, про остальные возможные применения помещения узнаешь в процессе!"
     lyblabla "Лап, подойди сюда, пожалуйста."
     
-    show lap norm at right with moveinright
+    show lap norm at right with dissolve
     show lyblabla silent at center
     lap "Да, Лайби. Зачем я тебе понадобилась?"
     hide lyblabla
@@ -226,18 +226,18 @@ label scan:
     $ type_points += 2
     $ beta_points += 2
     
-    show dexp norm at center with dissolve
+    show dexp normhalf at center with dissolve
     dexp "Привет. Мы уже знакомы. Однако я не только переводчик, но и сканировщик."
     dexp "Казалось бы, что там сложного в этом сканировании? Берёшь бумажки, кладёшь на сканер, жмёшь кнопку."
-    show dexp laugh
+    show dexp joybig
     dexp "Но всё не так просто..."
-    show dexp norm
+    show dexp normhalf
     dexp "Во-первых, томики манги - это не подготовленные единичные странички, а именно цельные книги."
     dexp "Чтобы расклеить мангу на листки, необходимо разогревать утюгом корешок. Что бы при этом мангу не сжечь, необходимо греть аккуратно, через марлю."
-    show dexp think
+    show dexp thinkbig
     dexp "При этом следует помнить, что разогретый жидкий клей любит марать всё, на что только не попадёт!"
     dexp "Далее надо провести непосредственно сканирование полученных страничек. Сотни их, сотни..."
-    show dexp norm 
+    show dexp normhalf
     dexp "Каждая страничка сканируется индивидуально. Ведь если есть бумажный источник, то надо сделать максимально качественные сканы, чтобы облегчить работу клинеру."
     
     dexp "Есть 2 типа сканеров: CIS и CCD. CIS-сенсор обычно стоит в дешёвых сканерах и МФУ, CCD - в более дорогих моделях."
@@ -245,7 +245,7 @@ label scan:
     show cis1 at topleft
     show cdd1 at topright
     dexp "Вот картинки с CIS (слева) и CDD-сканера (справа)."
-    show dexp think
+    show dexp thinkbig
     dexp "И какая же из картинок лучше?"
     menu:
         "Какая картинка лучше?"                
@@ -254,27 +254,28 @@ label scan:
         "Правая, на ней больше информации.":
             pass
     #" Левая выглядит более чистой. Неужели дешёвый CIS-сенсор лучше? Посмотрим под увеличением!"
-    show dexp norm
+    show dexp normhalf
     dexp "Левая, правая... Непонятно! Лучше посмотрим под увеличением!"
     hide cis1
     hide cdd1
     
     show cis2 at topleft
     show cdd2 at topright
-    show dexp laugh
+    show dexp joybig:
+        xalign 0.55 yalign 1.0
     dexp "Вот теперь разница видна. CIS-сканер просто не увидел текстуру, в то время как на CCD-изображении при желании можно разобрать даже фактуру бумаги."
     dexp "Особенно это видно на белом поле правее руки."
     hide cis2
     hide cdd2
     
-    show dexp norm
+    show dexp normhalf
     dexp "Также разница в типах сенсора сканера очень видна при деформациях. Например, если не расшивать книгу. Вот для примера деформированный лист:"
     
     show cis3 at center
     dexp "Это изображение получено на CIS-сканере. Размытие в области деформаций ужасно!"
     hide cis3
 
-    show dexp think
+    show dexp thinkbig
     show cdd3 at center
     dexp "А это получено на CDD-сканере. Деформация примерно одинакова, но какова разница в результирующей картинке!"
     hide cdd3
@@ -283,14 +284,18 @@ label scan:
     #dexp "Так же серьёзно отличается чувствительность сенсоров. Это видно при значительном увеличении:"
 
     
-    show dexp norm 
+    show dexp normhalf 
     dexp "Ещё при сканировании следует не забывать следить за именованием файлов и за ориентацией сканов."
     
+    show dexp normhalf with moveinright:
+        xalign 0.2 yalign 1.0
     dexp "Ну... Я рассказал тебе о сканировании всё, что знаю. Дальше поможет только практика."
     
-    show lap norm at left with moveinright
+    show lap normhalf with dissolve:
+        xalign 0.8 yalign 1.0
     dexp "Ой, Лап! Ты такая милая! Иди сюда, пообщаемся."
-    show lap angry at left with dissolve
+    show lap angryhalf with dissolve:
+        xalign 0.8 yalign 1.0
     lap "Это что, домогательство? Нарываешься, да?!?"
     
     hide dexp with moveoutright
@@ -310,9 +315,11 @@ label kliner:
     
     scene bg Shop with fade
     
-    show Server at left with dissolve
+    show ServerFlip with dissolve:
+        xalign 0.88 yalign 1.0
     
-    show lexa lookdown at left with dissolve
+    show lexa lookdownflip with dissolve:
+        xalign 0.85 yalign 1.0
     "???" "Мда, ну и как поставить PHP под FreeBSD? Ууу! Сервера - зло!"
     play sound "sound/ecfike__sigh-1.ogg"
     "???" "Да и как-то кривоват сервер-то... Наверное, не следовало собирать его из подручного мусора..."
@@ -326,7 +333,7 @@ label kliner:
     dexp "Лёша, зараза, сделай клин, а?"
     
     lexa "Вернёмся к нашим баранэссам. Эээ, кхм, я имел ввиду, девушкам."
-    hide Server with dissolve
+    hide ServerFlip with dissolve
     
     show cdd2 at left
     show klin0 at right
@@ -371,18 +378,22 @@ label kliner:
     show lexa norm with hpunch
     lexa "(сейчас что-то будет!)"
     
-    show lexa norm at right with moveinright
-    show lyba angry at left #with hpunch
+    show lexa norm with moveinright:
+        xalign 1.25 yalign 1.0
+    show lyba angry with dissolve:
+        xalign 0.4 yalign 1.0
     lyba "Лёха, блин! Когда уже клин доделаешь!"
     lexa "Я занят."
     lyba "Все заняты! Но все - делают!"
     
-    show carry norm at center with moveinright
+    show carry norm with dissolve:
+        xalign 0.8 yalign 1.0
     play sound "sound/madamvicious__stupid-witch.ogg"
     carry "Гы-гы! Ой ну вообще! Ну просто вообще! Гыыыы!"
     lyba "Кэрри, а ты чего ржёшь! У тебя долгов по работе на полгода вперёд!"
     hide lyba
-    show lyblabla normal at left
+    show lyblabla normal:
+        xalign 0.4 yalign 1.0
     lyblabla "И вообще, Кэрри, что ты здесь делаешь?"
     
     show carry surprised
@@ -398,8 +409,10 @@ label kliner:
     hide lexa with moveoutright
     
     hide lyblabla 
-    show lyba angry at left    
-    show lyba angry at center with moveinleft
+    show lyba angry:
+        xalign 0.4 yalign 1.0
+    show lyba angry with moveinleft:
+        xalign 0.8 yalign 0.2
     lyba "Вот и как с такими людьми работать, а?"
     hide lyba with moveoutright
     
@@ -423,6 +436,11 @@ label translator:
     play sound "sound/ripper351_whistle.ogg"
     show dexp nya at center with dissolve
     dexp "Прости! Сие тайна великая есть!"
+    hide dexp with moveoutleft
+    
+    scene bg Shop with slideright
+    show dexp laugh at center with dissolve
+    dexp "Нас не догонят!"
     hide dexp with moveoutleft
     
     scene bg Classroom44 with fade
@@ -692,18 +710,18 @@ label dinning_masta:
     
     scene bg Dinning1 with fade
     
-    show carry surprised at center with moveinright
+    show carry surprised at center with dissolve
     carry "О! И ты уже в столовке!"
     show carry norm
     carry "Шустро, шустро!"
     show carry question 
     carry "Если будешь так же быстро делать клин - станешь незаменимой частью команды!"
-    hide carry with moveoutleft
+    hide carry with dissolve
     
     show lin norm at left with moveinleft
-    show lap norm at center with moveinright
+    show lap norm at center with dissolve
     
-    show lap surprized
+    show lap surprized with dissolve
     lap "Лин, как продвигается корректировка текстов?"
     show lin laugh
     lin "Всё путём! Не забывать удалять лишние повторения - и текст сразу становится более читаемым!"
@@ -715,15 +733,16 @@ label dinning_masta:
     lin "Кстати, а что есть-то будем?"
     lap "Ах. Здесь очень вкусные блинчики! Ты как, не против?"
     lin "Ну и отлично, пойдём!"
-    hide lin with moveoutleft
-    hide lap with moveoutleft
+    hide lin
+    hide lap
+    with moveoutleft
     
-    show andry norm at center with moveinright
+    show andry norm at center with dissolve
     andry "Эй! Меня подождите, меня!"
     hide andry with moveoutleft
     
     scene bg Dinning2
-    show dexp fearbig at center
+    show dexp fearbig at center with dissolve
     play sound "sound/ecfike_growl-1.ogg"
     dexp "Ну сколько можно про еду говорить, а!?"
     dexp "Я ж худеть пытался..."
@@ -734,7 +753,7 @@ label dinning_masta:
     hide dexp with moveoutright
     
     scene bg Dinning1
-    show lyblabla normal at center with move
+    show lyblabla normal at center with dissolve
     lyblabla "Народ! Может хватит тут жевать?"
     lyblabla "Мангу-то за вас делать никто не будет..."
     lyblabla "Да и при бэта-чтении чем больше народу, тем лучше!"
@@ -859,7 +878,8 @@ label after_learn:
     show Flags at topleft
     show Cracker at topright
     #show lyblabla helmet at center
-    show lyba happy at center
+    show lyba happy:
+        xalign 0.5 yalign 1.5
     if text_team:
         show dexp laugh at left
         show lin laugh at right
@@ -885,7 +905,8 @@ label after_learn:
     scene bg Disko with fade
     hide lyblabla
     #show lyba happy at center
-    show lyba happy at center with dissolve
+    show lyba happy with dissolve:
+        xalign 0.5 yalign 1.5
     if text_team:
         hide dexp
         show dexp laugh at left with dissolve
@@ -902,7 +923,7 @@ label after_learn:
     if profession == "beta":
         lyba "Бэта-ридерам не легко живётся, но именно на нас держится качество выполненной работы!"
     
-    hide lyba with moveoutleft
+    hide lyba with dissolve
     
     if text_team:
         call text_team_omedeto

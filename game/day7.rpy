@@ -123,7 +123,7 @@ label day7:
     show yana down2 at left with dissolve
     yana "Неужели Дэкс не может переводить по-человечески!?"
     
-    show mirei norm at center with moveinright
+    show mirei norm at center with dissolve
     mirei "Ну, ну. Янушка, не плачь!"
     show yana down at left with dissolve
     mirei "Он когда-нибудь научится."
@@ -166,7 +166,7 @@ label day7:
     carry "Да. Я наконец получила коды доступа к главному компьютеру!"
     carry "Записывайте: \"икc, игрек, и краткое"
     play music "Music/Movie7.OGG" fadein 1
-    show lyblabla normal at center with moveinright
+    show lyblabla normal at center with dissolve
     lyblabla "Кэрри, что это ты делаешь..."
     hide lyblabla
     show lyba angryflip with dissolve
@@ -218,8 +218,9 @@ label day7:
     centered "Несколько позже, на крыше" with dissolve
     
     scene bg Roof with fade
-    show lyblabla silent at right with dissolve
+    show lyblabla silent at right 
     show ulilla norm at center
+    with dissolve
     show dexp norm at left with moveinleft
     dexp "Так!"
     show dexp laugh with dissolve

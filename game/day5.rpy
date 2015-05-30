@@ -5,7 +5,7 @@ label day5:
     play music "Music/PopRock2.OGG" fadeout 1 fadein 2
     scene bg EmptyClass42 with fade 
     
-    show dexp maikasad at center with moveinright
+    show dexp maikasad at center with dissolve
     dexp "Уааах! Доброе всем утро!"
     
     show mala work at left with moveinleft
@@ -31,18 +31,20 @@ label day5:
     show mala norm at left with moveinleft
     mala "А, ну да. Перепутала, с кем не бывает?"
     
-    hide lexa with moveoutright
-    hide dexp with moveoutright
-    hide mala with moveoutright
+    hide lexa
+    hide dexp
+    hide mala 
+    with moveoutright
     
     
-    scene bg Hallway1 with fade
-    show mala norm with moveinright:
+    scene bg Hallway1 with slideleft
+    show mala norm:
         xalign -0.35 yalign 0.7
-    show dexp think behind mala with moveinright:
+    show dexp think behind mala:
         xalign 0.15 yalign 0.7
-    show lexa norm behind dexp with moveinright:
-        xalign 0.65 yalign 0.7
+    show lexa norm behind dexp:
+        xalign 0.63 yalign 0.7
+    with moveinleft
     
     lexa "Дэкс, ну что, придумал стратегию?"
     show dexp laugh with dissolve
@@ -63,8 +65,9 @@ label day5:
     dexp "Уаа!! Хны-хны!"
     hide dexp with easeoutright
     mala "Куда?!? Стоять!!!"
-    hide mala with moveoutright
-    hide lexa with moveoutright
+    hide mala
+    hide lexa
+    with dissolve
     
     
     
@@ -159,7 +162,7 @@ label day5:
     play music "Music/Chillout6v7.OGG" fadein 1
     centered "Давайте вернёмся к нашему \"спецназу\"..." with dissolve
     scene bg SchoolDay with fade
-    show dexp norm with moveinright:
+    show dexp norm with dissolve:
         xalign 0.4 yalign 0.7
     dexp "Да уж, подвёл я команду..."
     show dexp think with dissolve
@@ -201,10 +204,11 @@ label day5:
             pass
     
     play music "Music/PopRock2.OGG" fadein 1
-    show mala angry with moveinright:
+    show mala angry:
         xalign 0.8 yalign 0.7
-    show lexa norm with moveinright:
+    show lexa norm:
         xalign 1.1 yalign 0.7
+    with moveinright
     mala "Совсем больной, да?"
     lexa "Дэкс, я считаю, что ты не прав!"
     mala "Кто ж команду в такой ответственный момент бросает?!"
@@ -293,27 +297,33 @@ label r2after:
     show ulilla joy with dissolve
     ulilla "Ну, тогда пойдём?"
     
-    hide azyki with moveoutright
-    hide lexa with moveoutright
-    hide mala with moveoutright
-    hide dexp with moveoutright
-    hide ulilla with moveoutright
+    hide azyki
+    hide lexa
+    hide mala
+    hide dexp
+    hide ulilla 
+    with moveoutright
     
     
     play music "Music/ePop.OGG" fadein 1
     scene bg Dinning1 with fade
-    show ulilla joy at left with moveinleft
-    show dexp norm at center with moveinright
-    show azyki laugh at right with moveinright
+    show dexp norm:
+        xalign 0.1 yalign 1.0
+    show azyki laugh:
+        xalign 0.5 yalign 1.0
+    with dissolve
+    show ulilla joy with moveinleft:
+        xalign -0.37 yalign 1.0
     ulilla "А у вас мило!"
     azyki "Ага, стараемся!"
     show dexp laugh with dissolve 
     dexp "Да ты присаживайся. Сейчас будем есть!"
     
     play music "Music/Movie7.OGG" fadein 1
-    show lyblabla helmet at center with dissolve
+    show lyblabla helmet behind ulilla with dissolve:
+        xalign -0.1 yalign 1.0
     show dexp laugh with moveinleft:
-        xalign 1.2
+        xalign 0.7
     lyblabla "Это что ж это творится-то, а?"
     show ulilla norm with dissolve
     lyblabla "Вы в нашу святая-святых агента вражеского привели?!"
@@ -331,15 +341,16 @@ label r2after:
     
     
     show dexp laugh behind ulilla with moveinright:
-        xalign 0.17
+        xalign 0.05
     azyki "Ну и отлично! Я на всех приготовила!"   
     show azyki laugh with moveinright:
-        xalign 0.71
-    show mala norm at right with dissolve
+        xalign 0.73
+    show mala norm with dissolve:
+        xalign 0.37 yalign 1.0
     mala "А может, отпразднуем за знакомство?"    
     
-    show lexa norm behind mala with moveinright:
-        xalign 1.3
+    show lexa norm behind azyki with dissolve:
+        xalign 0.55
     lexa "О! Еда! Пора б и перекусить!"
     
     show ulilla joy with dissolve
@@ -352,9 +363,9 @@ label r2after:
     hide lyblabla
     #play sound "sound/freesound_Laughs.ogg"
     show lyba happy with dissolve:
-        xalign 0.5 yalign 1.9
+        xalign -0.1 yalign 1.9
     show BentoBox with dissolve:
-        xalign 0.5 yalign 0.9
+        xalign 0.25 yalign 0.9
     centered ""
     #hide BentoBox
     
@@ -376,7 +387,7 @@ label r2after:
     menu:
         "Кого послать разобраться с незнакомцем?"
         "Послать Андрея":
-            show andry shy at right with moveinright
+            show andry shy at right with dissolve
             andry "Ты кто такая?"
             show suomi norm with dissolve
             suomi "Ну... Я..."
@@ -407,11 +418,10 @@ label r2after:
             show andry norm with dissolve
             andry "Посторонние на производстве - нарушение техники безопасности!"
             show andry shy with dissolve
-            andry "А технику безопасности надо соблюдать!"
-            hide andry with moveoutright            
+            andry "А технику безопасности надо соблюдать!"        
             pass
         "Послать Янушку":
-            show yana norm at right with moveinright
+            show yana norm at right with dissolve
             show yana angry with dissolve
             yana "Это что ещё такое!?"
             yana "Ты кто такая? А ну залазь внутрь!"
@@ -460,14 +470,17 @@ label r2after:
     
     scene bg Dinning1 with fade
     show dexp laugh:
-        xalign 0.17 yalign 1.0
-    show ulilla joy at left 
+        xalign -0.25 yalign 1.0
+    show ulilla joy:
+        xalign -0.4 yalign 1.0
     show azyki laugh:
-        xalign 0.71 yalign 1.0
-    show mala norm at right    
-    show lexa norm behind mala:
-        xalign 1.3 yalign 1.0
-    show lyblabla helsilent at center 
+        xalign 0.33 yalign 1.0
+    show mala norm:
+        xalign 0.73 yalign 1.0
+    show lexa norm behind azyki:
+        xalign 0.55 yalign 1.0
+    show lyblabla helsilent:
+        xalign 0.1 yalign 1.0
     
     
     ulilla "Спасибо большое. Было очень вкусно!"
@@ -475,15 +488,18 @@ label r2after:
     hide lyblabla
     #show lyblabla helmet at center with dissolve
     play music "Music/Fast.OGG" fadein 1
-    show lyba angry with dissolve
+    show lyba angry with dissolve:
+        xalign 0.1 yalign 1.0
     lyba "Куда?! Не разобрались ещё!"
     
     centered "{size=52}{b}{color=#11e}ROUND {/color}{color=#e11}3{/color}{/b}{/size}"
-    show dexp think with dissolve
+    show dexp think with dissolve:
+        xalign -0.17
     play music "Music/PopRock2.OGG" fadein 1
     dexp "Может, всё-таки попробуем работать вместе?"
     hide lyba
-    show lyblabla helsilent with dissolve
+    show lyblabla helsilent with dissolve:
+        xalign 0.1 yalign 1.0
     show ulilla norm with dissolve
     ulilla "Ну..."
     show dexp norm with dissolve

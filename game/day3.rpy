@@ -30,8 +30,11 @@ label day3:
         xalign 0.111 yalign 0.497
     dexp "Грр!!! Напитки! Слышишь, напитки!!! Не медведя!"
     
-    show lap sexytort at center with moveinright
-    show lin sexytort at right with moveinright
+    show lap sexytort:
+        xalign 0.65 yalign 1.0
+    show lin sexytort:
+        xalign 1.1 yalign 1.0
+    with moveinright
     lap "Прости нас, хозяин! Мы сделаем всё-всё, что ты пожелаешь!"
     hide dexpSeaAngryMouth
     show dexpSeaEvil with dissolve:
@@ -73,7 +76,7 @@ label day3:
     dexp "Вот так вот и живём."
     show dexp laugh at center with moveinright
     dexp "Нам налево. Пройдём ещё пару кварталов и будем на месте."
-    hide dexp with moveoutleft
+    hide dexp with dissolve
     
     
     play music "Music/Metal1.OGG" fadein 1
@@ -85,7 +88,7 @@ label day3:
     play sound "sound/ekokubza123_punch.ogg"
     Imp "Ааа!" with hpunch
     show andry bita at left with dissolve
-    show dexp norm at right with moveinright
+    show dexp norm at right with dissolve
     dexp "А, Андрей, привет! Чем занимаешься?"
     show andry norm at left with dissolve
     andry "Да так... Исследую альтернативные способы заработка."
@@ -103,7 +106,7 @@ label day3:
     
     #scene bg Hallway1 with fade
     scene bg SchoolDay with fade
-    show dexp norm at center with moveinright
+    show dexp norm at center with dissolve
     dexp "Хух! Вот мы и пришли!"
     dexp "Ладно, мне идти работать надо, а ты зайди в учебную комнату, с тобой хотела поговорить Лайби."
     
@@ -320,9 +323,10 @@ label r1after:
     show lyblabla helmet at center 
     lyblabla "В общем, сейчас мы исчерпали свои аргументы. Но учти, в следующий раз так просто не отделаешься!"
     
-    hide carry with moveoutright
-    hide lin with moveoutright
-    hide lyblabla with easeoutright
+    hide carry
+    hide lin
+    hide lyblabla 
+    with moveoutright
     
     hide ulilla with moveoutleft
     
@@ -339,16 +343,17 @@ label r1after:
     lyblabla "Нужно что-нибудь придумать! Иначе так и не вернём себе проект..."
     show lyblabla helsilent at center
     
-    show azyki laugh at right with moveinright
+    show azyki laugh at right with dissolve
     play sound "sound/madamvicious_giggling-cutely.ogg"
     azyki "Кушать подано. Идите жрать, пожалуйста!"
     
     show lin norm at left with dissolve
     lin "О! Время обеда! Пойдёмте скорее кушать!"
     
-    hide azyki with moveoutright
-    hide lyblabla with moveoutright
-    hide lin with moveoutright
+    hide azyki
+    hide lyblabla
+    hide lin 
+    with moveoutright
     
     scene black #with fade
     centered "Но ни в обед и ни в ужин ничего нового придумать так и не удалось..." with dissolve

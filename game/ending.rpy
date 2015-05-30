@@ -39,17 +39,18 @@ label titles:
     centered "Сюжет, графика, музыка,\n
 идея и реализация:\n
 {b}DeXPeriX{/b} a.k.a. Храбров Дмитрий\n
-{a=http://dexp.in}http://dexp.in{/a}"  #with dissolve #"\n"
+{a=http://dexperix.net}http://dexperix.net{/a}"  #with dissolve #"\n"
     hide Cracker with dissolve
     
     
     image CrEn = "items/flags/en.jpg"
-    show dexp thinkbig with dissolve:
+    show dexp thinkbig:
         xalign -0.34 yalign 1.0
-    show CrEn with dissolve:
+    show CrEn:
         xalign 0.52 yalign 0.85
-    show prana clouds with dissolve:
+    show prana clouds:
         xalign 1.45 yalign -2.5
+    with dissolve
     centered "Перевод на английский:\n
 {b}Mari Prianaja{/b},\n
 {b}DeXPeriX{/b} a.k.a. Храбров Дмитрий\n\n
@@ -58,6 +59,8 @@ label titles:
 {b}Mangles{/b} a.k.a. Richard Hogan,\n
 Warren '{b}Wazza{/b}' Brent"
     
+    show dexp thinkbigflip with dissolve:
+        xalign -0.4 yalign 1.9
     centered "Вычитка английского текста:\n
 bluecasuality@gmail.com (День 1)\n
 {b}EeuorT{/b} a.k.a. Robert Nesbitt (День 2, 7)\n
@@ -88,6 +91,12 @@ Warren '{b}Wazza{/b}' Brent (День 6)" with dissolve
     hide CrRu
     
     
+    show BinocularMask at left with dissolve
+    centered "Перевод на другие языки:\n\n
+{image=items/flags/pl.jpg} Польский: damianklu a.k.a. Damian K."
+    hide BinocularMask with dissolve
+    
+    
     
     show lap bigquestion with moveinright:
         xalign 1.39 yalign 1.0
@@ -108,7 +117,7 @@ Warren '{b}Wazza{/b}' Brent (День 6)" with dissolve
     
 
     show lexa lookdown with moveinbottom:
-        xalign 1.31 yalign 0.0
+        xalign 1.41 yalign -1.5
     show ulilla miltablesad with moveinleft:
         xalign -0.25 yalign 1.5   
     centered "Изображения для сканирования и клина:\n
@@ -147,15 +156,16 @@ Warren '{b}Wazza{/b}' Brent (День 6)" with dissolve
     centered "Больше информации можно найти на сайте:\n{a=http://OneMangaDay.dexp.in}http://OneMangaDay.dexp.in{/a}\n
 \n
 Или на сайте автора:\n
-{a=http://dexp.in}http://dexp.in{/a}"  with dissolve
+{a=http://dexperix.net}http://dexperix.net{/a}"  with dissolve
     #hide CrKaska
     
     image SteamGreenlight = "items/SteamGreenlight.png"
-    show SteamGreenlight at left with dissolve:
-        xalign 0.9 yalign 0.1
     image SteamIcon = "items/SteamIcon.png"
-    show SteamIcon at left with dissolve:
+    show SteamGreenlight at left:
+        xalign 0.9 yalign 0.1
+    show SteamIcon at left:
         xalign 0.0 yalign 1.0
+    with dissolve
     centered "Отдельное спасибо проголосовавшим за игру в {a=http://steamcommunity.com/sharedfiles/filedetails/?id=372656709}Steam Greenlight{/a}.\n
 И площадке {a=http://store.steampowered.com/app/365070}Steam{/a} в общем за возможность опубликовать игру.\n
 \n

@@ -91,7 +91,7 @@ label day6:
         play sound "sound/ekokubza123_punch.ogg"
         Imp "Ай!" with vpunch
     else:
-        hide lap with moveoutright
+        hide lap with dissolve
     
     
     
@@ -131,8 +131,9 @@ label day6:
     lyba "Ушли."
     ulilla "Пошли дальше в карты играть?"
     lyba "Пошли!"
-    hide lyba with moveoutright
-    hide ulilla with moveoutright
+    hide lyba
+    hide ulilla
+    with moveoutright
     
     
     
@@ -270,12 +271,14 @@ label after_nude:
     lyblabla "Ох, горе ты моё луковое..."
     lyblabla "Ладно, пошли, помогу!"
     show lyblabla silent at right with moveinleft
-    hide lin with moveoutleft
-    hide lyblabla with moveoutleft
+    hide lin
+    hide lyblabla
+    with moveoutleft
     show black
     hide black with dissolve
-    show lyblabla normal at right with moveinleft
-    show lin norm at left with moveinleft
+    show lyblabla normal at right
+    show lin norm at left
+    with moveinleft
     lyblabla "Лин, а что ты здесь вообще делала?"
     lin "Да вот, Лап жду. Договорились же с ней по магазинам пройтись..."
     show lyblabla sulk with dissolve
@@ -308,7 +311,7 @@ label after_nude:
     andry "Налетай! Торопись! Покупай..."
     andry "Мороженое, соки, напитки, чипсы!"
     
-    show lin norm at center with moveinright
+    show lin norm at center with dissolve
     lin "А, Андрей, привет!"
     lin "Ты что это делаешь?"
     show andry norm with dissolve
