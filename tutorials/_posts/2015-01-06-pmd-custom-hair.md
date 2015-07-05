@@ -13,7 +13,7 @@ picdir: ../pic/tutorials/pmd/OneMangaDay-
 markdown: True
 ---
 
-Manga Maker Comipo can import 3D models in the following formats: csu, mqo and obj. Obj format is the only widespread from this list. Obj format rather popular among game developers than in hairstyle and clothes fashion. But you can find a lot of hairstyles, clothes and other fun stuff for Miku Miku Dance, abbreviated MMD. This tutorial considered on import of custom 3D models in PMD format - the format of 3D objects in Miku Miku Dance.
+Manga Maker Comipo can import 3D models in the following formats: csu, mqo and obj. Obj format is the only widespread from this list. Obj format rather popular among game developers than in hairstyle and clothes fashion. But you can find a lot of hairstyles, clothes, and other fun stuff for Miku Miku Dance, abbreviated MMD. This tutorial considered on the import of custom 3D models in PMD format - the format of 3D objects in Miku Miku Dance.
 
 <img src="{{ page.picdir }}Custom-Hair.png" alt="Imported Hairstyle in Comipo" class="imgshad">
 

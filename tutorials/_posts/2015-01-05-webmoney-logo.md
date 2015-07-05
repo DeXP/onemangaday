@@ -13,7 +13,7 @@ picdir: ../pic/tutorials/webmoney/OneMangaDay-
 markdown: True
 ---
 
-We will use techniques, described in [Steam logo Comipo](steam-logo.html) tutorial to create a WebMoney logo. First, you need to put existance WebMoney logo picture into background layer. Then put on top of it the base sphere. Decorate sphere and add cubes. The WebMoney logo main feature is a gradient blue parts and their interaction with each other:
+We will use techniques, described in [Steam logo Comipo](steam-logo.html) tutorial to create a WebMoney logo. First, you need to put existence WebMoney logo picture into background layer. Then put on top of it the base sphere. Decorate sphere and add cubes. The WebMoney logo main feature is a gradient blue parts and their interaction with each other:
 
 <img src="{{ page.picdir }}ready.png" alt="Ready WebMoney logo in Comipo" class="imgshad">
 

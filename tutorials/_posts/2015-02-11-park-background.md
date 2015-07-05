@@ -13,7 +13,7 @@ picdir: ../pic/tutorials/park/OneMangaDay-Park-
 markdown: True
 ---
 
-You can easy do park background in Comipo by using combinations of 2D-elements "Item Image", namely "32. Tree" and "33. Grass & Flower". Bench is collected from 3D primitives. Here's a park scene in Comipo:
+You can easy do park background in Comipo by using combinations of 2D-elements "Item Image", namely "32. Tree" and "33. Grass & Flower". The bench is collected from 3D primitives. Here's a park scene in Comipo:
 
 <img src="{{ page.picdir }}Comipo.png" alt="Park scene in Comipo" class="imgshad">
 

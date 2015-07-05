@@ -13,7 +13,7 @@ picdir: ../pic/tutorials/pmx/OneMangaDay-
 markdown: True
 ---
 
-Imports from PMD has already been considered in [lesson about additional hairs](pmd-custom-hair.html). The purpose of this lesson is to emphasize thatyou can import not only hairstyles, handbags, wings. You can import anything. The import of full 3D-scenes, 3D-environment is especially useful. For example, it could be a park, the interior of a particular building, or part of the city with houses. Here is an example of the imported stage Comipo:
+Imports from PMD has already been considered in [the lesson about additional hairs](pmd-custom-hair.html). The purpose of this lesson is to emphasize that you can import not only hairstyles, handbags, wings. You can import anything. The import of full 3D-scenes, 3D-environment is especially useful. For example, it could be a park, the interior of a particular building, or part of the city with houses. Here is an example of the imported stage Comipo:
 
 <img src="{{ page.picdir }}BlueStage-Comipo.png" alt="Comipo: Imported stage" class="imgshad" />
 
