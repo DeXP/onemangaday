@@ -6,3 +6,7 @@ tmp
 *.ico
 *.txt
 *.tab
+*.rpyb
+*.rpyc
+*.bak
+*.save
