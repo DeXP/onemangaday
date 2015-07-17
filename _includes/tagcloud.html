@@ -8,7 +8,7 @@
 			{% assign langtag = data_tag %}
 		{% endif %}
 	{% endfor %}{% endcapture %}{% assign cache = nil %}
-							<li style="font-size: {{ tag | last | size | times: 100 | divided_by: site.tags.size | plus: 40 }}%">
+							<li style="font-size: {{ tag | last | size | times: 100 | divided_by: site.tags.size | plus: 20 }}%">
 								<a href="{{ tag | first | slugize }}.html">{{ langtag.name }}</a>
 							</li>{% endfor %}
 						</ul>

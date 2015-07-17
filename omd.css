@@ -10,7 +10,7 @@ body {
 	border: 3px solid black;
 }
 
-p {
+p, li {
 	font-weight: 200;
 	font-size: 18px;
 }
