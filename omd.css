@@ -138,13 +138,13 @@ ul {
 	width: 42px;
 }
 
-#langSwith img {
-	margin-bottom: 10px;
-}
-
 #langSwith a {
 	opacity: 0.7;
 	transition-duration: 250ms;
+	float: right;
+	height: 28px;
+	margin-bottom: 10px;
+	margin-left: 10px;
 }
 
 #langSwith a:hover {
