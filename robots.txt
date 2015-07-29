@@ -1,5 +1,5 @@
 User-agent: *
 Disallow: /404.html
 Disallow: /ru/404.html
-Disallow: /pic/tutorials/site/sample.html
+Disallow: /pl/404.html
 Sitemap: http://onemangaday.dexp.in/sitemap.xml
