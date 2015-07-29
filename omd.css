@@ -594,6 +594,10 @@ a.galbut:hover {
 		word-spacing: -0.3ex;
 	}
 
+	.markdown img {
+		width: 100%;
+	}
+
 	#IMGdisplayer, .galbut {
 		display: none;
 	}
