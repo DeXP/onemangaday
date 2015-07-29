@@ -598,6 +598,11 @@ a.galbut:hover {
 		width: 100%;
 	}
 
+	.markdown .imgshad {
+		margin: 0px;
+		box-shadow: none;
+	}
+
 	#IMGdisplayer, .galbut {
 		display: none;
 	}
