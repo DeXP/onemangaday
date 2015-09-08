@@ -1,9 +1,12 @@
+---
+layout: compress
+---
 <!DOCTYPE html>{% include LANG.html %}<html>
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />{% if page.needHighLight %}
 		<link rel="stylesheet" href="{{ curaddlink }}pic/syntax.css" type="text/css" />{% endif %}
-		<link rel="stylesheet" href="{{ curaddlink }}omd.css" type="text/css" />{% for lng in site.data.lang %}{% capture cache %}
+		<style type="text/css">{% capture include_to_scssify %}{% include somd.scss %}{% endcapture %}{{ include_to_scssify | scssify }}</style>{% for lng in site.data.lang %}{% capture cache %}
 		{% capture alternateUrl %}{{ lng.link }}{% if page.categories %}{{ page.categories | last }}/{% endif %}{{ page.url | split:"/" | last }}{% endcapture %}
 		{% capture curUrl %}/{{ alternateUrl }}{% endcapture %}
 		{% include CHECKEXISTS.html %}

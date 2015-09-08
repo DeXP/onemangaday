@@ -10,3 +10,11 @@ include: ["*.ks"]
 gems:
   - jekyll-sitemap
   - jekyll-redirect-from
+sass:
+  sass_dir: _sass
+  style: compressed
+compress_html:
+  clippings: all
+  comments: all
+  endings: []
+  profile: false
