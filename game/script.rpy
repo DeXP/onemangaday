@@ -821,12 +821,28 @@ image lyblabla eyes normal:
     repeat
 
 image lyblabla mouth normal:
+    choice:
+        "pers/face/lyba_mouth_open.png" 
+    choice:
+        "pers/face/lyba_mouth_O.png"     
+    .2
     "pers/face/lyba_mouth_closed.png"
     .2
-    "pers/face/lyba_mouth_open.png" 
+    choice:
+        "pers/face/lyba_mouth_O.png"
+    choice:
+        "pers/face/lyba_mouth_open.png" 
     .2
-    "pers/face/lyba_mouth_O.png" 
+    "pers/face/lyba_mouth_closed.png"
     .2
+    choice:
+        .1
+    choice:
+        .05
+    choice:
+        .3
+    choice:
+        1.0    
     repeat
 
 
