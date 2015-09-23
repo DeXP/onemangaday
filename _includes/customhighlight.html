@@ -1,0 +1,22 @@
+{% assign _customtag = "image side at hide play show scene" | split: " " %}
+{% assign _customcommand = "define label" | split: " " %}
+{% assign _customparam = "color rotate xalign yalign sound" | split: " " %}
+
+{% for _element in _customtag %}
+  {% capture _from %}<span class="n">{{ _element }}{% endcapture %}
+  {% capture _to %}<span class="k">{{ _element }}{% endcapture %}
+  {% assign _code = _code | replace: _from, _to %}
+{% endfor %}
+
+{% for _element in _customcommand %}
+  {% capture _from %}<span class="n">{{ _element }}{% endcapture %}
+  {% capture _to %}<span class="nf">{{ _element }}{% endcapture %}
+  {% assign _code = _code | replace: _from, _to %}
+{% endfor %}
+
+
+{% for _element in _customparam %}
+  {% capture _from %}<span class="n">{{ _element }}{% endcapture %}
+  {% capture _to %}<span class="na">{{ _element }}{% endcapture %}
+  {% assign _code = _code | replace: _from, _to %}
+{% endfor %}

@@ -46,7 +46,7 @@ needHighLight: True
 
 А вот так выглядит код для RenPy:
 
-{% highlight python linenos %}
+{% capture _code %}{% highlight python linenos %}
 define m = Character('Маля', color="#76e2e4")
 image m oho = "Mala-o.png"
 image m keks = "Mala-yee.png"
@@ -78,7 +78,7 @@ label start:
     scene black
     "КОНЕЦ!"
     return
-{% endhighlight %}
+{% endhighlight %}{% endcapture %}{% include customhighlight.html %}{{ _code }}
 
 Код создания персонажей уже был рассмотрен. Здесь мы в строках 1 и 5 создаём новых персонажей: *m* и *dex*. Нововведением являются состояния персонажа и картинки для каждого состояния. Например, для персонажа *m* задано состояние *oho*, ему соответствует картинка *Mala-o.png* (строка 2).
 
