@@ -184,8 +184,8 @@ ul {
 	margin-left: 3px;
 	white-space: nowrap;
 
-	border: 12px solid #fef;
-	border-image: url($baseDir+"bt.png") 25 30 stretch repeat;
+	border: 12px solid transparent;
+	border-image: url($baseDir+"bt2.png") 29 30 stretch repeat;
 	background: url($baseDir+"btbg.png");
 	background-clip: border-box;
 }
