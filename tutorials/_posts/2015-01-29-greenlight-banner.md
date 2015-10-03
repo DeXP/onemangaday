@@ -57,6 +57,10 @@ In this case font is also very important, as in the case of the [Amazon logo](am
 
 Add a picture of the project and obtain the final version of the banner:
 
-<a href="http://steamcommunity.com/sharedfiles/filedetails/?id=372656709" target="_blank"><div class="greenLight-{% if page.curlang == "ru" %}ru{% else %}en{% endif %}" style="float: none; margin-left: auto; margin-right: auto"></div></a><div class="clear"></div>
+{% comment %}<a href="http://steamcommunity.com/sharedfiles/filedetails/?id=372656709" target="_blank">{% endcomment %}
+<div class="greenLight-{% if page.curlang == "ru" %}ru{% else %}en{% endif %}" style="float: none; margin-left: auto; margin-right: auto"></div>
+{% comment %}</a>{% endcomment %}
+
+<div class="clear"></div>
 
 Good luck on the green light!
