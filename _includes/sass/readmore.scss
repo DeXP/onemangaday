@@ -1,4 +1,4 @@
-$baseDir: '{{ curaddlink }}pic/';
+{% include sass/aconfig.scss %}
 
 .readmore, .readmore:visited {
 	padding: 4px;

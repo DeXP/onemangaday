@@ -1,4 +1,4 @@
-$baseDir: '{{ curaddlink }}pic/';
+{% include sass/aconfig.scss %}
 
 .badgeContainer {
 	padding-top: 30px;

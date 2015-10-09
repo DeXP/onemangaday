@@ -1,0 +1,32 @@
+{% include sass/aconfig.scss %}
+
+.greenLight-ru, .greenLight-en {
+	margin: 5px;
+	width: 329px;
+	height: 86px;
+	float: right;
+	box-shadow: 0px 0px 5px #f25;
+	border-radius: 7px;
+}
+
+.greenLight-ru {
+	background: url($baseDir+"greenlight-ru.png") 0 0px;
+}
+
+.greenLight-ru:hover {
+	background: url($baseDir+"greenlight-ru.png") 0 -86px;
+}
+
+.greenLight-en {
+	background: url($baseDir+"greenlight-en.png") 0 0px;
+}
+
+.greenLight-en:hover {
+	background: url($baseDir+"greenlight-en.png") 0 -86px;
+}
+
+
+.greenLight img {
+	border-radius: 7px;
+	display: none;
+}

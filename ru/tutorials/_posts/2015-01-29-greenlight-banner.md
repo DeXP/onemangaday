@@ -11,6 +11,7 @@ curlang: ru
 linkadd: ../../
 picdir: ../../pic/tutorials/greenlight/OneMangaDay-
 markdown: markdown
+addcss: greenlight
 ---
 
 Баннер Steam Greenlight можно разделить на 4 области: фон, освещённая планета, текст, информация о проекте. В Manga Maker Comipo можно создать каждую из них. Для начала подробнее остановимся на фоне. Он не однородно серый, имеет цветные блики в правом верхнем и левом нижнем углах.

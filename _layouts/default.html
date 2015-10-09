@@ -8,6 +8,7 @@ layout: compress
 		<style type="text/css">{% capture include_to_scssify %}
 			{% include sass/somd.scss %}
 			{% if page.addcss == "badges" %}{% include sass/badges.scss %}{% endif %}
+			{% if page.addcss == "greenlight" %}{% include sass/greenlight.scss %}{% endif %}
 			{% for cat in page.categories %}
 				{% if cat == "tutorials" %}{% include sass/readmore.scss %}{% endif %}
 			{% endfor %}

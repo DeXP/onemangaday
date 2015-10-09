@@ -11,6 +11,7 @@ curlang: en
 linkadd: ../
 picdir: ../pic/tutorials/greenlight/OneMangaDay-
 markdown: markdown
+addcss: greenlight
 ---
 
 Steam Greenlight banner can be divided into 4 areas: background, illuminated planet, text, information about the project. You can create each of them in Manga Maker Comipo. Take a closer look at the background. It is not uniformly gray, has colored patches in the upper right and lower left corners.
