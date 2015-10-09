@@ -1,0 +1,65 @@
+$baseDir: '{{ curaddlink }}pic/';
+
+.badgeContainer {
+	padding-top: 30px;
+	padding-bottom: 65px;
+}
+
+.whitebadge, .whitepicbadge, .pinkbadge {
+	padding: 4px;
+	border-radius: 5px;
+	height: 45px;
+	width: 160px;
+	text-decoration: none;
+	display: table-cell;
+	float: left;
+	margin-right: 12px;
+	margin-bottom: 10px;
+
+	font-weight: 200;
+	font-size: 20px;
+	vertical-align: middle;
+	line-height: 100%;
+	white-space: nowrap;
+}
+
+.whitebadge span, .whitepicbadge span, .pinkbadge span {
+	font-size: 18px;
+}
+
+.whitebadge img, .pinkbadge img {
+	vertical-align: middle;
+	padding-right: 5px;
+	float: left;
+}
+
+.badgelong {
+	width: 172px;
+}
+
+.whitebadge, .whitepicbadge, a.whitebadge:visited, a.whitepicbadge:visited {
+	color: #222;
+	border: 1px solid silver;
+	background: url($baseDir+"badge-bg-gray.jpg") top left;
+	transition-duration: 250ms;
+}
+
+.whitebadge:hover, .whitepicbadge:hover {
+	background: url($baseDir+"badge-bg-gray.jpg") bottom left;
+	text-shadow: 1px 1px 0px silver;
+	transition-duration: 250ms;
+}
+
+.pinkbadge, a.pinkbadge:visited {
+	color: #122;
+	border: 1px solid #f9e;
+	background: #f7ebef url($baseDir+"badge-bg-pink.jpg") top left;
+	transition-duration: 250ms;
+}
+
+.pinkbadge:hover {
+	background: url($baseDir+"badge-bg-pink.jpg") bottom left;
+	text-shadow: 1px 1px 0px #e99;
+	transition-duration: 250ms;
+}
+
