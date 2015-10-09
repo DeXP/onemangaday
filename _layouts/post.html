@@ -4,7 +4,7 @@ layout: default
 {% include LANG.html %}{% assign post = page %}{% include POST-TAGS.html %}
 					<span id="article" class="ih">{{ page.title }}</span>
 					<span class="post-date">{{ page.date | date: landat.dateformat }}</span>
-					<div class="info">
+					<div class="info hidover">
 						{% if page.markdown %}<div class="markdown">{% endif %}
 {{ content }}
 						{% if page.markdown %}</div>{% endif %}
