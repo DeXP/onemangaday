@@ -126,7 +126,7 @@ translate polish strings:
 
     # game/screens.rpy:481
     old "Ждать голос"
-    new "Wait for voice"
+    new "Czekaj na głos"
 
     # game/screens.rpy:488
     old "Громкость музыки"
@@ -142,11 +142,11 @@ translate polish strings:
 
     # game/screens.rpy:508
     old "Громкость голоса"
-    new "Voice Volume"
+    new "Głośność głosu"
 
     # game/screens.rpy:511
     old "Оставлять голос"
-    new "Voice sustain"
+    new "Utrzymywanie głosu"
 
     # game/screens.rpy:521
     old "Язык"
@@ -274,4 +274,12 @@ translate polish strings:
     # game/screens.rpy:346
     old "Открыто"
     new "Odblokowane"
+
+    # game/screens.rpy:536
+    old "Пропуск прочтенных"
+    new "Przejdź przeczytać"
+
+    # game/screens.rpy:537
+    old "Пропуск всех"
+    new "Pomijanie wszystkich"
 

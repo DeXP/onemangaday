@@ -140,3 +140,11 @@ translate polish strings:
 
 
 
+# TODO: Translation updated at 2015-12-29 12:43
+
+# game/script.rpy:925
+translate polish start_5ccdeede:
+
+    # centered "Озвучено командой сайта xdub.ru"
+    centered "Rosyjski głos xdub.ru"
+

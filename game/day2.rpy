@@ -160,8 +160,9 @@ label day2:
             
             scene bg ChurchDream with zoomout
             show lexa bride at center with dissolve
-            show lap norm at left with dissolve    
-            play sound "sound/mattskydoodle_censor-beep.ogg"
+            show lap norm at left with dissolve  
+            if not config.has_voice:
+                play sound "sound/mattskydoodle_censor-beep.ogg"
             lexa "Сволочи!"
             lexa "Куда вы меня тащите?!"
             lexa "Отпустите меня!!!"

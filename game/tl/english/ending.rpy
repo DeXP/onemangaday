@@ -98,10 +98,10 @@ translate english titles_4aa106c5:
     # centered "Вспомогательные элементы сюжета:\n {b}Lybares{/b} a.k.a. Губарь Любовь,\n {b}Malvina{/b} a.k.a. Скрябина Татьяна,\n {b}lapschedui{/b} a.k.a. Погорельченко Людмила  "
     centered "Storyline support:\n {b}Lybares{/b} a.k.a. Gubar Lubov,\n {b}Malvina{/b} a.k.a. Skryabina Tatyana,\n {b}lapschedui{/b} a.k.a. Pogorelchenko Ludmila  "
 
-# game/ending.rpy:78
-translate english titles_bb60112e:
+# game/ending.rpy:123
+translate english titles_e51d6f6e:
 
-    # centered "Изображения для сканирования и клина:\n {b}eng. Zubr{/b} a.k.a. Бурим Алексей\n \n Бэта-тестеры:\n {b}Ulilla{/b} a.k.a. Байкова Юлия,\n {b}Bismut{/b} a.k.a. Жаворовнков Дмитрий"
+    # centered "Изображения для сканирования и клина:\n {b}eng. Zubr{/b} a.k.a. Бурим Алексей\n \n Бэта-тестеры:\n {b}Ulilla{/b} a.k.a. Байкова Юлия,\n {b}Bismut{/b} a.k.a. Жаворонков Дмитрий"
     centered "Imaging assistants:\n {b}eng. Zubr{/b} a.k.a. Burim Alex\n \n Beta-testers:\n {b}Ulilla{/b} a.k.a. Baykova Yulia,\n {b}Bismut{/b} a.k.a. Zhavoronkov Dmitry"
 
 
@@ -153,4 +153,10 @@ translate english titles_fed84019:
     # drakoha "Эй! А я только с солью вернулась..."
     drakoha "Hey! I’ve just returned from the store, I've brought back salt..."
 
+
+# game/ending.rpy:147
+translate english titles_af07b759:
+
+    # centered "\nРоли озвучивали (команда {a=http://xdub.ru/}xdub.ru{/a}):\n {b}Izanami{/b} a.k.a. Хабарова Анастасия - Лайби, Кэрри, Пряня, бабушка\n {b}Elrid{/b} a.k.a. Палагута Александр - Дэкс, Бог-облако, работа со звуком\n {b}Sharon{/b} a.k.a. Игнатенко Александр - Андрей, авторская речь\n {b}Kimamire{/b} a.k.a. Крашник Оля - Лап, Юлилла, Мирей, Джесс\n {b}MIX-MAN{/b} a.k.a. Аввакумов Максим - Лёха\n {b}Kobayashi{/b} a.k.a. Ставоржинская Яна - Мальвина, Лин, Азуки, Дракоша, Янушка, незнакомка\n"
+    centered "\nRussian voiceover by {a=http://xdub.ru/}xdub.ru{/a}:\n {b}Izanami{/b} a.k.a. Khabarova Anastasia - Laiby, Carry, Spicy, granny\n {b}Elrid{/b} a.k.a. Palaguta Alexander - Dex, God-cloud, working with sound\n {b}Sharon{/b} a.k.a. Ignatenko Alexandr - Andre, the author's speech\n {b}Kimamire{/b} a.k.a. Krashnik Olya - Lap, Yulilla, Mirei, Jess\n {b}MIX-MAN{/b} a.k.a. Avvakumov Maxim - Alex\n {b}Kobayashi{/b} a.k.a. Stavorjinskaya Yana - Malia, Lin, Azuki, Dragonha, Yana, stranger\n"
 

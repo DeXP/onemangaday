@@ -205,7 +205,7 @@ screen main_menu:
         textbutton _("Настройки") action ShowMenu("preferences")
         textbutton _("Достижения") action ShowMenu("achievements")
         #textbutton _("Help") action Help()
-        textbutton _("Помошь") action ShowMenu("help")
+        #textbutton _("Помошь") action ShowMenu("help")
         textbutton _("Выход") action Quit(confirm=False)
 
 init -2 python:
@@ -532,9 +532,9 @@ screen preferences:
                 style_group "pref"
                 has vbox
 
-                label _("Пропуск")
-                textbutton _("Прочтенных сообщений") action Preference("skip", "seen")
-                textbutton _("Всех сообщений") action Preference("skip", "all")
+                #label _("Пропуск")
+                textbutton _("Пропуск прочтенных") action Preference("skip", "seen")
+                textbutton _("Пропуск всех") action Preference("skip", "all")
 
             frame:
                 style_group "pref"

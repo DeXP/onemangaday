@@ -863,7 +863,7 @@ label language_chooser:
         "{image=items/flags/ru.jpg}  Русский язык":
             $ renpy.change_language(None)
             pass
-        "{image=items/flags/pl.jpg}  Język polski":
+        "{image=items/flags/pl.jpg}  Jezyk polski":
             $ renpy.change_language("polish")
             pass
             
@@ -920,4 +920,7 @@ init:
 
 # Игра начинается здесь.
 label start:   
+    scene black
+    if config.has_voice:
+        centered "Озвучено командой сайта xdub.ru"
     jump day1

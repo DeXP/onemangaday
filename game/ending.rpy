@@ -125,9 +125,38 @@ Warren '{b}Wazza{/b}' Brent (День 6)" with dissolve
 \n
 Бэта-тестеры:\n
 {b}Ulilla{/b} a.k.a. Байкова Юлия,\n
-{b}Bismut{/b} a.k.a. Жаворовнков Дмитрий"
+{b}Bismut{/b} a.k.a. Жаворонков Дмитрий"
     hide lexa with moveoutbottom
     hide ulilla with moveoutleft
+        
+    if config.has_voice:
+        image carry_question_vert = im.Flip("pers/carry_question.png", vertical=True)
+        image lin_side_swim = "pers/lin_side_swim.png"
+        show carry_question_vert at left:
+            xalign -1.3 yalign 2.2 rotate -25
+        show lin_side_swim at left:
+            xalign -0.01 yalign 1.0
+        show lap bigquestion at left:
+            xalign 1.42 yalign 6.5
+        show prana clouds at left:
+            xalign 2.6 yalign 1.7 rotate -100 
+        show andry ice at left:
+            xalign 0.6 yalign 8.5
+        with dissolve
+    
+        centered "\nРоли озвучивали (команда {a=http://xdub.ru/}xdub.ru{/a}):\n
+{b}Izanami{/b} a.k.a. Хабарова Анастасия - Лайби, Кэрри, Пряня, бабушка\n
+{b}Elrid{/b} a.k.a. Палагута Александр - Дэкс, Бог-облако, работа со звуком\n
+{b}Sharon{/b} a.k.a. Игнатенко Александр - Андрей, авторская речь\n
+{b}Kimamire{/b} a.k.a. Крашник Оля - Лап, Юлилла, Мирей, Джесс\n
+{b}MIX-MAN{/b} a.k.a. Аввакумов Максим - Лёха\n
+{b}Kobayashi{/b} a.k.a. Ставоржинская Яна - Мальвина, Лин, Азуки, Дракоша, Янушка, незнакомка\n"
+        hide carry_question_vert 
+        hide lap
+        hide prana
+        hide andry
+        hide lin_side_swim
+        with dissolve
 
     
     show Server with dissolve:

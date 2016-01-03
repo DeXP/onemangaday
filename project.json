@@ -1,1 +1,1 @@
-{"build_update": false, "packages": ["all"], "add_from": false}
+{"build_update": false, "packages": ["all"], "add_from": false, "force_recompile": true}

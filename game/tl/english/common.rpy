@@ -608,3 +608,35 @@ translate english strings:
     old "Position copied to clipboard."
     new "Position copied to clipboard."
 
+# TODO: Translation updated at 2015-12-02 11:49
+
+translate english strings:
+
+    # renpy/common/00gltest.rpy:91
+    old "Gamepad"
+    new "Gamepad"
+
+    # renpy/common/00gltest.rpy:95
+    old "Enable"
+    new "Enable"
+
+    # renpy/common/00gltest.rpy:99
+    old "Disable"
+    new "Disable"
+
+# TODO: Translation updated at 2015-12-02 11:49
+
+translate english strings:
+
+    # renpy/common/_errorhandling.rpym:544
+    old "Copy to Clipboard"
+    new "Copy to Clipboard"
+
+    # renpy/common/_errorhandling.rpym:546
+    old "Copies the traceback.txt file to the clipboard."
+    new "Copies the traceback.txt file to the clipboard."
+
+    # renpy/common/_errorhandling.rpym:613
+    old "Copies the errors.txt file to the clipboard."
+    new "Copies the errors.txt file to the clipboard."
+

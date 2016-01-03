@@ -44,8 +44,8 @@ label day1:
     
     show dexp nya at right with dissolve:
         xalign 1.0 yalign 1.0
-    #play sound "sound/DeXP_nya.ogg"
-    play sound "sound/ecfike_chuckle-1.ogg"
+    if not config.has_voice:
+        play sound "sound/ecfike_chuckle-1.ogg"
     dexp "Да пребудет с тобой великий кавай! Ня!"
     hide dexp with moveoutright
     
@@ -70,7 +70,8 @@ label day1:
     show lyblabla silent at left
     #hide lap
     
-    play sound "sound/andrutzab_Surprise.ogg"
+    if not config.has_voice:
+        play sound "sound/andrutzab_Surprise.ogg"
     show lap surprized at center with moveinright
     lap "Ой, а ты новенький, да? Рада с тобой познакомиться!"
     show lap joy at center
@@ -88,12 +89,14 @@ label day1:
             pass
     
     show lap angry at center
-    play sound "sound/mattskydoodle_censor-beep.ogg"
+    if not config.has_voice:
+        play sound "sound/mattskydoodle_censor-beep.ogg"
     lap "Ай, ну вас всех. Только \"хи-хи\" да \"ха-ха\". А на серьёзные темы и поговорить не с кем..."
     hide lap with moveoutleft
     #hide lyblabla
     show lyblabla normal at center with dissolve
-    play sound "sound/madamvicious_female-ehem.ogg"
+    if not config.has_voice:
+        play sound "sound/madamvicious_female-ehem.ogg"
     lyblabla "Мда. Придётся всё-таки мне лично показать тебе основные этапы перевода манги."
     lyblabla "Или ты и так знаком с основными этапами перевода манги?"
     
@@ -321,7 +324,8 @@ label kliner:
     show lexa lookdownflip with dissolve:
         xalign 0.85 yalign 1.0
     "???" "Мда, ну и как поставить PHP под FreeBSD? Ууу! Сервера - зло!"
-    play sound "sound/ecfike__sigh-1.ogg"
+    if not config.has_voice:
+        play sound "sound/ecfike__sigh-1.ogg"
     "???" "Да и как-то кривоват сервер-то... Наверное, не следовало собирать его из подручного мусора..."
     
     
@@ -367,7 +371,8 @@ label kliner:
     
     show klin_overlevel at right with moveinright
     show lexa attention
-    play sound "sound/ecfike_heh.ogg"
+    if not config.has_voice:
+        play sound "sound/ecfike_heh.ogg"
     lexa "Теперь у нас переклин. В данном случае изображение перечищено: потеряны текстуры, некоторые цвета. Так тоже делать нельзя."
     
     show lexa attention
@@ -388,7 +393,8 @@ label kliner:
     
     show carry norm with dissolve:
         xalign 0.8 yalign 1.0
-    play sound "sound/madamvicious__stupid-witch.ogg"
+    if not config.has_voice:
+        play sound "sound/madamvicious__stupid-witch.ogg"
     carry "Гы-гы! Ой ну вообще! Ну просто вообще! Гыыыы!"
     lyba "Кэрри, а ты чего ржёшь! У тебя долгов по работе на полгода вперёд!"
     hide lyba
@@ -433,7 +439,8 @@ label translator:
     $ type_points += 2
     
     scene bg Hallway41 with fade
-    play sound "sound/ripper351_whistle.ogg"
+    if not config.has_voice:
+        play sound "sound/ripper351_whistle.ogg"
     show dexp nya at center with dissolve
     dexp "Прости! Сие тайна великая есть!"
     hide dexp with moveoutleft
@@ -453,10 +460,12 @@ label translator:
     lin "Да ладно. Заодно на примере и покажешь! Переведи, пожалуйста, фразу: \"Ne, ne! Eliru el ci tie!\""
     
     show dexp fearbig
-    play sound "sound/ecfike_hey-1.ogg"
+    if not config.has_voice:
+        play sound "sound/ecfike_hey-1.ogg"
     dexp "Эй! Она же не на английском!"
     show lin angrybig
-    play sound "sound/mattskydoodle_censor-beep.ogg"
+    if not config.has_voice:
+        play sound "sound/mattskydoodle_censor-beep.ogg"
     lin "Ну и что?! Ты же переводчик! Делай давай!"
     show lin laughbig
     lin "Спасибо тебе большое!"
@@ -485,12 +494,14 @@ label translator:
     show dexp joybig at left with moveinright
     
     show lap bigquestion at right
-    play sound "sound/andrutzab_Hm.ogg"
+    if not config.has_voice:
+        play sound "sound/andrutzab_Hm.ogg"
     lap "Кстати, Дэкс, вот тебе ещё фразочка:"
     lap "Lorem ipsum dolor sit amet, consectetur adipisicing elit."
     
     show dexp fearbig
-    play sound "sound/ecfike_growl-2.ogg"
+    if not config.has_voice:
+        play sound "sound/ecfike_growl-2.ogg"
     dexp "Ааа! За что мне всё это?!?"
     hide lap with moveoutright
     
@@ -502,8 +513,8 @@ label translator:
     prana "Первая фраза на эсперанто, вторая - на латыни!"
     
     show dexp fearbig
-    #play sound "sound/ecfike_growl-2.ogg"
-    play sound "sound/ecfike__sigh-1.ogg"
+    if not config.has_voice:
+        play sound "sound/ecfike__sigh-1.ogg"
     dexp "Ааа!"
     prana "И да пребудет с тобой Poogle!"
     hide prana with moveouttop
@@ -548,7 +559,8 @@ label korrektor:
     
     lin "Ну понятно, да? Не всё оно так просто, как казалось..."
     show lin laughbig
-    play sound "sound/madamvicious_woman-yandere-laugh.ogg"
+    if not config.has_voice:
+        play sound "sound/madamvicious_woman-yandere-laugh.ogg"
     lin "Вобщем: практика, практика и ещё раз практика! Через пару лет и ты сможешь нормально редактировать тексты."
     show lin normbig at left with moveinright
     
@@ -590,7 +602,8 @@ label typer:
     
     show andry norm at left with moveinright
     show lap surprized at right with moveinright
-    play sound "sound/andrutzab_Aah.ogg"
+    if not config.has_voice:
+        play sound "sound/andrutzab_Aah.ogg"
     lap "О! Андрей, всё хотела тебя спросить!"
     show type_china at top
     show lap norm at right
@@ -661,7 +674,8 @@ label betareader:
     show klin0 at right with moveinright
     hide lyblabla
     show lyba helangry at center
-    play sound "sound/mattskydoodle_censor-beep.ogg"
+    if not config.has_voice:
+        play sound "sound/mattskydoodle_censor-beep.ogg"
     lyba "А пятно на воротнике кто убирать будет?!"
     lyba "Я?! Меня на все проекты просто физически не хватит..."
     hide klin0 with moveoutright
@@ -674,7 +688,8 @@ label betareader:
     show lyblabla silent at left with moveinright
     
     show lin norm at right with moveinright
-    play sound "sound/madamvicious_woman-insane-laughter.ogg"
+    if not config.has_voice:
+        play sound "sound/madamvicious_woman-insane-laughter.ogg"
     lin "О! Лайби! А я тебя ищу. Смотри, как наши накосячили!"
     show lin laugh
     lin "Представляешь, там написали не \"клали\", а \"ложили\"! Ложили! Вот умора! Ха-ха-ха!"
@@ -743,7 +758,8 @@ label dinning_masta:
     
     scene bg Dinning2
     show dexp fearbig at center with dissolve
-    play sound "sound/ecfike_growl-1.ogg"
+    if not config.has_voice:
+        play sound "sound/ecfike_growl-1.ogg"
     dexp "Ну сколько можно про еду говорить, а!?"
     dexp "Я ж худеть пытался..."
     show dexp joybig
@@ -917,7 +933,8 @@ label after_learn:
         show lap joy at left with dissolve
         hide andry
         show andry shy at right with dissolve
-    play sound "sound/madamvicious__nyuu-voice.ogg"
+    if not config.has_voice:
+        play sound "sound/madamvicious__nyuu-voice.ogg"
     lyba "Вечеринка!!!"
     lyba "Веселись как следует, ведь завтра будет тяжёлый рабочий день, а перед ним нужно хорошо отдохнуть!"
     if profession == "beta":
@@ -975,14 +992,16 @@ label after_learn:
     dexp "Ты мне очень-очень нравишься!"
     
     show lap surprized
-    play sound "sound/andrutzab_Surprise.ogg"
+    if not config.has_voice:
+        play sound "sound/andrutzab_Surprise.ogg"
     lap "Ч... чего?"
     
     show dexp norm
     dexp "Нравишься ты мне, говорю!"
     
     show lap angry
-    play sound "sound/mattskydoodle_censor-beep.ogg"
+    if not config.has_voice:
+        play sound "sound/mattskydoodle_censor-beep.ogg"
     lap "Ах так, да?!  А ну-ка иди сюда, повтори!"
     
     hide dexp with moveoutleft
@@ -1010,7 +1029,8 @@ label after_learn:
     show lin laugh 
     lin "Ты мне очень-очень нравишься!"
     show lap surprized
-    play sound "sound/andrutzab_Surprise.ogg"
+    if not config.has_voice:
+        play sound "sound/andrutzab_Surprise.ogg"
     lap "Ч... что, опять?"
     
     show lin norm
@@ -1018,7 +1038,8 @@ label after_learn:
     "" "(Сговорились они, что ли? Или фраз других нет?)"
     
     show lap angry
-    play sound "sound/mattskydoodle_censor-beep.ogg"
+    if not config.has_voice:
+        play sound "sound/mattskydoodle_censor-beep.ogg"
     lap "Ах так, да?!  А ну-ка иди сюда, повтори!"
     
     hide lin with moveoutright
@@ -1043,7 +1064,8 @@ label after_learn:
     lap "Ты самый лучший! Когда вижу тебя, звёзды на небе светят ярче! Хочу быть с тобой!"
     
     #show lap surprized
-    play sound "sound/ecfike_heh.ogg"
+    if not config.has_voice:
+        play sound "sound/ecfike_heh.ogg"
     lexa "А? Ты что-то говорила? Прости, я задумался!"
     
     show lap norm
@@ -1053,7 +1075,8 @@ label after_learn:
     lexa "Прости, но мне нравятся только серверы!"
     
     show lap angry
-    play sound "sound/mattskydoodle_censor-beep.ogg"
+    if not config.has_voice:
+        play sound "sound/mattskydoodle_censor-beep.ogg"
     lap "Ах так, да?!  А ну-ка иди сюда, повтори!"
     
     hide lexa with moveoutleft
@@ -1150,12 +1173,14 @@ label disko_stolovka:
     show dexp norm at center with dissolve
     dexp "(Омноном!)"
     show dexp fearbig
-    play sound "sound/ecfike__sigh-1.ogg"
+    if not config.has_voice:
+        play sound "sound/ecfike__sigh-1.ogg"
     dexp "Ну вот! Даже ночью поесть спокойно не дают!"
     hide dexp with moveoutright
     
     show azyki norm with dissolve
-    play sound "sound/madamvicious_female-ehem.ogg"
+    if not config.has_voice:
+        play sound "sound/madamvicious_female-ehem.ogg"
     azyki "Ну и зачем надо было его пугать?"
     show azyki laugh
     azyki "За Дэксом так смешно наблюдать, когда он думает, что его никто не видит!"

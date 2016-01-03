@@ -53,7 +53,7 @@ init -1 python hide:
     # Эти управляют именем и версией игры, которые указываются
     # в журналах отладки.
     config.name = "OneMangaDay"
-    config.version = "1.8"
+    config.version = "1.9"
 
     #########################################
     # Темы
@@ -224,7 +224,11 @@ init -1 python hide:
 
     config.has_voice = False
     #config.has_voice = True
+    config.emphasize_audio_channels = [ 'voice' ]
+    config.emphasize_audio_volume = 0.10
+    config.emphasize_audio_time = 0.20
     config.auto_voice = "voice/ru/{id}.ogg"
+    
 
     ## Звуки при нажатии на кнопки и imagemap-ы.
 
@@ -355,7 +359,7 @@ init python:
     ## The name that's used for directories and archive files. For example, if
     ## this is 'mygame-1.0', the windows distribution will be in the
     ## directory 'mygame-1.0-win', in the 'mygame-1.0-win.zip' file.
-    build.directory_name = "OneMangaDay-1.8"
+    build.directory_name = "OneMangaDay-1.9"
 
     ## The name that's uses for executables - the program that users will run
     ## to start the game. For example, if this is 'mygame', then on Windows,
@@ -424,6 +428,10 @@ init python:
     build.classify('game/Music/*.OGG', 'archive')
     build.classify('game/**.png', 'archive')
     build.classify('game/**.jpg', 'archive')
+    
+    # Declare archives
+    build.archive("voice", "all")
+    build.classify("game/voice/**", "voice")
 
     ## Files matching documentation patterns are duplicated in a mac app
     ## build, so they appear in both the app and the zip file.

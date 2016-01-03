@@ -128,13 +128,15 @@ label day3:
     show ulilla miltable:
         xalign 0.4 yalign 0.8
     show BinocularMask
-    play sound "sound/mattskydoodle_censor-beep.ogg"
+    if not config.has_voice:
+        play sound "sound/mattskydoodle_censor-beep.ogg"
     lyblabla "Вот! Видишь! Я же говорила!"
     show ulilla miltable2 with dissolve
     lyblabla "Место подобрано очень профессионально! Ещё недавно там находилась наша штаб-квартира."
     lyblabla "Экипировка тоже подобрана на высшем уровне. Начиная с одежды и заканчивая маскировочным стулом!"
     show ulilla miltablesad with dissolve
-    play sound "sound/andrutzab_Aah.ogg"
+    if not config.has_voice:
+        play sound "sound/andrutzab_Aah.ogg"
     lyblabla "Единственное, что выдаёт противника - красные туфли."
     hide BinocularMask
     hide ulilla
@@ -195,7 +197,8 @@ label attack_ulilla:
     show dexp think at center with moveinright
     show andry bita at right with moveinright
     
-    play sound "sound/ecfike_heh.ogg"
+    if not config.has_voice:
+        play sound "sound/ecfike_heh.ogg"
     dexp "Кхм. Лайби, здесь никого нет."
     show andry norm at right with dissolve
     lyblabla "Что?"
@@ -273,7 +276,8 @@ label round1:
             show ulilla angry with moveinright:
                 xalign -0.3 yalign 1.0
             show dexp laugh at left with dissolve
-            play sound "sound/ecfike_chuckle-1.ogg"
+            if not config.has_voice:
+                play sound "sound/ecfike_chuckle-1.ogg"
             dexp "Девушки! Вы зачем ругаетесь? А почему б не переводить эту мангу вместе, а?"
             lin "Совсем с дуба рухнул!"
             lyblabla "Ни за что! Это вопрос принципа!"
@@ -282,7 +286,8 @@ label round1:
             ulilla "Данный вариант не уместен."
     
             show dexp think at left with dissolve
-            play sound "sound/ecfike__sigh-1.ogg"
+            if not config.has_voice:
+                play sound "sound/ecfike__sigh-1.ogg"
             dexp "Эхх..."
             hide dexp with dissolve
     
@@ -344,7 +349,8 @@ label r1after:
     show lyblabla helsilent at center
     
     show azyki laugh at right with dissolve
-    play sound "sound/madamvicious_giggling-cutely.ogg"
+    if not config.has_voice:
+        play sound "sound/madamvicious_giggling-cutely.ogg"
     azyki "Кушать подано. Идите жрать, пожалуйста!"
     
     show lin norm at left with dissolve

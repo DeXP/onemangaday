@@ -98,7 +98,8 @@ label day5:
         call showAchiv
     $ persistent.seeSeagul = True
     #lyba "Там такое, что просто не передать словами!"
-    play sound "sound/madamvicious_oh.ogg"
+    if not config.has_voice:
+        play sound "sound/madamvicious_oh.ogg"
     lyba "Ой! Птичка пролетела... Чуть не попала, зараза!"
     show parkTrio st2 at center with dissolve
     lin "Ага, бывает..."
@@ -251,7 +252,8 @@ label round2:
                 xalign 1.05 yalign 0.7    
             lexa "А ещё сразу заняли агрессивную позицию!"
             show ulilla angry with dissolve
-            play sound "sound/mattskydoodle_censor-beep.ogg"
+            if not config.has_voice:
+                play sound "sound/mattskydoodle_censor-beep.ogg"
             ulilla "Это кто здесь ещё агрессивный?!?"
             show ulilla norm with dissolve
             ulilla "А, ну да, я..."
@@ -284,12 +286,14 @@ label r2after:
         xalign 1.3 yalign 0.7
     azyki "Народ! Обедать пора!"
     show azyki surprized with dissolve
-    play sound "sound/madamvicious_oh.ogg"
+    if not config.has_voice:
+        play sound "sound/madamvicious_oh.ogg"
     azyki "Ой..."
     
     ulilla "Эх, а мне далеко идти кушать..."
     show azyki norm with dissolve
-    play sound "sound/madamvicious_giggling-cutely.ogg"
+    if not config.has_voice:
+        play sound "sound/madamvicious_giggling-cutely.ogg"
     azyki "Да разве ж это проблема? Пойдём поедим с нами!"
     ulilla "А точно можно?"
     show dexp think with dissolve

@@ -90,7 +90,8 @@ label day4afterGod:
     
     hide god with moveoutright
     show lap cosmoangry at center with dissolve
-    play sound "sound/mattskydoodle_censor-beep.ogg"
+    if not config.has_voice:
+        play sound "sound/mattskydoodle_censor-beep.ogg"
     lap "Куда?!? А ну стоять! Я ещё не всё спросила!"
     hide lap with moveoutright
     hide StarShip with moveoutright
@@ -107,7 +108,8 @@ label day4afterGod:
     
     andry "Эй! Лап! Ты меня слушаешь? Я тебе уже целый час объясняю!"
     show lap surprized with dissolve
-    play sound "sound/andrutzab_Surprise.ogg"
+    if not config.has_voice:
+        play sound "sound/andrutzab_Surprise.ogg"
     lap "Ой, я, кажется, немножко отвлеклась... Так что ты там говорил?"
     show andry norm with dissolve
     andry "Вот, слушай..."
@@ -121,7 +123,8 @@ label day4afterGod:
     show lexa norm at right with dissolve
     lexa "О, Кэрри! Привет."
     lexa "А что это ты такое делаешь?"
-    play sound "sound/madamvicious_female-ehem.ogg"
+    if not config.has_voice:
+        play sound "sound/madamvicious_female-ehem.ogg"
     carry "Упс."
     hide carry with moveoutleft
     show carry norm at left with easeinleft
@@ -134,7 +137,8 @@ label day4afterGod:
     show lyblabla helmbinocle at center with dissolve
     lyblabla "Итак, товарищи! Вчера мы так ничего и не решили!"
     lyblabla "Всё-таки, у кого какие будут предложения?"
-    play sound "sound/andrutzab_Hm.ogg"
+    if not config.has_voice:
+        play sound "sound/andrutzab_Hm.ogg"
     lyblabla "И где Дэкс?!"
     
     scene black with fade
@@ -159,7 +163,8 @@ label day4afterGod:
         xalign 0.15 yalign 0.3
     dexp "(Ухх! Сейчас что-то будет!)"
     
-    play sound "sound/andrutzab_Aah.ogg"
+    if not config.has_voice:
+        play sound "sound/andrutzab_Aah.ogg"
     mala "Я, правда, немного стесняюсь такое спрашивать..."
     show dexp happykust behind Kust with moveinleft:
         xalign 0.28 yalign 0.3
@@ -191,7 +196,8 @@ label day4afterGod:
     hide dexp with moveoutright
     hide jess with moveouttop
     show mala angrybig at center with dissolve
-    play sound "sound/mattskydoodle_censor-beep.ogg"
+    if not config.has_voice:
+        play sound "sound/mattskydoodle_censor-beep.ogg"
     mala "Ах! Так он, значит, за нами всё это время подсматривал!!!"
     mala "Ну пускай только мне попадётся!"
     mala "Из-за него я так и не узнала, почему Лёша носит с собой эту чёртову клавиатуру!"
@@ -231,14 +237,16 @@ label day4afterGod:
     show dexp maikasurprised with dissolve
     
     show lyblabla normal
-    play sound "sound/andrutzab_Aah.ogg"
+    if not config.has_voice:
+        play sound "sound/andrutzab_Aah.ogg"
     lyblabla "Кхм..."
     lyblabla "Дэкс, стесняюсь спросить..."
     lyblabla "Но что ты делаешь так близко к Джесс?"
     hide lyblabla
     show lyba angryflip with dissolve:
         xalign 0.2 yalign 1.0
-    play sound "sound/mattskydoodle_censor-beep.ogg"
+    if not config.has_voice:
+        play sound "sound/mattskydoodle_censor-beep.ogg"
     lyba "И КАКОГО ЧЁРТА ТЫ БЕЗ ШТАНОВ?!?"
     dexp "Так жарко же."
     lyba "Всё равно! Надень штаны! Ты на официальном мероприятии!"

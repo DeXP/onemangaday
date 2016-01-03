@@ -80,9 +80,11 @@ translate english strings:
     new "{image=items/flags/ru.jpg} Русский язык"
 
     # game/script.rpy:843
+    old "{image=items/flags/pl.jpg} Jezyk polski"
+    new "{image=items/flags/pl.jpg} Jezyk polski"
+
     old "{image=items/flags/pl.jpg} Język polski"
     new "{image=items/flags/pl.jpg} Język polski"
-
 
 
     # game/script.rpy:218
@@ -136,5 +138,14 @@ translate english strings:
     # game/script.rpy:308
     old "\"Бэта-ридер\""
     new "\"Beta-reader\""
+
+
+# TODO: Translation updated at 2015-12-02 11:49
+
+# game/script.rpy:925
+translate english start_5ccdeede:
+
+    # centered "Озвучено командой сайта xdub.ru"
+    centered "Voiced by xdub.ru team"
 
 

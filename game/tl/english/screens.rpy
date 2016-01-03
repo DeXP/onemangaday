@@ -277,3 +277,11 @@ translate english strings:
     new "Unlocked"
 
 
+    # game/screens.rpy:536
+    old "Пропуск прочтенных"
+    new "Skip read"
+
+    # game/screens.rpy:537
+    old "Пропуск всех"
+    new "Skip all"
+

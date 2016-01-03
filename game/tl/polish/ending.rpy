@@ -98,10 +98,10 @@ translate polish titles_4aa106c5:
     # centered "Вспомогательные элементы сюжета:\n {b}Lybares{/b} a.k.a. Губарь Любовь,\n {b}Malvina{/b} a.k.a. Скрябина Татьяна,\n {b}lapschedui{/b} a.k.a. Погорельченко Людмила  "
     centered "Pomoc przy fabule:\n {b}Lybares{/b} a.k.a. Gubar Lubov,\n {b}Malvina{/b} a.k.a. Skryabina Tatyana,\n {b}lapschedui{/b} a.k.a. Pogorelchenko Ludmila  "
 
-# game/ending.rpy:78
-translate polish titles_bb60112e:
+# game/ending.rpy:123
+translate polish titles_e51d6f6e:
 
-    # centered "Изображения для сканирования и клина:\n {b}eng. Zubr{/b} a.k.a. Бурим Алексей\n \n Бэта-тестеры:\n {b}Ulilla{/b} a.k.a. Байкова Юлия,\n {b}Bismut{/b} a.k.a. Жаворовнков Дмитрий"
+    # centered "Изображения для сканирования и клина:\n {b}eng. Zubr{/b} a.k.a. Бурим Алексей\n \n Бэта-тестеры:\n {b}Ulilla{/b} a.k.a. Байкова Юлия,\n {b}Bismut{/b} a.k.a. Жаворонков Дмитрий"
     centered "Pomoc przy grafikach:\n {b}eng. Zubr{/b} a.k.a. Burim Alex\n \n Beta-testerzy:\n {b}Ulilla{/b} a.k.a. Baykova Yulia,\n {b}Bismut{/b} a.k.a. Zhavoronkov Dmitry"
 
 
@@ -133,7 +133,7 @@ translate polish titles_5b0beb4e:
 translate polish titles_5f70d195:
 
     # centered "Отдельное спасибо проголосовавшим за игру в {a=http://steamcommunity.com/sharedfiles/filedetails/?id=372656709}Steam Greenlight{/a}.\n И площадке {a=http://store.steampowered.com/app/365070}Steam{/a} в общем за возможность опубликовать игру.\n \n Так же огромное спасибо всем бэта-тестрам финальной версии. Без вас игра не получилась бы настолько хорошей!"
-    centered "Specjalne podziękowania dla wszystkich, którzy\n zagłosowali na grę na {a=http://steamcommunity.com/sharedfiles/filedetails/?id=372656709}Steams Greenlight{/a},\n beta-testerom Steam i {a=http://store.steampowered.com/app/365070}Steam{/a} za umożliwienie publikacji."
+    centered "Specjalne podziękowania dla wszystkich, którzy\n zagłosowali na grę na {a=http://steamcommunity.com/sharedfiles/filedetails/?id=372656709}Steam Greenlight{/a},\n beta-testerom Steam i {a=http://store.steampowered.com/app/365070}Steam{/a} za umożliwienie publikacji."
 
 # game/ending.rpy:118
 translate polish titles_f2b2b59f:
@@ -154,4 +154,9 @@ translate polish titles_fed84019:
     drakoha "Hej! Wróciłam ze sklepu! Przyniosłam sól..."
 
 
+# game/ending.rpy:147
+translate polish titles_af07b759:
+
+    # centered "\nРоли озвучивали (команда {a=http://xdub.ru/}xdub.ru{/a}):\n {b}Izanami{/b} a.k.a. Хабарова Анастасия - Лайби, Кэрри, Пряня, бабушка\n {b}Elrid{/b} a.k.a. Палагута Александр - Дэкс, Бог-облако, работа со звуком\n {b}Sharon{/b} a.k.a. Игнатенко Александр - Андрей, авторская речь\n {b}Kimamire{/b} a.k.a. Крашник Оля - Лап, Юлилла, Мирей, Джесс\n {b}MIX-MAN{/b} a.k.a. Аввакумов Максим - Лёха\n {b}Kobayashi{/b} a.k.a. Ставоржинская Яна - Мальвина, Лин, Азуки, Дракоша, Янушка, незнакомка\n"
+    centered "\nRosyjski głos ({a=http://xdub.ru/}xdub.ru{/a}):\n {b}Izanami{/b} a.k.a. Khabarova Anastasia - Laiby, Carry, Spicy, granny\n {b}Elrid{/b} a.k.a. Palaguta Alexander - Dex, God-cloud, working with sound\n {b}Sharon{/b} a.k.a. Ignatenko Alexandr - Andre, the author's speech\n {b}Kimamire{/b} a.k.a. Krashnik Olya - Lap, Yulilla, Mirei, Jess\n {b}MIX-MAN{/b} a.k.a. Avvakumov Maxim - Alex\n {b}Kobayashi{/b} a.k.a. Stavorjinskaya Yana - Malia, Lin, Azuki, Dragonha, Yana, stranger\n"
 

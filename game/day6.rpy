@@ -264,7 +264,8 @@ label after_nude:
     lyba "А ну вставай и иди одевайся!"
     lin "Не могу."
     lyba "Почему?"
-    play sound "sound/madamvicious_girl-taking-damage.ogg"
+    if not config.has_voice:
+        play sound "sound/madamvicious_girl-taking-damage.ogg"
     lin "Да радикулит проклятый! Опять спину прихватило..."
     hide lyba
     show lyblabla normal at left behind lin with dissolve
@@ -321,12 +322,14 @@ label after_nude:
     show andry shy with dissolve
     andry "Ну не скажи! Здесь я вижу какие люди богаче, какие беднее."
     andry "А те, у кого кошелёк потолще, потом могут стать моими \"клиентами\"!"
-    play sound "sound/madamvicious_female-ehem.ogg"
+    if not config.has_voice:
+        play sound "sound/madamvicious_female-ehem.ogg"
     lin "Так вот оно как..."
     show lin angry with dissolve
     lin "А ну не майся дурью и лучше делом займись!"
     show andry fight with dissolve
-    play sound "sound/mattskydoodle_censor-beep.ogg"
+    if not config.has_voice:
+        play sound "sound/mattskydoodle_censor-beep.ogg"
     andry "А что мне ещё делать-то, что?! Деньги нужны очень!"
     andry "Иначе я не смогу покупать новые фигурки..."
     lin "Ах фигурки, да..."
