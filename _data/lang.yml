@@ -31,6 +31,8 @@
   mainmenu:
   - text: Main
     link: index.html
+  - text: DLC
+    link: dlc.html
   - text: Media
     link: media.html
   - text: Manga
@@ -120,6 +122,8 @@
   mainmenu:
   - text: Главная
     link: index.html
+  - text: DLC
+    link: dlc.html
   - text: Медиа
     link: media.html
   - text: Манга
@@ -209,6 +213,8 @@
   mainmenu:
   - text: Główna
     link: index.html
+  - text: DLC
+    link: dlc.html
   - text: Media
     link: media.html
   - text: Manga
