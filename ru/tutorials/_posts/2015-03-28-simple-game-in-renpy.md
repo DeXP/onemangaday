@@ -46,7 +46,7 @@ needHighLight: True
 
 А вот так выглядит код для RenPy:
 
-{% capture _code %}{% highlight python linenos %}
+{% capture _code %}{% highlight python %}
 define m = Character('Маля', color="#76e2e4")
 image m oho = "Mala-o.png"
 image m keks = "Mala-yee.png"
