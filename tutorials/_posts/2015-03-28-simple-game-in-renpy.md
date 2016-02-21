@@ -46,7 +46,7 @@ First consider a plot of the novel. I see a novel like this (left click works):
 
 This is how the RenPy code looks:
 
-{% capture _code %}{% highlight python linenos %}
+{% capture _code %}{% highlight python %}
 define m = Character('Malya', color="#76e2e4")
 image m oho = "Mala-o.png"
 image m keks = "Mala-yee.png"
