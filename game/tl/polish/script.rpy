@@ -148,3 +148,11 @@ translate polish start_5ccdeede:
     # centered "Озвучено командой сайта xdub.ru"
     centered "Rosyjski głos xdub.ru"
 
+# TODO: Translation updated at 2016-02-17 10:34
+
+translate polish strings:
+
+    # game/script.rpy:859
+    old "{image=items/flags/pl.jpg} Jezyk polski"
+    new ""
+

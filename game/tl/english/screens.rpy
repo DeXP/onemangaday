@@ -285,3 +285,23 @@ translate english strings:
     old "Пропуск всех"
     new "Skip all"
 
+    # game/screens.rpy:209
+    old "Пожертвовать"
+    new "Donate"
+
+    # game/screens.rpy:209
+    old "http://onemangaday.dexp.in/ru/donate.html"
+    new "http://onemangaday.dexp.in/donate.html"
+
+    # game/screens.rpy:556
+    old "Озвучка"
+    new "Voiceover"
+
+    # game/screens.rpy:558
+    old "Отключить русскую озвучку"
+    new "Disable Russian voiceover"
+
+    # game/screens.rpy:560
+    old "Включить русскую озвучку"
+    new "Enable Russian voiceover"
+

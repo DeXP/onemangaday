@@ -283,3 +283,24 @@ translate polish strings:
     old "Пропуск всех"
     new "Pomijanie wszystkich"
 
+
+    # game/screens.rpy:209
+    old "Пожертвовать"
+    new "Darować"
+
+    # game/screens.rpy:209
+    old "http://onemangaday.dexp.in/ru/donate.html"
+    new "http://onemangaday.dexp.in/donate.html"
+
+    # game/screens.rpy:556
+    old "Озвучка"
+    new "Głos"
+
+    # game/screens.rpy:558
+    old "Отключить русскую озвучку"
+    new "Wyłącz rosyjski głos"
+
+    # game/screens.rpy:560
+    old "Включить русскую озвучку"
+    new "Dołącz rosyjski głos"
+

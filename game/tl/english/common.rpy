@@ -640,3 +640,35 @@ translate english strings:
     old "Copies the errors.txt file to the clipboard."
     new "Copies the errors.txt file to the clipboard."
 
+# TODO: Translation updated at 2016-02-17 10:38
+
+translate english strings:
+
+    # renpy/common/00gamepad.rpy:32
+    old "Select Gamepad to Calibrate"
+    new "Select Gamepad to Calibrate"
+
+    # renpy/common/00gamepad.rpy:35
+    old "No Gamepads Available"
+    new "No Gamepads Available"
+
+    # renpy/common/00gamepad.rpy:54
+    old "Calibrating [name] ([i]/[total])"
+    new "Calibrating [name] ([i]/[total])"
+
+    # renpy/common/00gamepad.rpy:58
+    old "Press or move the [control!r] [kind]."
+    new "Press or move the [control!r] [kind]."
+
+    # renpy/common/00gamepad.rpy:66
+    old "Skip (A)"
+    new "Skip (A)"
+
+    # renpy/common/00gamepad.rpy:69
+    old "Back (B)"
+    new "Back (B)"
+
+    # renpy/common/00gltest.rpy:105
+    old "Calibrate"
+    new "Calibrate"
+

@@ -859,12 +859,16 @@ label language_chooser:
     menu:
         "{image=items/flags/en.jpg}  English language":
             $ renpy.change_language("english")
+            if not persistent.chose_voiceover:
+                $ config.has_voice = False
             pass
         "{image=items/flags/ru.jpg}  Русский язык":
             $ renpy.change_language(None)
             pass
-        "{image=items/flags/pl.jpg}  Jezyk polski":
+        "{image=items/flags/pl.jpg}  Język polski":
             $ renpy.change_language("polish")
+            if not persistent.chose_voiceover:
+                $ config.has_voice = False
             pass
             
     #$ renpy.utter_restart()
@@ -878,8 +882,6 @@ label splashscreen:
     if not persistent.chose_lang:
         $ persistent.chose_lang = True
         call language_chooser from _call_language_chooser
-    #if _preferences.language == None:
-    #    $ config.translations.update(rusDic)
     return
 
 

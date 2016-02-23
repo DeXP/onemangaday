@@ -31,6 +31,9 @@ init -1 python hide:
     #config.help = "android"
     #config.help = "steam"
     
+    config.hw_video = False
+    # used for voice DLC. If True - we have it
+    
     
     build.google_play_key = "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAim+nfSYGZfSiY+73iyXcx4ZTuFAiEt7tZjRIQQCNqyrFBvMQpiTV+oCweEKCfh8UHPpu9OXkMyLely0AnVUCUa0GzNUSZ3lVSYNw2IR1xl8AVtNgFu7XoAv5hA8JVAgsOElZAqvHyOzTm8Edu34ElB1ZtnaDolVfHvFmbKFtQf1ZRhzcoFsAV5KFyKHmdgfRFyZ/mHZXGPAyNe4Uuo7pfLjs7mXNTt34V5KURlLeRMF+ECQRblQ49yZxh/EayQwXhSAMh9vY7Tam49KEkV+8rQoQnu32Yj/PPtCMxTquH/+iUUM9KMYRFptAK0F2xoDIb+CW95gtVKWHbfFMP0+9+QIDAQAB"
     
@@ -53,7 +56,7 @@ init -1 python hide:
     # Эти управляют именем и версией игры, которые указываются
     # в журналах отладки.
     config.name = "OneMangaDay"
-    config.version = "1.9"
+    config.version = "2.0"
 
     #########################################
     # Темы
@@ -222,11 +225,12 @@ init -1 python hide:
 
     ## Установите True если в игре есть озвучка. 
 
-    config.has_voice = False
-    #config.has_voice = True
+    config.has_voice = False # Will be set in DLC's voice/voice.rpy
+    config.default_emphasize_audio = True
+    #config.default_emphasize_audio = False
     config.emphasize_audio_channels = [ 'voice' ]
-    config.emphasize_audio_volume = 0.10
-    config.emphasize_audio_time = 0.20
+    config.emphasize_audio_volume = 0.1
+    config.emphasize_audio_time = 0.2
     config.auto_voice = "voice/ru/{id}.ogg"
     
 
@@ -359,7 +363,7 @@ init python:
     ## The name that's used for directories and archive files. For example, if
     ## this is 'mygame-1.0', the windows distribution will be in the
     ## directory 'mygame-1.0-win', in the 'mygame-1.0-win.zip' file.
-    build.directory_name = "OneMangaDay-1.9"
+    build.directory_name = "OneMangaDay-2.0"
 
     ## The name that's uses for executables - the program that users will run
     ## to start the game. For example, if this is 'mygame', then on Windows,
@@ -430,6 +434,7 @@ init python:
     build.classify('game/**.jpg', 'archive')
     
     # Declare archives
+    #build.classify('game/voice/**', None)
     build.archive("voice", "all")
     build.classify("game/voice/**", "voice")
 

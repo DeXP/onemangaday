@@ -608,9 +608,6 @@ translate polish strings:
     old "Position copied to clipboard."
     new "Position copied to clipboard."
 
-# TODO: Translation updated at 2015-12-29 12:44
-
-translate polish strings:
 
     # renpy/common/00gltest.rpy:91
     old "Gamepad"
@@ -624,10 +621,6 @@ translate polish strings:
     old "Disable"
     new "Disable"
 
-# TODO: Translation updated at 2015-12-29 12:44
-
-translate polish strings:
-
     # renpy/common/_errorhandling.rpym:544
     old "Copy to Clipboard"
     new "Copy to Clipboard"
@@ -639,4 +632,32 @@ translate polish strings:
     # renpy/common/_errorhandling.rpym:613
     old "Copies the errors.txt file to the clipboard."
     new "Copies the errors.txt file to the clipboard."
+
+    # renpy/common/00gamepad.rpy:32
+    old "Select Gamepad to Calibrate"
+    new "Select Gamepad to Calibrate"
+
+    # renpy/common/00gamepad.rpy:35
+    old "No Gamepads Available"
+    new "No Gamepads Available"
+
+    # renpy/common/00gamepad.rpy:54
+    old "Calibrating [name] ([i]/[total])"
+    new "Calibrating [name] ([i]/[total])"
+
+    # renpy/common/00gamepad.rpy:58
+    old "Press or move the [control!r] [kind]."
+    new "Press or move the [control!r] [kind]."
+
+    # renpy/common/00gamepad.rpy:66
+    old "Skip (A)"
+    new "Skip (A)"
+
+    # renpy/common/00gamepad.rpy:69
+    old "Back (B)"
+    new "Back (B)"
+
+    # renpy/common/00gltest.rpy:105
+    old "Calibrate"
+    new "Calibrate"
 

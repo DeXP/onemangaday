@@ -204,6 +204,9 @@ screen main_menu:
         textbutton _("Загрузить игру") action ShowMenu("load")
         textbutton _("Настройки") action ShowMenu("preferences")
         textbutton _("Достижения") action ShowMenu("achievements")
+        if config.help == "android":
+            #textbutton _("Пожертвовать") action ShowMenu("donate")
+            textbutton _("Пожертвовать") action OpenURL(__("http://onemangaday.dexp.in/ru/donate.html"))
         #textbutton _("Help") action Help()
         #textbutton _("Помошь") action ShowMenu("help")
         textbutton _("Выход") action Quit(confirm=False)
@@ -216,6 +219,49 @@ init -2 python:
     style.mm_button.ymaximum = 47
     style.mm_button.yminimum = 47
 
+
+
+
+
+##############################################################################
+# Donate
+screen donate: 
+    #С помощью этих двух функций мы меняем фон, add можно не использовать 
+    tag menu 
+    add "bg/Classroom_41.jpg" 
+    frame:  
+        #Создаем площадь где будет находиться текст, два последних параметра это ширина и высота. 
+        area (10,0,800,540)  
+        #Делаем вертикальную полосу прокрутки 
+        viewport mousewheel True draggable True scrollbars "vertical": 
+            has vbox 
+            text _("{color=#333333}Сделать пожертвование:{/color}")
+            #С помощью этой функции мы опускаем следующий текст на 5 пикселей. 
+            null height 5 
+            $ fulltext = "{color=#555555}"
+            $ fulltext +=__("Если Вам понравилась игра, то Вы можете поддержать автора материально.\n")
+            $ fulltext +=__("\n")
+            $ fulltext +=__("WebMoney:\n")
+            $ fulltext +=__("WMR: {a=https://light.webmoney.ru/v3#/v3/WMTrans?corr=R309863884007}R309863884007{/a}       ")
+            $ fulltext +=__("WMZ: {a=https://light.webmoney.ru/v3#/v3/WMTrans?corr=Z110567914520}Z110567914520{/a}\n")
+            $ fulltext +=__("\n")
+            $ fulltext +=__("PayPal:\n")
+            $ fulltext +=__("paypal@dexp.in\n")
+            $ fulltext +=__("\n")
+            $ fulltext +=__("Почему нет QIWI?\n")
+            $ fulltext +=__("Я живу в Беларуси, здесь QIWI нет.\n")
+            $ fulltext +=__("\n")
+            $ fulltext +=__("Остальные методы пожертвований можно увидеть на {a=http://onemangaday.dexp.in/donate.html}сайте игры{/a}.")
+            $ fulltext += "{/color}"
+            text["[fulltext]"]
+    #Здесь создается ссылка на главное меню 
+    frame: 
+        style_group "mm" 
+        xalign .98 
+        yalign .98 
+        has vbox 
+
+        textbutton _("Вернуться") action Return()
 
 
 
@@ -300,7 +346,10 @@ screen navigation:
             textbutton _("Вернуться") action Return()
             textbutton _("Главное меню") action MainMenu()
             textbutton _("Достижения") action ShowMenu("achievements")
-            textbutton _("Помошь") action ShowMenu("help")
+            if config.help == "android": 
+                textbutton _("Пожертвовать") action OpenURL(__("http://onemangaday.dexp.in/ru/donate.html"))
+            else:
+                textbutton _("Помошь") action ShowMenu("help")
             
             textbutton _("Сохранить игру") action ShowMenu("save")
             textbutton _("Загрузить игру") action ShowMenu("load")
@@ -495,11 +544,20 @@ screen preferences:
 
         # Левая колонка.
         vbox:
-            frame:
-                style_group "pref"
-                has vbox
+            if config.hw_video:
+                frame:
+                    style_group "pref"
+                    has vbox
+                    #label _("Озвучка")
+                    if config.has_voice:
+                        textbutton _("Отключить русскую озвучку") action Function(change_voiceover)
+                    else:
+                        textbutton _("Включить русскую озвучку") action Function(change_voiceover)
+            if config.help != "android":  
+                frame:
+                    style_group "pref"
+                    has vbox
                 
-                if config.help != "android":  
                     label _("Отображение")
                     textbutton _("Окно") action Preference("display", "window")
                     textbutton _("Полный экран") action Preference("display", "fullscreen")
@@ -519,11 +577,11 @@ screen preferences:
                 label _("Скорость текста")
                 bar value Preference("text speed")
 
-            frame:
-                style_group "pref"
-                has vbox
-                if config.help != "android":                    
-                    textbutton _("Джойстик...") action Preference("joystick")
+            #if config.help != "android":
+            #    frame:
+            #        style_group "pref"
+            #        has vbox
+            #        textbutton _("Джойстик...") action Preference("joystick")
             
 
 
@@ -621,6 +679,15 @@ init -2 python:
     style.pref_slider.xalign = 1.0
 
     style.soundtest_button.xalign = 1.0
+    
+init python:
+    def change_voiceover():
+        persistent.chose_voiceover = True
+        if config.has_voice:
+            config.has_voice = False
+        else:
+            config.has_voice = True
+            
 
 
 ##############################################################################
