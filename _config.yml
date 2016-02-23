@@ -20,4 +20,4 @@ compress_html:
   profile: false
 webrick:
   headers:
-    Cache-Control: max-age
+    Cache-Control: max-age=6000
