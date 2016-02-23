@@ -1,26 +1,38 @@
 {% capture cache %}
-{% if LANG_INCLUDED != "TRUE" %}
-{% assign LANG_INCLUDED = "TRUE" %}
+	{% if LANG_INCLUDED != "TRUE" %}
+		{% assign LANG_INCLUDED = "TRUE" %}
 {% comment %} Not code now will go off. {% endcomment %}
 
-{% assign checkLang = "en" %}
+		{% assign checkLang = "en" %}
 
-{% if page.curlang %}
-	{% assign checkLang = page.curlang %}
-{% endif %}
+		{% if page.curlang %}
+			{% assign checkLang = page.curlang %}
+		{% endif %}
 
-{% assign landat = site.data.lang.en %}
-{% for lng in site.data.lang %}
-	{% if lng.id == checkLang %}
-		{% assign landat = lng %}
+		{% assign landat = site.data.lang.en %}
+		{% for lng in site.data.lang %}
+			{% if lng.id == checkLang %}
+				{% assign landat = lng %}
+			{% endif %}
+		{% endfor %}
+{% comment %} "landat" now current language data. If page.curlang will not be set - the language will be english. {% endcomment %}
+
+		{% assign curaddlink = landat.addlink %}
+		{% if page.linkadd %}
+{% comment %} if "page.linkadd" exists - use it. Need for 404 {% endcomment %}
+			{% assign curaddlink = page.linkadd %}
+		{% endif %}
+
+
+		{% capture lastUrlId %}{{ page.url.size | minus: 1 }}{% endcapture %}
+		{% capture lastUrlSym %}{{ page.url | slice: lastUrlId }}{% endcapture %}
+		{% if lastUrlSym == '/' %}
+{% comment %}There is no "index.html" in url now. Find it out{% endcomment %}
+			{% capture alternateUrl %}{% if page.categories %}{{ page.categories | last }}/{% endif %}{% endcapture %}
+		{% else %}
+			{% capture alternateUrl %}{% if page.categories %}{{ page.categories | last }}/{% endif %}{{ page.url | split:"/" | last }}{% endcapture %}
+		{% endif %}
+
+
 	{% endif %}
-{% endfor %}
-
-{% assign curaddlink = landat.addlink %}
-{% if page.linkadd %}
-	{% comment %} if "page.linkadd" exists - use it. Need for 404 {% endcomment %}
-	{% assign curaddlink = page.linkadd %}
-{% endif %}
-
-{% endif %}
 {% endcapture %}{% assign cache = nil %}

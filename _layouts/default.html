@@ -15,11 +15,10 @@ layout: compress
 			{% if page.needHighLight %}{% include sass/syntax.scss %}{% endif %}
 {% endcapture %}{{ include_to_scssify | scssify }}</style>
 		{% comment %}<link rel="stylesheet" href="{{ curaddlink }}omd.css" type="text/css" />{% endcomment %}{% for lng in site.data.lang %}{% capture cache %}
-		{% capture alternateUrl %}{{ lng.link }}{% if page.categories %}{{ page.categories | last }}/{% endif %}{{ page.url | split:"/" | last }}{% endcapture %}
-		{% capture curUrl %}/{{ alternateUrl }}{% endcapture %}
+		{% capture curUrl %}/{{ lng.link }}{{ alternateUrl }}{% endcapture %}
 		{% include CHECKEXISTS.html %}
 		{% endcapture %}{% assign cache = nil %}{% if curUrlExists %}
-		<link rel="alternate" hreflang="{{ lng.id }}" href="{{ curaddlink }}{{ alternateUrl }}" />{% endif %}{% endfor %}
+		<link rel="alternate" hreflang="{{ lng.id }}" href="{{ curaddlink }}{{ lng.link }}{{ alternateUrl }}" />{% endif %}{% endfor %}
 		<title>{{ site.name }} | {{ page.title }}</title>
 		<meta name="author" content="DeXPeriX" />
 	</head>
@@ -28,14 +27,8 @@ layout: compress
 			<div id="supDiv">
 			<div id="supPers">
 				<div id="header">
-					<div id="langSwith">{% for lng in site.data.lang %}{% capture cache %}
-						{% capture pagePostURL %}{{ lng.link }}{% if page.categories %}{{ page.categories | last }}/{% endif %}{{ page.url | split:"/" | last }}{% endcapture %}
-
-						{% capture curUrl %}/{{ pagePostURL }}{% endcapture %}
-						{% include CHECKEXISTS.html %}
-
-						{% endcapture %}{% assign cache = nil %}{% if curUrlExists %}
-						<a href="{{ curaddlink }}{{ pagePostURL }}"><img src="{{ curaddlink }}pic/lang{{ lng.id | upcase }}.jpg" class="flag" alt="{{ lng.id | upcase }}" title="{{ lng.fullname }}" /></a>{% endif %}{% endfor %}
+					<div id="langSwith">{% for lng in site.data.lang %}{% capture curUrl %}/{{ lng.link }}{{ alternateUrl }}{% endcapture %}{% include CHECKEXISTS.html %}{% if curUrlExists %}
+						<a href="{{ curaddlink }}{{ lng.link }}{{ alternateUrl }}"><img src="{{ curaddlink }}pic/lang{{ lng.id | upcase }}.jpg" class="flag" alt="{{ lng.id | upcase }}" title="{{ lng.fullname }}" /></a>{% endif %}{% endfor %}
 					</div>
 					<div id="logo">
 						<a href="{{ page.url | split:"/" | last }}">
