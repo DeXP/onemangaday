@@ -14,9 +14,10 @@
   {% assign _code = _code | replace: _from, _to %}
 {% endfor %}
 
-
 {% for _element in _customparam %}
   {% capture _from %}<span class="n">{{ _element }}{% endcapture %}
   {% capture _to %}<span class="na">{{ _element }}{% endcapture %}
   {% assign _code = _code | replace: _from, _to %}
 {% endfor %}
+
+{% include fixlinenos.html %}

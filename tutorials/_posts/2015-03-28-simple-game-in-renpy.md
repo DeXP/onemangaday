@@ -46,7 +46,7 @@ First consider a plot of the novel. I see a novel like this (left click works):
 
 This is how the RenPy code looks:
 
-{% capture _code %}{% highlight python %}
+{% capture _code %}{% highlight python linenos %}
 define m = Character('Malya', color="#76e2e4")
 image m oho = "Mala-o.png"
 image m keks = "Mala-yee.png"
@@ -78,6 +78,7 @@ label start:
     scene black
     "THE END!"
     return
+
 {% endhighlight %}{% endcapture %}{% include customhighlight.html %}{{ _code }}
 
 Code of creating characters has already been examined. Here we are in lines 1 and 5, creating new characters: *m* and *dex*. Innovation is the character states and image for each state. For example, for the character *m* state is set to *oho*, corresponds to the image *Mala-o.png* (line 2).
