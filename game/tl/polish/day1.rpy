@@ -523,7 +523,7 @@ translate polish translator_b10545fa:
 translate polish translator_b7ae2796:
 
     # dexp "Нас не догонят!"
-    dexp "Nie będzie mnie złapać!"
+    dexp "Nie złapiesz mnie!"
 
 # game/day1.rpy:429
 translate polish translator_6258331f:
