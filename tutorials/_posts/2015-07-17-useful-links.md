@@ -38,7 +38,6 @@ Naturally, this site - is not the only a storehouse of useful Comipo information
 
 ### 3D models, Japanese
 - [http://www.comipo.com/material/3d_item.html](http://www.comipo.com/material/3d_item.html) - official set to create facial expressions.
-- [http://comipo.deko8.jp/index.php](http://comipo.deko8.jp/index.php)
 - [http://www.mangasozaibox.comee.jp/](http://www.mangasozaibox.comee.jp/)
 - [http://kumasan-muni.sakura.ne.jp/sozai/sozai_index.html](http://kumasan-muni.sakura.ne.jp/sozai/sozai_index.html)
 - [http://touasa.cocolog-nifty.com/wannazau/2011/05/po3d-ae3b.html](http://touasa.cocolog-nifty.com/wannazau/2011/05/po3d-ae3b.html)
