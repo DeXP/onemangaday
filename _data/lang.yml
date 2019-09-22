@@ -35,6 +35,8 @@
     link: dlc.html
   - text: Media
     link: media.html
+  - text: Play Online
+    link: /online/
   - text: Manga
     link: manga.html
   - text: Comipo Tutorials
@@ -126,6 +128,8 @@
     link: dlc.html
   - text: Медиа
     link: media.html
+  - text: Играть онлайн
+    link: /online/
   - text: Манга
     link: manga.html
   - text: Уроки по Comipo
@@ -217,6 +221,8 @@
     link: dlc.html
   - text: Media
     link: media.html
+  - text: Graj Online
+    link: /online/
   - text: Manga
     link: manga.html
   - text: FAQ
