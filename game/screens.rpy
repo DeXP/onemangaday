@@ -206,7 +206,10 @@ screen main_menu:
         textbutton _("Достижения") action ShowMenu("achievements")
         #textbutton _("Help") action Help()
         #textbutton _("Помошь") action ShowMenu("help")
-        textbutton _("Выход") action Quit(confirm=False)
+        if config.help != "web": 
+            textbutton _("Выход") action Quit(confirm=False)
+        else:
+            textbutton _("Выход") action OpenURL("https://onemangaday.dexp.in")
 
 init -2 python:
 
@@ -303,7 +306,10 @@ screen navigation:
             textbutton _("Сохранить игру") action ShowMenu("save")
             textbutton _("Загрузить игру") action ShowMenu("load")
             textbutton _("Настройки") action ShowMenu("preferences")
-            textbutton _("Выход") action Quit()
+            if config.help != "web": 
+                textbutton _("Выход") action Quit()
+            else:
+                textbutton _("Выход") action OpenURL("https://onemangaday.dexp.in")
 
 init -2 python:
     style.gm_nav_button.size_group = "gm_nav"    
