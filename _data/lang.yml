@@ -129,7 +129,7 @@
   - text: Медиа
     link: media.html
   - text: Играть онлайн
-    link: /online/
+    link: ../online/
   - text: Манга
     link: manga.html
   - text: Уроки по Comipo
@@ -222,7 +222,7 @@
   - text: Media
     link: media.html
   - text: Graj Online
-    link: /online/
+    link: ../online/
   - text: Manga
     link: manga.html
   - text: FAQ
